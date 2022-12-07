@@ -1,0 +1,790 @@
+/Library/Java/JavaVirtualMachines/jdk-17.0.4.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61734:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/cervisiomatisch/Projects/UniProjectNeu/untitled/out/production/untitled MUP_2.PythagoraeischeZahlentripel
+1002001, 1004004, 1006009, 1008016, 1010025, 1012036, 1014049, 1016064, 1018081, 1020100, 1022121, 1024144, 1026169, 1028196, 1030225, 1032256, 1034289, 1036324, 1038361, 1040400, 1042441, 1044484, 1046529, 1048576, 1050625, 1052676, 1054729, 1056784, 1058841, 1060900, 1062961, 1065024, 1067089, 1069156, 1071225, 1073296, 1075369, 1077444, 1079521, 1081600, 1083681, 1085764, 1087849, 1089936, 1092025, 1094116, 1096209, 1098304, 1100401, 1102500, 1104601, 1106704, 1108809, 1110916, 1113025, 1115136, 1117249, 1119364, 1121481, 1123600, 1125721, 1127844, 1129969, 1132096, 1134225, 1136356, 1138489, 1140624, 1142761, 1144900, 1147041, 1149184, 1151329, 1153476, 1155625, 1157776, 1159929, 1162084, 1164241, 1166400, 1168561, 1170724, 1172889, 1175056, 1177225, 1179396, 1181569, 1183744, 1185921, 1188100, 1190281, 1192464, 1194649, 1196836, 1199025, 1201216, 1203409, 1205604, 1207801, 1210000, 1212201, 1214404, 1216609, 1218816, 1221025, 1223236, 1225449, 1227664, 1229881, 1232100, 1234321, 1236544, 1238769, 1240996, 1243225, 1245456, 1247689, 1249924, 1252161, 1254400, 1256641, 1258884, 1261129, 1263376, 1265625, 1267876, 1270129, 1272384, 1274641, 1276900, 1279161, 1281424, 1283689, 1285956, 1288225, 1290496, 1292769, 1295044, 1297321, 1299600, 1301881, 1304164, 1306449, 1308736, 1311025, 1313316, 1315609, 1317904, 1320201, 1322500, 1324801, 1327104, 1329409, 1331716, 1334025, 1336336, 1338649, 1340964, 1343281, 1345600, 1347921, 1350244, 1352569, 1354896, 1357225, 1359556, 1361889, 1364224, 1366561, 1368900, 1371241, 1373584, 1375929, 1378276, 1380625, 1382976, 1385329, 1387684, 1390041, 1392400, 1394761, 1397124, 1399489, 1401856, 1404225, 1406596, 1408969, 1411344, 1413721, 1416100, 1418481, 1420864, 1423249, 1425636, 1428025, 1430416, 1432809, 1435204, 1437601, 1440000, 1442401, 1444804, 1447209, 1449616, 1452025, 1454436, 1456849, 1459264, 1461681, 1464100, 1466521, 1468944, 1471369, 1473796, 1476225, 1478656, 1481089, 1483524, 1485961, 1488400, 1490841, 1493284, 1495729, 1498176, 1500625, 1503076, 1505529, 1507984, 1510441, 1512900, 1515361, 1517824, 1520289, 1522756, 1525225, 1527696, 1530169, 1532644, 1535121, 1537600, 1540081, 1542564, 1545049, 1547536, 1550025, 1552516, 1555009, 1557504, 1560001, 1562500, 1565001, 1567504, 1570009, 1572516, 1575025, 1577536, 1580049, 1582564, 1585081, 1587600, 1590121, 1592644, 1595169, 1597696, 1600225, 1602756, 1605289, 1607824, 1610361, 1612900, 1615441, 1617984, 1620529, 1623076, 1625625, 1628176, 1630729, 1633284, 1635841, 1638400, 1640961, 1643524, 1646089, 1648656, 1651225, 1653796, 1656369, 1658944, 1661521, 1664100, 1666681, 1669264, 1671849, 1674436, 1677025, 1679616, 1682209, 1684804, 1687401, 1690000, 1692601, 1695204, 1697809, 1700416, 1703025, 1705636, 1708249, 1710864, 1713481, 1716100, 1718721, 1721344, 1723969, 1726596, 1729225, 1731856, 1734489, 1737124, 1739761, 1742400, 1745041, 1747684, 1750329, 1752976, 1755625, 1758276, 1760929, 1763584, 1766241, 1768900, 1771561, 1774224, 1776889, 1779556, 1782225, 1784896, 1787569, 1790244, 1792921, 1795600, 1798281, 1800964, 1803649, 1806336, 1809025, 1811716, 1814409, 1817104, 1819801, 1822500, 1825201, 1827904, 1830609, 1833316, 1836025, 1838736, 1841449, 1844164, 1846881, 1849600, 1852321, 1855044, 1857769, 1860496, 1863225, 1865956, 1868689, 1871424, 1874161, 1876900, 1879641, 1882384, 1885129, 1887876, 1890625, 1893376, 1896129, 1898884, 1901641, 1904400, 1907161, 1909924, 1912689, 1915456, 1918225, 1920996, 1923769, 1926544, 1929321, 1932100, 1934881, 1937664, 1940449, 1943236, 1946025, 1948816, 1951609, 1954404, 1957201, 1960000, 1962801, 1965604, 1968409, 1971216, 1974025, 1976836, 1979649, 1982464, 1985281, 1988100, 1990921, 1993744, 1996569, 1999396, 2002225, 2005056, 2007889, 2010724, 2013561, 2016400, 2019241, 2022084, 2024929, 2027776, 2030625, 2033476, 2036329, 2039184, 2042041, 2044900, 2047761, 2050624, 2053489, 2056356, 2059225, 2062096, 2064969, 2067844, 2070721, 2073600, 2076481, 2079364, 2082249, 2085136, 2088025, 2090916, 2093809, 2096704, 2099601, 2102500, 2105401, 2108304, 2111209, 2114116, 2117025, 2119936, 2122849, 2125764, 2128681, 2131600, 2134521, 2137444, 2140369, 2143296, 2146225, 2149156, 2152089, 2155024, 2157961, 2160900, 2163841, 2166784, 2169729, 2172676, 2175625, 2178576, 2181529, 2184484, 2187441, 2190400, 2193361, 2196324, 2199289, 2202256, 2205225, 2208196, 2211169, 2214144, 2217121, 2220100, 2223081, 2226064, 2229049, 2232036, 2235025, 2238016, 2241009, 2244004, 2247001, 2250000, 2253001, 2256004, 2259009, 2262016, 2265025, 2268036, 2271049, 2274064, 2277081, 2280100, 2283121, 2286144, 2289169, 2292196, 2295225, 2298256, 2301289, 2304324, 2307361, 2310400, 2313441, 2316484, 2319529, 2322576, 2325625, 2328676, 2331729, 2334784, 2337841, 2340900, 2343961, 2347024, 2350089, 2353156, 2356225, 2359296, 2362369, 2365444, 2368521, 2371600, 2374681, 2377764, 2380849, 2383936, 2387025, 2390116, 2393209, 2396304, 2399401, 2402500, 2405601, 2408704, 2411809, 2414916, 2418025, 2421136, 2424249, 2427364, 2430481, 2433600, 2436721, 2439844, 2442969, 2446096, 2449225, 2452356, 2455489, 2458624, 2461761, 2464900, 2468041, 2471184, 2474329, 2477476, 2480625, 2483776, 2486929, 2490084, 2493241, 2496400, 2499561, 2502724, 2505889, 2509056, 2512225, 2515396, 2518569, 2521744, 2524921, 2528100, 2531281, 2534464, 2537649, 2540836, 2544025, 2547216, 2550409, 2553604, 2556801, 2560000, 2563201, 2566404, 2569609, 2572816, 2576025, 2579236, 2582449, 2585664, 2588881, 2592100, 2595321, 2598544, 2601769, 2604996, 2608225, 2611456, 2614689, 2617924, 2621161, 2624400, 2627641, 2630884, 2634129, 2637376, 2640625, 2643876, 2647129, 2650384, 2653641, 2656900, 2660161, 2663424, 2666689, 2669956, 2673225, 2676496, 2679769, 2683044, 2686321, 2689600, 2692881, 2696164, 2699449, 2702736, 2706025, 2709316, 2712609, 2715904, 2719201, 2722500, 2725801, 2729104, 2732409, 2735716, 2739025, 2742336, 2745649, 2748964, 2752281, 2755600, 2758921, 2762244, 2765569, 2768896, 2772225, 2775556, 2778889, 2782224, 2785561, 2788900, 2792241, 2795584, 2798929, 2802276, 2805625, 2808976, 2812329, 2815684, 2819041, 2822400, 2825761, 2829124, 2832489, 2835856, 2839225, 2842596, 2845969, 2849344, 2852721, 2856100, 2859481, 2862864, 2866249, 2869636, 2873025, 2876416, 2879809, 2883204, 2886601, 2890000, 2893401, 2896804, 2900209, 2903616, 2907025, 2910436, 2913849, 2917264, 2920681, 2924100, 2927521, 2930944, 2934369, 2937796, 2941225, 2944656, 2948089, 2951524, 2954961, 2958400, 2961841, 2965284, 2968729, 2972176, 2975625, 2979076, 2982529, 2985984, 2989441, 2992900, 2996361, 2999824, 3003289, 3006756, 3010225, 3013696, 3017169, 3020644, 3024121, 3027600, 3031081, 3034564, 3038049, 3041536, 3045025, 3048516, 3052009, 3055504, 3059001, 3062500, 3066001, 3069504, 3073009, 3076516, 3080025, 3083536, 3087049, 3090564, 3094081, 3097600, 3101121, 3104644, 3108169, 3111696, 3115225, 3118756, 3122289, 3125824, 3129361, 3132900, 3136441, 3139984, 3143529, 3147076, 3150625, 3154176, 3157729, 3161284, 3164841, 3168400, 3171961, 3175524, 3179089, 3182656, 3186225, 3189796, 3193369, 3196944, 3200521, 3204100, 3207681, 3211264, 3214849, 3218436, 3222025, 3225616, 3229209, 3232804, 3236401, 3240000, 3243601, 3247204, 3250809, 3254416, 3258025, 3261636, 3265249, 3268864, 3272481, 3276100, 3279721, 3283344, 3286969, 3290596, 3294225, 3297856, 3301489, 3305124, 3308761, 3312400, 3316041, 3319684, 3323329, 3326976, 3330625, 3334276, 3337929, 3341584, 3345241, 3348900, 3352561, 3356224, 3359889, 3363556, 3367225, 3370896, 3374569, 3378244, 3381921, 3385600, 3389281, 3392964, 3396649, 3400336, 3404025, 3407716, 3411409, 3415104, 3418801, 3422500, 3426201, 3429904, 3433609, 3437316, 3441025, 3444736, 3448449, 3452164, 3455881, 3459600, 3463321, 3467044, 3470769, 3474496, 3478225, 3481956, 3485689, 3489424, 3493161, 3496900, 3500641, 3504384, 3508129, 3511876, 3515625, 3519376, 3523129, 3526884, 3530641, 3534400, 3538161, 3541924, 3545689, 3549456, 3553225, 3556996, 3560769, 3564544, 3568321, 3572100, 3575881, 3579664, 3583449, 3587236, 3591025, 3594816, 3598609, 3602404, 3606201, 3610000, 3613801, 3617604, 3621409, 3625216, 3629025, 3632836, 3636649, 3640464, 3644281, 3648100, 3651921, 3655744, 3659569, 3663396, 3667225, 3671056, 3674889, 3678724, 3682561, 3686400, 3690241, 3694084, 3697929, 3701776, 3705625, 3709476, 3713329, 3717184, 3721041, 3724900, 3728761, 3732624, 3736489, 3740356, 3744225, 3748096, 3751969, 3755844, 3759721, 3763600, 3767481, 3771364, 3775249, 3779136, 3783025, 3786916, 3790809, 3794704, 3798601, 3802500, 3806401, 3810304, 3814209, 3818116, 3822025, 3825936, 3829849, 3833764, 3837681, 3841600, 3845521, 3849444, 3853369, 3857296, 3861225, 3865156, 3869089, 3873024, 3876961, 3880900, 3884841, 3888784, 3892729, 3896676, 3900625, 3904576, 3908529, 3912484, 3916441, 3920400, 3924361, 3928324, 3932289, 3936256, 3940225, 3944196, 3948169, 3952144, 3956121, 3960100, 3964081, 3968064, 3972049, 3976036, 3980025, 3984016, 3988009, 3992004, 3996001, 4000000
+Inhalt des Arrays an Position i: 1004004
+Inhalt des Arrays an Position j: 2788900
+Differenz: 1784896
+Ausgabe:
+1002^2 + 1670^2 = 1336^2
+Inhalt des Arrays an Position i: 1006009
+Inhalt des Arrays an Position j: 3553225
+Differenz: 2547216
+Ausgabe:
+1003^2 + 1885^2 = 1596^2
+Inhalt des Arrays an Position i: 1010025
+Inhalt des Arrays an Position j: 2805625
+Differenz: 1795600
+Ausgabe:
+1005^2 + 1675^2 = 1340^2
+Inhalt des Arrays an Position i: 1014049
+Inhalt des Arrays an Position j: 2512225
+Differenz: 1498176
+Ausgabe:
+1007^2 + 1585^2 = 1224^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 2226064
+Differenz: 1210000
+Ausgabe:
+1008^2 + 1492^2 = 1100^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 2295225
+Differenz: 1279161
+Ausgabe:
+1008^2 + 1515^2 = 1131^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 2350089
+Differenz: 1334025
+Ausgabe:
+1008^2 + 1533^2 = 1155^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 2822400
+Differenz: 1806336
+Ausgabe:
+1008^2 + 1680^2 = 1344^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 2992900
+Differenz: 1976836
+Ausgabe:
+1008^2 + 1730^2 = 1406^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 3515625
+Differenz: 2499561
+Ausgabe:
+1008^2 + 1875^2 = 1581^2
+Inhalt des Arrays an Position i: 1016064
+Inhalt des Arrays an Position j: 3640464
+Differenz: 2624400
+Ausgabe:
+1008^2 + 1908^2 = 1620^2
+Inhalt des Arrays an Position i: 1022121
+Inhalt des Arrays an Position j: 2839225
+Differenz: 1817104
+Ausgabe:
+1011^2 + 1685^2 = 1348^2
+Inhalt des Arrays an Position i: 1028196
+Inhalt des Arrays an Position j: 2856100
+Differenz: 1827904
+Ausgabe:
+1014^2 + 1690^2 = 1352^2
+Inhalt des Arrays an Position i: 1034289
+Inhalt des Arrays an Position j: 2873025
+Differenz: 1838736
+Ausgabe:
+1017^2 + 1695^2 = 1356^2
+Inhalt des Arrays an Position i: 1040400
+Inhalt des Arrays an Position j: 2187441
+Differenz: 1147041
+Ausgabe:
+1020^2 + 1479^2 = 1071^2
+Inhalt des Arrays an Position i: 1040400
+Inhalt des Arrays an Position j: 2640625
+Differenz: 1600225
+Ausgabe:
+1020^2 + 1625^2 = 1265^2
+Inhalt des Arrays an Position i: 1040400
+Inhalt des Arrays an Position j: 2890000
+Differenz: 1849600
+Ausgabe:
+1020^2 + 1700^2 = 1360^2
+Inhalt des Arrays an Position i: 1040400
+Inhalt des Arrays an Position j: 3433609
+Differenz: 2393209
+Ausgabe:
+1020^2 + 1853^2 = 1547^2
+Inhalt des Arrays an Position i: 1040400
+Inhalt des Arrays an Position j: 3549456
+Differenz: 2509056
+Ausgabe:
+1020^2 + 1884^2 = 1584^2
+Inhalt des Arrays an Position i: 1046529
+Inhalt des Arrays an Position j: 2634129
+Differenz: 1587600
+Ausgabe:
+1023^2 + 1623^2 = 1260^2
+Inhalt des Arrays an Position i: 1046529
+Inhalt des Arrays an Position j: 2907025
+Differenz: 1860496
+Ausgabe:
+1023^2 + 1705^2 = 1364^2
+Inhalt des Arrays an Position i: 1052676
+Inhalt des Arrays an Position j: 2924100
+Differenz: 1871424
+Ausgabe:
+1026^2 + 1710^2 = 1368^2
+Inhalt des Arrays an Position i: 1058841
+Inhalt des Arrays an Position j: 2941225
+Differenz: 1882384
+Ausgabe:
+1029^2 + 1715^2 = 1372^2
+Inhalt des Arrays an Position i: 1065024
+Inhalt des Arrays an Position j: 2958400
+Differenz: 1893376
+Ausgabe:
+1032^2 + 1720^2 = 1376^2
+Inhalt des Arrays an Position i: 1065024
+Inhalt des Arrays an Position j: 3972049
+Differenz: 2907025
+Ausgabe:
+1032^2 + 1993^2 = 1705^2
+Inhalt des Arrays an Position i: 1071225
+Inhalt des Arrays an Position j: 2325625
+Differenz: 1254400
+Ausgabe:
+1035^2 + 1525^2 = 1120^2
+Inhalt des Arrays an Position i: 1071225
+Inhalt des Arrays an Position j: 2975625
+Differenz: 1904400
+Ausgabe:
+1035^2 + 1725^2 = 1380^2
+Inhalt des Arrays an Position i: 1073296
+Inhalt des Arrays an Position j: 2449225
+Differenz: 1375929
+Ausgabe:
+1036^2 + 1565^2 = 1173^2
+Inhalt des Arrays an Position i: 1073296
+Inhalt des Arrays an Position j: 3845521
+Differenz: 2772225
+Ausgabe:
+1036^2 + 1961^2 = 1665^2
+Inhalt des Arrays an Position i: 1077444
+Inhalt des Arrays an Position j: 2992900
+Differenz: 1915456
+Ausgabe:
+1038^2 + 1730^2 = 1384^2
+Inhalt des Arrays an Position i: 1081600
+Inhalt des Arrays an Position j: 2274064
+Differenz: 1192464
+Ausgabe:
+1040^2 + 1508^2 = 1092^2
+Inhalt des Arrays an Position i: 1081600
+Inhalt des Arrays an Position j: 2408704
+Differenz: 1327104
+Ausgabe:
+1040^2 + 1552^2 = 1152^2
+Inhalt des Arrays an Position i: 1081600
+Inhalt des Arrays an Position j: 3129361
+Differenz: 2047761
+Ausgabe:
+1040^2 + 1769^2 = 1431^2
+Inhalt des Arrays an Position i: 1081600
+Inhalt des Arrays an Position j: 3422500
+Differenz: 2340900
+Ausgabe:
+1040^2 + 1850^2 = 1530^2
+Inhalt des Arrays an Position i: 1083681
+Inhalt des Arrays an Position j: 3010225
+Differenz: 1926544
+Ausgabe:
+1041^2 + 1735^2 = 1388^2
+Inhalt des Arrays an Position i: 1089936
+Inhalt des Arrays an Position j: 3027600
+Differenz: 1937664
+Ausgabe:
+1044^2 + 1740^2 = 1392^2
+Inhalt des Arrays an Position i: 1089936
+Inhalt des Arrays an Position j: 3400336
+Differenz: 2310400
+Ausgabe:
+1044^2 + 1844^2 = 1520^2
+Inhalt des Arrays an Position i: 1092025
+Inhalt des Arrays an Position j: 2866249
+Differenz: 1774224
+Ausgabe:
+1045^2 + 1693^2 = 1332^2
+Inhalt des Arrays an Position i: 1096209
+Inhalt des Arrays an Position j: 3045025
+Differenz: 1948816
+Ausgabe:
+1047^2 + 1745^2 = 1396^2
+Inhalt des Arrays an Position i: 1102500
+Inhalt des Arrays an Position j: 3062500
+Differenz: 1960000
+Ausgabe:
+1050^2 + 1750^2 = 1400^2
+Inhalt des Arrays an Position i: 1108809
+Inhalt des Arrays an Position j: 3080025
+Differenz: 1971216
+Ausgabe:
+1053^2 + 1755^2 = 1404^2
+Inhalt des Arrays an Position i: 1115136
+Inhalt des Arrays an Position j: 2579236
+Differenz: 1464100
+Ausgabe:
+1056^2 + 1606^2 = 1210^2
+Inhalt des Arrays an Position i: 1115136
+Inhalt des Arrays an Position j: 2702736
+Differenz: 1587600
+Ausgabe:
+1056^2 + 1644^2 = 1260^2
+Inhalt des Arrays an Position i: 1115136
+Inhalt des Arrays an Position j: 3097600
+Differenz: 1982464
+Ausgabe:
+1056^2 + 1760^2 = 1408^2
+Inhalt des Arrays an Position i: 1121481
+Inhalt des Arrays an Position j: 3115225
+Differenz: 1993744
+Ausgabe:
+1059^2 + 1765^2 = 1412^2
+Inhalt des Arrays an Position i: 1123600
+Inhalt des Arrays an Position j: 2362369
+Differenz: 1238769
+Ausgabe:
+1060^2 + 1537^2 = 1113^2
+Inhalt des Arrays an Position i: 1127844
+Inhalt des Arrays an Position j: 3132900
+Differenz: 2005056
+Ausgabe:
+1062^2 + 1770^2 = 1416^2
+Inhalt des Arrays an Position i: 1132096
+Inhalt des Arrays an Position j: 2689600
+Differenz: 1557504
+Ausgabe:
+1064^2 + 1640^2 = 1248^2
+Inhalt des Arrays an Position i: 1134225
+Inhalt des Arrays an Position j: 3150625
+Differenz: 2016400
+Ausgabe:
+1065^2 + 1775^2 = 1420^2
+Inhalt des Arrays an Position i: 1136356
+Inhalt des Arrays an Position j: 3422500
+Differenz: 2286144
+Ausgabe:
+1066^2 + 1850^2 = 1512^2
+Inhalt des Arrays an Position i: 1140624
+Inhalt des Arrays an Position j: 3168400
+Differenz: 2027776
+Ausgabe:
+1068^2 + 1780^2 = 1424^2
+Inhalt des Arrays an Position i: 1147041
+Inhalt des Arrays an Position j: 2313441
+Differenz: 1166400
+Ausgabe:
+1071^2 + 1521^2 = 1080^2
+Inhalt des Arrays an Position i: 1147041
+Inhalt des Arrays an Position j: 3186225
+Differenz: 2039184
+Ausgabe:
+1071^2 + 1785^2 = 1428^2
+Inhalt des Arrays an Position i: 1153476
+Inhalt des Arrays an Position j: 3204100
+Differenz: 2050624
+Ausgabe:
+1074^2 + 1790^2 = 1432^2
+Inhalt des Arrays an Position i: 1159929
+Inhalt des Arrays an Position j: 3222025
+Differenz: 2062096
+Ausgabe:
+1077^2 + 1795^2 = 1436^2
+Inhalt des Arrays an Position i: 1166400
+Inhalt des Arrays an Position j: 2452356
+Differenz: 1285956
+Ausgabe:
+1080^2 + 1566^2 = 1134^2
+Inhalt des Arrays an Position i: 1166400
+Inhalt des Arrays an Position j: 2748964
+Differenz: 1582564
+Ausgabe:
+1080^2 + 1658^2 = 1258^2
+Inhalt des Arrays an Position i: 1166400
+Inhalt des Arrays an Position j: 3240000
+Differenz: 2073600
+Ausgabe:
+1080^2 + 1800^2 = 1440^2
+Inhalt des Arrays an Position i: 1166400
+Inhalt des Arrays an Position j: 3849444
+Differenz: 2683044
+Ausgabe:
+1080^2 + 1962^2 = 1638^2
+Inhalt des Arrays an Position i: 1172889
+Inhalt des Arrays an Position j: 3258025
+Differenz: 2085136
+Ausgabe:
+1083^2 + 1805^2 = 1444^2
+Inhalt des Arrays an Position i: 1179396
+Inhalt des Arrays an Position j: 3276100
+Differenz: 2096704
+Ausgabe:
+1086^2 + 1810^2 = 1448^2
+Inhalt des Arrays an Position i: 1185921
+Inhalt des Arrays an Position j: 3294225
+Differenz: 2108304
+Ausgabe:
+1089^2 + 1815^2 = 1452^2
+Inhalt des Arrays an Position i: 1192464
+Inhalt des Arrays an Position j: 2948089
+Differenz: 1755625
+Ausgabe:
+1092^2 + 1717^2 = 1325^2
+Inhalt des Arrays an Position i: 1192464
+Inhalt des Arrays an Position j: 3312400
+Differenz: 2119936
+Ausgabe:
+1092^2 + 1820^2 = 1456^2
+Inhalt des Arrays an Position i: 1192464
+Inhalt des Arrays an Position j: 3736489
+Differenz: 2544025
+Ausgabe:
+1092^2 + 1933^2 = 1595^2
+Inhalt des Arrays an Position i: 1199025
+Inhalt des Arrays an Position j: 3330625
+Differenz: 2131600
+Ausgabe:
+1095^2 + 1825^2 = 1460^2
+Inhalt des Arrays an Position i: 1205604
+Inhalt des Arrays an Position j: 3348900
+Differenz: 2143296
+Ausgabe:
+1098^2 + 1830^2 = 1464^2
+Inhalt des Arrays an Position i: 1210000
+Inhalt des Arrays an Position j: 2544025
+Differenz: 1334025
+Ausgabe:
+1100^2 + 1595^2 = 1155^2
+Inhalt des Arrays an Position i: 1212201
+Inhalt des Arrays an Position j: 3367225
+Differenz: 2155024
+Ausgabe:
+1101^2 + 1835^2 = 1468^2
+Inhalt des Arrays an Position i: 1218816
+Inhalt des Arrays an Position j: 2819041
+Differenz: 1600225
+Ausgabe:
+1104^2 + 1679^2 = 1265^2
+Inhalt des Arrays an Position i: 1218816
+Inhalt des Arrays an Position j: 3164841
+Differenz: 1946025
+Ausgabe:
+1104^2 + 1779^2 = 1395^2
+Inhalt des Arrays an Position i: 1218816
+Inhalt des Arrays an Position j: 3385600
+Differenz: 2166784
+Ausgabe:
+1104^2 + 1840^2 = 1472^2
+Inhalt des Arrays an Position i: 1221025
+Inhalt des Arrays an Position j: 2719201
+Differenz: 1498176
+Ausgabe:
+1105^2 + 1649^2 = 1224^2
+Inhalt des Arrays an Position i: 1225449
+Inhalt des Arrays an Position j: 3404025
+Differenz: 2178576
+Ausgabe:
+1107^2 + 1845^2 = 1476^2
+Inhalt des Arrays an Position i: 1232100
+Inhalt des Arrays an Position j: 2540836
+Differenz: 1308736
+Ausgabe:
+1110^2 + 1594^2 = 1144^2
+Inhalt des Arrays an Position i: 1232100
+Inhalt des Arrays an Position j: 3422500
+Differenz: 2190400
+Ausgabe:
+1110^2 + 1850^2 = 1480^2
+Inhalt des Arrays an Position i: 1238769
+Inhalt des Arrays an Position j: 2640625
+Differenz: 1401856
+Ausgabe:
+1113^2 + 1625^2 = 1184^2
+Inhalt des Arrays an Position i: 1238769
+Inhalt des Arrays an Position j: 3441025
+Differenz: 2202256
+Ausgabe:
+1113^2 + 1855^2 = 1484^2
+Inhalt des Arrays an Position i: 1245456
+Inhalt des Arrays an Position j: 3459600
+Differenz: 2214144
+Ausgabe:
+1116^2 + 1860^2 = 1488^2
+Inhalt des Arrays an Position i: 1252161
+Inhalt des Arrays an Position j: 3478225
+Differenz: 2226064
+Ausgabe:
+1119^2 + 1865^2 = 1492^2
+Inhalt des Arrays an Position i: 1254400
+Inhalt des Arrays an Position j: 2637376
+Differenz: 1382976
+Ausgabe:
+1120^2 + 1624^2 = 1176^2
+Inhalt des Arrays an Position i: 1254400
+Inhalt des Arrays an Position j: 3125824
+Differenz: 1871424
+Ausgabe:
+1120^2 + 1768^2 = 1368^2
+Inhalt des Arrays an Position i: 1254400
+Inhalt des Arrays an Position j: 3225616
+Differenz: 1971216
+Ausgabe:
+1120^2 + 1796^2 = 1404^2
+Inhalt des Arrays an Position i: 1254400
+Inhalt des Arrays an Position j: 3869089
+Differenz: 2614689
+Ausgabe:
+1120^2 + 1967^2 = 1617^2
+Inhalt des Arrays an Position i: 1256641
+Inhalt des Arrays an Position j: 3690241
+Differenz: 2433600
+Ausgabe:
+1121^2 + 1921^2 = 1560^2
+Inhalt des Arrays an Position i: 1258884
+Inhalt des Arrays an Position j: 3496900
+Differenz: 2238016
+Ausgabe:
+1122^2 + 1870^2 = 1496^2
+Inhalt des Arrays an Position i: 1265625
+Inhalt des Arrays an Position j: 3115225
+Differenz: 1849600
+Ausgabe:
+1125^2 + 1765^2 = 1360^2
+Inhalt des Arrays an Position i: 1265625
+Inhalt des Arrays an Position j: 3515625
+Differenz: 2250000
+Ausgabe:
+1125^2 + 1875^2 = 1500^2
+Inhalt des Arrays an Position i: 1272384
+Inhalt des Arrays an Position j: 3534400
+Differenz: 2262016
+Ausgabe:
+1128^2 + 1880^2 = 1504^2
+Inhalt des Arrays an Position i: 1279161
+Inhalt des Arrays an Position j: 3553225
+Differenz: 2274064
+Ausgabe:
+1131^2 + 1885^2 = 1508^2
+Inhalt des Arrays an Position i: 1285956
+Inhalt des Arrays an Position j: 3572100
+Differenz: 2286144
+Ausgabe:
+1134^2 + 1890^2 = 1512^2
+Inhalt des Arrays an Position i: 1292769
+Inhalt des Arrays an Position j: 3591025
+Differenz: 2298256
+Ausgabe:
+1137^2 + 1895^2 = 1516^2
+Inhalt des Arrays an Position i: 1299600
+Inhalt des Arrays an Position j: 2732409
+Differenz: 1432809
+Ausgabe:
+1140^2 + 1653^2 = 1197^2
+Inhalt des Arrays an Position i: 1299600
+Inhalt des Arrays an Position j: 2785561
+Differenz: 1485961
+Ausgabe:
+1140^2 + 1669^2 = 1219^2
+Inhalt des Arrays an Position i: 1299600
+Inhalt des Arrays an Position j: 3610000
+Differenz: 2310400
+Ausgabe:
+1140^2 + 1900^2 = 1520^2
+Inhalt des Arrays an Position i: 1299600
+Inhalt des Arrays an Position j: 3940225
+Differenz: 2640625
+Ausgabe:
+1140^2 + 1985^2 = 1625^2
+Inhalt des Arrays an Position i: 1306449
+Inhalt des Arrays an Position j: 3629025
+Differenz: 2322576
+Ausgabe:
+1143^2 + 1905^2 = 1524^2
+Inhalt des Arrays an Position i: 1308736
+Inhalt des Arrays an Position j: 3171961
+Differenz: 1863225
+Ausgabe:
+1144^2 + 1781^2 = 1365^2
+Inhalt des Arrays an Position i: 1313316
+Inhalt des Arrays an Position j: 3648100
+Differenz: 2334784
+Ausgabe:
+1146^2 + 1910^2 = 1528^2
+Inhalt des Arrays an Position i: 1317904
+Inhalt des Arrays an Position j: 3523129
+Differenz: 2205225
+Ausgabe:
+1148^2 + 1877^2 = 1485^2
+Inhalt des Arrays an Position i: 1320201
+Inhalt des Arrays an Position j: 3667225
+Differenz: 2347024
+Ausgabe:
+1149^2 + 1915^2 = 1532^2
+Inhalt des Arrays an Position i: 1327104
+Inhalt des Arrays an Position j: 3069504
+Differenz: 1742400
+Ausgabe:
+1152^2 + 1752^2 = 1320^2
+Inhalt des Arrays an Position i: 1327104
+Inhalt des Arrays an Position j: 3686400
+Differenz: 2359296
+Ausgabe:
+1152^2 + 1920^2 = 1536^2
+Inhalt des Arrays an Position i: 1334025
+Inhalt des Arrays an Position j: 3003289
+Differenz: 1669264
+Ausgabe:
+1155^2 + 1733^2 = 1292^2
+Inhalt des Arrays an Position i: 1334025
+Inhalt des Arrays an Position j: 3705625
+Differenz: 2371600
+Ausgabe:
+1155^2 + 1925^2 = 1540^2
+Inhalt des Arrays an Position i: 1340964
+Inhalt des Arrays an Position j: 3724900
+Differenz: 2383936
+Ausgabe:
+1158^2 + 1930^2 = 1544^2
+Inhalt des Arrays an Position i: 1345600
+Inhalt des Arrays an Position j: 2829124
+Differenz: 1483524
+Ausgabe:
+1160^2 + 1682^2 = 1218^2
+Inhalt des Arrays an Position i: 1345600
+Inhalt des Arrays an Position j: 3541924
+Differenz: 2196324
+Ausgabe:
+1160^2 + 1882^2 = 1482^2
+Inhalt des Arrays an Position i: 1347921
+Inhalt des Arrays an Position j: 3744225
+Differenz: 2396304
+Ausgabe:
+1161^2 + 1935^2 = 1548^2
+Inhalt des Arrays an Position i: 1354896
+Inhalt des Arrays an Position j: 3763600
+Differenz: 2408704
+Ausgabe:
+1164^2 + 1940^2 = 1552^2
+Inhalt des Arrays an Position i: 1361889
+Inhalt des Arrays an Position j: 3783025
+Differenz: 2421136
+Ausgabe:
+1167^2 + 1945^2 = 1556^2
+Inhalt des Arrays an Position i: 1368900
+Inhalt des Arrays an Position j: 3048516
+Differenz: 1679616
+Ausgabe:
+1170^2 + 1746^2 = 1296^2
+Inhalt des Arrays an Position i: 1368900
+Inhalt des Arrays an Position j: 3802500
+Differenz: 2433600
+Ausgabe:
+1170^2 + 1950^2 = 1560^2
+Inhalt des Arrays an Position i: 1375929
+Inhalt des Arrays an Position j: 3822025
+Differenz: 2446096
+Ausgabe:
+1173^2 + 1955^2 = 1564^2
+Inhalt des Arrays an Position i: 1382976
+Inhalt des Arrays an Position j: 3841600
+Differenz: 2458624
+Ausgabe:
+1176^2 + 1960^2 = 1568^2
+Inhalt des Arrays an Position i: 1390041
+Inhalt des Arrays an Position j: 3861225
+Differenz: 2471184
+Ausgabe:
+1179^2 + 1965^2 = 1572^2
+Inhalt des Arrays an Position i: 1392400
+Inhalt des Arrays an Position j: 2927521
+Differenz: 1535121
+Ausgabe:
+1180^2 + 1711^2 = 1239^2
+Inhalt des Arrays an Position i: 1397124
+Inhalt des Arrays an Position j: 3880900
+Differenz: 2483776
+Ausgabe:
+1182^2 + 1970^2 = 1576^2
+Inhalt des Arrays an Position i: 1404225
+Inhalt des Arrays an Position j: 3900625
+Differenz: 2496400
+Ausgabe:
+1185^2 + 1975^2 = 1580^2
+Inhalt des Arrays an Position i: 1411344
+Inhalt des Arrays an Position j: 2873025
+Differenz: 1461681
+Ausgabe:
+1188^2 + 1695^2 = 1209^2
+Inhalt des Arrays an Position i: 1411344
+Inhalt des Arrays an Position j: 2890000
+Differenz: 1478656
+Ausgabe:
+1188^2 + 1700^2 = 1216^2
+Inhalt des Arrays an Position i: 1411344
+Inhalt des Arrays an Position j: 3920400
+Differenz: 2509056
+Ausgabe:
+1188^2 + 1980^2 = 1584^2
+Inhalt des Arrays an Position i: 1416100
+Inhalt des Arrays an Position j: 2856100
+Differenz: 1440000
+Ausgabe:
+1190^2 + 1690^2 = 1200^2
+Inhalt des Arrays an Position i: 1418481
+Inhalt des Arrays an Position j: 3940225
+Differenz: 2521744
+Ausgabe:
+1191^2 + 1985^2 = 1588^2
+Inhalt des Arrays an Position i: 1425636
+Inhalt des Arrays an Position j: 3960100
+Differenz: 2534464
+Ausgabe:
+1194^2 + 1990^2 = 1592^2
+Inhalt des Arrays an Position i: 1432809
+Inhalt des Arrays an Position j: 3404025
+Differenz: 1971216
+Ausgabe:
+1197^2 + 1845^2 = 1404^2
+Inhalt des Arrays an Position i: 1432809
+Inhalt des Arrays an Position j: 3980025
+Differenz: 2547216
+Ausgabe:
+1197^2 + 1995^2 = 1596^2
+Inhalt des Arrays an Position i: 1440000
+Inhalt des Arrays an Position j: 3027600
+Differenz: 1587600
+Ausgabe:
+1200^2 + 1740^2 = 1260^2
+Inhalt des Arrays an Position i: 1440000
+Inhalt des Arrays an Position j: 3330625
+Differenz: 1890625
+Ausgabe:
+1200^2 + 1825^2 = 1375^2
+Inhalt des Arrays an Position i: 1440000
+Inhalt des Arrays an Position j: 4000000
+Differenz: 2560000
+Ausgabe:
+1200^2 + 2000^2 = 1600^2
+Inhalt des Arrays an Position i: 1488400
+Inhalt des Arrays an Position j: 3129361
+Differenz: 1640961
+Ausgabe:
+1220^2 + 1769^2 = 1281^2
+Inhalt des Arrays an Position i: 1498176
+Inhalt des Arrays an Position j: 3802500
+Differenz: 2304324
+Ausgabe:
+1224^2 + 1950^2 = 1518^2
+Inhalt des Arrays an Position i: 1512900
+Inhalt des Arrays an Position j: 3632836
+Differenz: 2119936
+Ausgabe:
+1230^2 + 1906^2 = 1456^2
+Inhalt des Arrays an Position i: 1517824
+Inhalt des Arrays an Position j: 3276100
+Differenz: 1758276
+Ausgabe:
+1232^2 + 1810^2 = 1326^2
+Inhalt des Arrays an Position i: 1517824
+Inhalt des Arrays an Position j: 3678724
+Differenz: 2160900
+Ausgabe:
+1232^2 + 1918^2 = 1470^2
+Inhalt des Arrays an Position i: 1525225
+Inhalt des Arrays an Position j: 3396649
+Differenz: 1871424
+Ausgabe:
+1235^2 + 1843^2 = 1368^2
+Inhalt des Arrays an Position i: 1535121
+Inhalt des Arrays an Position j: 3845521
+Differenz: 2310400
+Ausgabe:
+1239^2 + 1961^2 = 1520^2
+Inhalt des Arrays an Position i: 1537600
+Inhalt des Arrays an Position j: 3232804
+Differenz: 1695204
+Ausgabe:
+1240^2 + 1798^2 = 1302^2
+Inhalt des Arrays an Position i: 1542564
+Inhalt des Arrays an Position j: 3348900
+Differenz: 1806336
+Ausgabe:
+1242^2 + 1830^2 = 1344^2
+Inhalt des Arrays an Position i: 1557504
+Inhalt des Arrays an Position j: 3157729
+Differenz: 1600225
+Ausgabe:
+1248^2 + 1777^2 = 1265^2
+Inhalt des Arrays an Position i: 1557504
+Inhalt des Arrays an Position j: 3602404
+Differenz: 2044900
+Ausgabe:
+1248^2 + 1898^2 = 1430^2
+Inhalt des Arrays an Position i: 1587600
+Inhalt des Arrays an Position j: 3337929
+Differenz: 1750329
+Ausgabe:
+1260^2 + 1827^2 = 1323^2
+Inhalt des Arrays an Position i: 1587600
+Inhalt des Arrays an Position j: 3478225
+Differenz: 1890625
+Ausgabe:
+1260^2 + 1865^2 = 1375^2
+Inhalt des Arrays an Position i: 1587600
+Inhalt des Arrays an Position j: 3956121
+Differenz: 2368521
+Ausgabe:
+1260^2 + 1989^2 = 1539^2
+Inhalt des Arrays an Position i: 1628176
+Inhalt des Arrays an Position j: 3701776
+Differenz: 2073600
+Ausgabe:
+1276^2 + 1924^2 = 1440^2
+Inhalt des Arrays an Position i: 1638400
+Inhalt des Arrays an Position j: 3444736
+Differenz: 1806336
+Ausgabe:
+1280^2 + 1856^2 = 1344^2
+Inhalt des Arrays an Position i: 1656369
+Inhalt des Arrays an Position j: 3560769
+Differenz: 1904400
+Ausgabe:
+1287^2 + 1887^2 = 1380^2
+Inhalt des Arrays an Position i: 1679616
+Inhalt des Arrays an Position j: 3884841
+Differenz: 2205225
+Ausgabe:
+1296^2 + 1971^2 = 1485^2
+Inhalt des Arrays an Position i: 1690000
+Inhalt des Arrays an Position j: 3553225
+Differenz: 1863225
+Ausgabe:
+1300^2 + 1885^2 = 1365^2
+Inhalt des Arrays an Position i: 1690000
+Inhalt des Arrays an Position j: 3763600
+Differenz: 2073600
+Ausgabe:
+1300^2 + 1940^2 = 1440^2
+Inhalt des Arrays an Position i: 1713481
+Inhalt des Arrays an Position j: 3455881
+Differenz: 1742400
+Ausgabe:
+1309^2 + 1859^2 = 1320^2
+Inhalt des Arrays an Position i: 1718721
+Inhalt des Arrays an Position j: 3568321
+Differenz: 1849600
+Ausgabe:
+1311^2 + 1889^2 = 1360^2
+Inhalt des Arrays an Position i: 1721344
+Inhalt des Arrays an Position j: 3751969
+Differenz: 2030625
+Ausgabe:
+1312^2 + 1937^2 = 1425^2
+Inhalt des Arrays an Position i: 1742400
+Inhalt des Arrays an Position j: 3663396
+Differenz: 1920996
+Ausgabe:
+1320^2 + 1914^2 = 1386^2
+Inhalt des Arrays an Position i: 1795600
+Inhalt des Arrays an Position j: 3775249
+Differenz: 1979649
+Ausgabe:
+1340^2 + 1943^2 = 1407^2
+Inhalt des Arrays an Position i: 1849600
+Inhalt des Arrays an Position j: 3888784
+Differenz: 2039184
+Ausgabe:
+1360^2 + 1972^2 = 1428^2
+Inhalt des Arrays an Position i: 1937664
+Inhalt des Arrays an Position j: 3880900
+Differenz: 1943236
+Ausgabe:
+1392^2 + 1970^2 = 1394^2
+157
+
+Process finished with exit code 0

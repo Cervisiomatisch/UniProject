@@ -1,0 +1,4410 @@
+/Library/Java/JavaVirtualMachines/jdk-17.0.4.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=61731:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/cervisiomatisch/Projects/UniProjectNeu/untitled/out/production/untitled MUP_2.PythagoraeischeZahlentripel
+1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089, 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116, 2209, 2304, 2401, 2500, 2601, 2704, 2809, 2916, 3025, 3136, 3249, 3364, 3481, 3600, 3721, 3844, 3969, 4096, 4225, 4356, 4489, 4624, 4761, 4900, 5041, 5184, 5329, 5476, 5625, 5776, 5929, 6084, 6241, 6400, 6561, 6724, 6889, 7056, 7225, 7396, 7569, 7744, 7921, 8100, 8281, 8464, 8649, 8836, 9025, 9216, 9409, 9604, 9801, 10000, 10201, 10404, 10609, 10816, 11025, 11236, 11449, 11664, 11881, 12100, 12321, 12544, 12769, 12996, 13225, 13456, 13689, 13924, 14161, 14400, 14641, 14884, 15129, 15376, 15625, 15876, 16129, 16384, 16641, 16900, 17161, 17424, 17689, 17956, 18225, 18496, 18769, 19044, 19321, 19600, 19881, 20164, 20449, 20736, 21025, 21316, 21609, 21904, 22201, 22500, 22801, 23104, 23409, 23716, 24025, 24336, 24649, 24964, 25281, 25600, 25921, 26244, 26569, 26896, 27225, 27556, 27889, 28224, 28561, 28900, 29241, 29584, 29929, 30276, 30625, 30976, 31329, 31684, 32041, 32400, 32761, 33124, 33489, 33856, 34225, 34596, 34969, 35344, 35721, 36100, 36481, 36864, 37249, 37636, 38025, 38416, 38809, 39204, 39601, 40000, 40401, 40804, 41209, 41616, 42025, 42436, 42849, 43264, 43681, 44100, 44521, 44944, 45369, 45796, 46225, 46656, 47089, 47524, 47961, 48400, 48841, 49284, 49729, 50176, 50625, 51076, 51529, 51984, 52441, 52900, 53361, 53824, 54289, 54756, 55225, 55696, 56169, 56644, 57121, 57600, 58081, 58564, 59049, 59536, 60025, 60516, 61009, 61504, 62001, 62500, 63001, 63504, 64009, 64516, 65025, 65536, 66049, 66564, 67081, 67600, 68121, 68644, 69169, 69696, 70225, 70756, 71289, 71824, 72361, 72900, 73441, 73984, 74529, 75076, 75625, 76176, 76729, 77284, 77841, 78400, 78961, 79524, 80089, 80656, 81225, 81796, 82369, 82944, 83521, 84100, 84681, 85264, 85849, 86436, 87025, 87616, 88209, 88804, 89401, 90000, 90601, 91204, 91809, 92416, 93025, 93636, 94249, 94864, 95481, 96100, 96721, 97344, 97969, 98596, 99225, 99856, 100489, 101124, 101761, 102400, 103041, 103684, 104329, 104976, 105625, 106276, 106929, 107584, 108241, 108900, 109561, 110224, 110889, 111556, 112225, 112896, 113569, 114244, 114921, 115600, 116281, 116964, 117649, 118336, 119025, 119716, 120409, 121104, 121801, 122500, 123201, 123904, 124609, 125316, 126025, 126736, 127449, 128164, 128881, 129600, 130321, 131044, 131769, 132496, 133225, 133956, 134689, 135424, 136161, 136900, 137641, 138384, 139129, 139876, 140625, 141376, 142129, 142884, 143641, 144400, 145161, 145924, 146689, 147456, 148225, 148996, 149769, 150544, 151321, 152100, 152881, 153664, 154449, 155236, 156025, 156816, 157609, 158404, 159201, 160000, 160801, 161604, 162409, 163216, 164025, 164836, 165649, 166464, 167281, 168100, 168921, 169744, 170569, 171396, 172225, 173056, 173889, 174724, 175561, 176400, 177241, 178084, 178929, 179776, 180625, 181476, 182329, 183184, 184041, 184900, 185761, 186624, 187489, 188356, 189225, 190096, 190969, 191844, 192721, 193600, 194481, 195364, 196249, 197136, 198025, 198916, 199809, 200704, 201601, 202500, 203401, 204304, 205209, 206116, 207025, 207936, 208849, 209764, 210681, 211600, 212521, 213444, 214369, 215296, 216225, 217156, 218089, 219024, 219961, 220900, 221841, 222784, 223729, 224676, 225625, 226576, 227529, 228484, 229441, 230400, 231361, 232324, 233289, 234256, 235225, 236196, 237169, 238144, 239121, 240100, 241081, 242064, 243049, 244036, 245025, 246016, 247009, 248004, 249001, 250000, 251001, 252004, 253009, 254016, 255025, 256036, 257049, 258064, 259081, 260100, 261121, 262144, 263169, 264196, 265225, 266256, 267289, 268324, 269361, 270400, 271441, 272484, 273529, 274576, 275625, 276676, 277729, 278784, 279841, 280900, 281961, 283024, 284089, 285156, 286225, 287296, 288369, 289444, 290521, 291600, 292681, 293764, 294849, 295936, 297025, 298116, 299209, 300304, 301401, 302500, 303601, 304704, 305809, 306916, 308025, 309136, 310249, 311364, 312481, 313600, 314721, 315844, 316969, 318096, 319225, 320356, 321489, 322624, 323761, 324900, 326041, 327184, 328329, 329476, 330625, 331776, 332929, 334084, 335241, 336400, 337561, 338724, 339889, 341056, 342225, 343396, 344569, 345744, 346921, 348100, 349281, 350464, 351649, 352836, 354025, 355216, 356409, 357604, 358801, 360000, 361201, 362404, 363609, 364816, 366025, 367236, 368449, 369664, 370881, 372100, 373321, 374544, 375769, 376996, 378225, 379456, 380689, 381924, 383161, 384400, 385641, 386884, 388129, 389376, 390625, 391876, 393129, 394384, 395641, 396900, 398161, 399424, 400689, 401956, 403225, 404496, 405769, 407044, 408321, 409600, 410881, 412164, 413449, 414736, 416025, 417316, 418609, 419904, 421201, 422500, 423801, 425104, 426409, 427716, 429025, 430336, 431649, 432964, 434281, 435600, 436921, 438244, 439569, 440896, 442225, 443556, 444889, 446224, 447561, 448900, 450241, 451584, 452929, 454276, 455625, 456976, 458329, 459684, 461041, 462400, 463761, 465124, 466489, 467856, 469225, 470596, 471969, 473344, 474721, 476100, 477481, 478864, 480249, 481636, 483025, 484416, 485809, 487204, 488601, 490000, 491401, 492804, 494209, 495616, 497025, 498436, 499849, 501264, 502681, 504100, 505521, 506944, 508369, 509796, 511225, 512656, 514089, 515524, 516961, 518400, 519841, 521284, 522729, 524176, 525625, 527076, 528529, 529984, 531441, 532900, 534361, 535824, 537289, 538756, 540225, 541696, 543169, 544644, 546121, 547600, 549081, 550564, 552049, 553536, 555025, 556516, 558009, 559504, 561001, 562500, 564001, 565504, 567009, 568516, 570025, 571536, 573049, 574564, 576081, 577600, 579121, 580644, 582169, 583696, 585225, 586756, 588289, 589824, 591361, 592900, 594441, 595984, 597529, 599076, 600625, 602176, 603729, 605284, 606841, 608400, 609961, 611524, 613089, 614656, 616225, 617796, 619369, 620944, 622521, 624100, 625681, 627264, 628849, 630436, 632025, 633616, 635209, 636804, 638401, 640000, 641601, 643204, 644809, 646416, 648025, 649636, 651249, 652864, 654481, 656100, 657721, 659344, 660969, 662596, 664225, 665856, 667489, 669124, 670761, 672400, 674041, 675684, 677329, 678976, 680625, 682276, 683929, 685584, 687241, 688900, 690561, 692224, 693889, 695556, 697225, 698896, 700569, 702244, 703921, 705600, 707281, 708964, 710649, 712336, 714025, 715716, 717409, 719104, 720801, 722500, 724201, 725904, 727609, 729316, 731025, 732736, 734449, 736164, 737881, 739600, 741321, 743044, 744769, 746496, 748225, 749956, 751689, 753424, 755161, 756900, 758641, 760384, 762129, 763876, 765625, 767376, 769129, 770884, 772641, 774400, 776161, 777924, 779689, 781456, 783225, 784996, 786769, 788544, 790321, 792100, 793881, 795664, 797449, 799236, 801025, 802816, 804609, 806404, 808201, 810000, 811801, 813604, 815409, 817216, 819025, 820836, 822649, 824464, 826281, 828100, 829921, 831744, 833569, 835396, 837225, 839056, 840889, 842724, 844561, 846400, 848241, 850084, 851929, 853776, 855625, 857476, 859329, 861184, 863041, 864900, 866761, 868624, 870489, 872356, 874225, 876096, 877969, 879844, 881721, 883600, 885481, 887364, 889249, 891136, 893025, 894916, 896809, 898704, 900601, 902500, 904401, 906304, 908209, 910116, 912025, 913936, 915849, 917764, 919681, 921600, 923521, 925444, 927369, 929296, 931225, 933156, 935089, 937024, 938961, 940900, 942841, 944784, 946729, 948676, 950625, 952576, 954529, 956484, 958441, 960400, 962361, 964324, 966289, 968256, 970225, 972196, 974169, 976144, 978121, 980100, 982081, 984064, 986049, 988036, 990025, 992016, 994009, 996004, 998001, 1000000
+Inhalt des Arrays an Position i: 9
+Inhalt des Arrays an Position j: 25
+Differenz: 16
+Ausgabe:
+3^2 + 5^2 = 4^2
+Inhalt des Arrays an Position i: 25
+Inhalt des Arrays an Position j: 169
+Differenz: 144
+Ausgabe:
+5^2 + 13^2 = 12^2
+Inhalt des Arrays an Position i: 36
+Inhalt des Arrays an Position j: 100
+Differenz: 64
+Ausgabe:
+6^2 + 10^2 = 8^2
+Inhalt des Arrays an Position i: 49
+Inhalt des Arrays an Position j: 625
+Differenz: 576
+Ausgabe:
+7^2 + 25^2 = 24^2
+Inhalt des Arrays an Position i: 64
+Inhalt des Arrays an Position j: 289
+Differenz: 225
+Ausgabe:
+8^2 + 17^2 = 15^2
+Inhalt des Arrays an Position i: 81
+Inhalt des Arrays an Position j: 225
+Differenz: 144
+Ausgabe:
+9^2 + 15^2 = 12^2
+Inhalt des Arrays an Position i: 81
+Inhalt des Arrays an Position j: 1681
+Differenz: 1600
+Ausgabe:
+9^2 + 41^2 = 40^2
+Inhalt des Arrays an Position i: 100
+Inhalt des Arrays an Position j: 676
+Differenz: 576
+Ausgabe:
+10^2 + 26^2 = 24^2
+Inhalt des Arrays an Position i: 121
+Inhalt des Arrays an Position j: 3721
+Differenz: 3600
+Ausgabe:
+11^2 + 61^2 = 60^2
+Inhalt des Arrays an Position i: 144
+Inhalt des Arrays an Position j: 400
+Differenz: 256
+Ausgabe:
+12^2 + 20^2 = 16^2
+Inhalt des Arrays an Position i: 144
+Inhalt des Arrays an Position j: 1369
+Differenz: 1225
+Ausgabe:
+12^2 + 37^2 = 35^2
+Inhalt des Arrays an Position i: 169
+Inhalt des Arrays an Position j: 7225
+Differenz: 7056
+Ausgabe:
+13^2 + 85^2 = 84^2
+Inhalt des Arrays an Position i: 196
+Inhalt des Arrays an Position j: 2500
+Differenz: 2304
+Ausgabe:
+14^2 + 50^2 = 48^2
+Inhalt des Arrays an Position i: 225
+Inhalt des Arrays an Position j: 625
+Differenz: 400
+Ausgabe:
+15^2 + 25^2 = 20^2
+Inhalt des Arrays an Position i: 225
+Inhalt des Arrays an Position j: 1521
+Differenz: 1296
+Ausgabe:
+15^2 + 39^2 = 36^2
+Inhalt des Arrays an Position i: 225
+Inhalt des Arrays an Position j: 12769
+Differenz: 12544
+Ausgabe:
+15^2 + 113^2 = 112^2
+Inhalt des Arrays an Position i: 256
+Inhalt des Arrays an Position j: 1156
+Differenz: 900
+Ausgabe:
+16^2 + 34^2 = 30^2
+Inhalt des Arrays an Position i: 256
+Inhalt des Arrays an Position j: 4225
+Differenz: 3969
+Ausgabe:
+16^2 + 65^2 = 63^2
+Inhalt des Arrays an Position i: 289
+Inhalt des Arrays an Position j: 21025
+Differenz: 20736
+Ausgabe:
+17^2 + 145^2 = 144^2
+Inhalt des Arrays an Position i: 324
+Inhalt des Arrays an Position j: 900
+Differenz: 576
+Ausgabe:
+18^2 + 30^2 = 24^2
+Inhalt des Arrays an Position i: 324
+Inhalt des Arrays an Position j: 6724
+Differenz: 6400
+Ausgabe:
+18^2 + 82^2 = 80^2
+Inhalt des Arrays an Position i: 361
+Inhalt des Arrays an Position j: 32761
+Differenz: 32400
+Ausgabe:
+19^2 + 181^2 = 180^2
+Inhalt des Arrays an Position i: 400
+Inhalt des Arrays an Position j: 841
+Differenz: 441
+Ausgabe:
+20^2 + 29^2 = 21^2
+Inhalt des Arrays an Position i: 400
+Inhalt des Arrays an Position j: 2704
+Differenz: 2304
+Ausgabe:
+20^2 + 52^2 = 48^2
+Inhalt des Arrays an Position i: 400
+Inhalt des Arrays an Position j: 10201
+Differenz: 9801
+Ausgabe:
+20^2 + 101^2 = 99^2
+Inhalt des Arrays an Position i: 441
+Inhalt des Arrays an Position j: 1225
+Differenz: 784
+Ausgabe:
+21^2 + 35^2 = 28^2
+Inhalt des Arrays an Position i: 441
+Inhalt des Arrays an Position j: 5625
+Differenz: 5184
+Ausgabe:
+21^2 + 75^2 = 72^2
+Inhalt des Arrays an Position i: 441
+Inhalt des Arrays an Position j: 48841
+Differenz: 48400
+Ausgabe:
+21^2 + 221^2 = 220^2
+Inhalt des Arrays an Position i: 484
+Inhalt des Arrays an Position j: 14884
+Differenz: 14400
+Ausgabe:
+22^2 + 122^2 = 120^2
+Inhalt des Arrays an Position i: 529
+Inhalt des Arrays an Position j: 70225
+Differenz: 69696
+Ausgabe:
+23^2 + 265^2 = 264^2
+Inhalt des Arrays an Position i: 576
+Inhalt des Arrays an Position j: 1600
+Differenz: 1024
+Ausgabe:
+24^2 + 40^2 = 32^2
+Inhalt des Arrays an Position i: 576
+Inhalt des Arrays an Position j: 2601
+Differenz: 2025
+Ausgabe:
+24^2 + 51^2 = 45^2
+Inhalt des Arrays an Position i: 576
+Inhalt des Arrays an Position j: 5476
+Differenz: 4900
+Ausgabe:
+24^2 + 74^2 = 70^2
+Inhalt des Arrays an Position i: 576
+Inhalt des Arrays an Position j: 21025
+Differenz: 20449
+Ausgabe:
+24^2 + 145^2 = 143^2
+Inhalt des Arrays an Position i: 625
+Inhalt des Arrays an Position j: 4225
+Differenz: 3600
+Ausgabe:
+25^2 + 65^2 = 60^2
+Inhalt des Arrays an Position i: 625
+Inhalt des Arrays an Position j: 97969
+Differenz: 97344
+Ausgabe:
+25^2 + 313^2 = 312^2
+Inhalt des Arrays an Position i: 676
+Inhalt des Arrays an Position j: 28900
+Differenz: 28224
+Ausgabe:
+26^2 + 170^2 = 168^2
+Inhalt des Arrays an Position i: 729
+Inhalt des Arrays an Position j: 2025
+Differenz: 1296
+Ausgabe:
+27^2 + 45^2 = 36^2
+Inhalt des Arrays an Position i: 729
+Inhalt des Arrays an Position j: 15129
+Differenz: 14400
+Ausgabe:
+27^2 + 123^2 = 120^2
+Inhalt des Arrays an Position i: 729
+Inhalt des Arrays an Position j: 133225
+Differenz: 132496
+Ausgabe:
+27^2 + 365^2 = 364^2
+Inhalt des Arrays an Position i: 784
+Inhalt des Arrays an Position j: 2809
+Differenz: 2025
+Ausgabe:
+28^2 + 53^2 = 45^2
+Inhalt des Arrays an Position i: 784
+Inhalt des Arrays an Position j: 10000
+Differenz: 9216
+Ausgabe:
+28^2 + 100^2 = 96^2
+Inhalt des Arrays an Position i: 784
+Inhalt des Arrays an Position j: 38809
+Differenz: 38025
+Ausgabe:
+28^2 + 197^2 = 195^2
+Inhalt des Arrays an Position i: 841
+Inhalt des Arrays an Position j: 177241
+Differenz: 176400
+Ausgabe:
+29^2 + 421^2 = 420^2
+Inhalt des Arrays an Position i: 900
+Inhalt des Arrays an Position j: 2500
+Differenz: 1600
+Ausgabe:
+30^2 + 50^2 = 40^2
+Inhalt des Arrays an Position i: 900
+Inhalt des Arrays an Position j: 6084
+Differenz: 5184
+Ausgabe:
+30^2 + 78^2 = 72^2
+Inhalt des Arrays an Position i: 900
+Inhalt des Arrays an Position j: 51076
+Differenz: 50176
+Ausgabe:
+30^2 + 226^2 = 224^2
+Inhalt des Arrays an Position i: 961
+Inhalt des Arrays an Position j: 231361
+Differenz: 230400
+Ausgabe:
+31^2 + 481^2 = 480^2
+Inhalt des Arrays an Position i: 1024
+Inhalt des Arrays an Position j: 4624
+Differenz: 3600
+Ausgabe:
+32^2 + 68^2 = 60^2
+Inhalt des Arrays an Position i: 1024
+Inhalt des Arrays an Position j: 16900
+Differenz: 15876
+Ausgabe:
+32^2 + 130^2 = 126^2
+Inhalt des Arrays an Position i: 1024
+Inhalt des Arrays an Position j: 66049
+Differenz: 65025
+Ausgabe:
+32^2 + 257^2 = 255^2
+Inhalt des Arrays an Position i: 1089
+Inhalt des Arrays an Position j: 3025
+Differenz: 1936
+Ausgabe:
+33^2 + 55^2 = 44^2
+Inhalt des Arrays an Position i: 1089
+Inhalt des Arrays an Position j: 4225
+Differenz: 3136
+Ausgabe:
+33^2 + 65^2 = 56^2
+Inhalt des Arrays an Position i: 1089
+Inhalt des Arrays an Position j: 33489
+Differenz: 32400
+Ausgabe:
+33^2 + 183^2 = 180^2
+Inhalt des Arrays an Position i: 1089
+Inhalt des Arrays an Position j: 297025
+Differenz: 295936
+Ausgabe:
+33^2 + 545^2 = 544^2
+Inhalt des Arrays an Position i: 1156
+Inhalt des Arrays an Position j: 84100
+Differenz: 82944
+Ausgabe:
+34^2 + 290^2 = 288^2
+Inhalt des Arrays an Position i: 1225
+Inhalt des Arrays an Position j: 8281
+Differenz: 7056
+Ausgabe:
+35^2 + 91^2 = 84^2
+Inhalt des Arrays an Position i: 1225
+Inhalt des Arrays an Position j: 15625
+Differenz: 14400
+Ausgabe:
+35^2 + 125^2 = 120^2
+Inhalt des Arrays an Position i: 1225
+Inhalt des Arrays an Position j: 375769
+Differenz: 374544
+Ausgabe:
+35^2 + 613^2 = 612^2
+Inhalt des Arrays an Position i: 1296
+Inhalt des Arrays an Position j: 3600
+Differenz: 2304
+Ausgabe:
+36^2 + 60^2 = 48^2
+Inhalt des Arrays an Position i: 1296
+Inhalt des Arrays an Position j: 7225
+Differenz: 5929
+Ausgabe:
+36^2 + 85^2 = 77^2
+Inhalt des Arrays an Position i: 1296
+Inhalt des Arrays an Position j: 12321
+Differenz: 11025
+Ausgabe:
+36^2 + 111^2 = 105^2
+Inhalt des Arrays an Position i: 1296
+Inhalt des Arrays an Position j: 26896
+Differenz: 25600
+Ausgabe:
+36^2 + 164^2 = 160^2
+Inhalt des Arrays an Position i: 1296
+Inhalt des Arrays an Position j: 105625
+Differenz: 104329
+Ausgabe:
+36^2 + 325^2 = 323^2
+Inhalt des Arrays an Position i: 1369
+Inhalt des Arrays an Position j: 469225
+Differenz: 467856
+Ausgabe:
+37^2 + 685^2 = 684^2
+Inhalt des Arrays an Position i: 1444
+Inhalt des Arrays an Position j: 131044
+Differenz: 129600
+Ausgabe:
+38^2 + 362^2 = 360^2
+Inhalt des Arrays an Position i: 1521
+Inhalt des Arrays an Position j: 4225
+Differenz: 2704
+Ausgabe:
+39^2 + 65^2 = 52^2
+Inhalt des Arrays an Position i: 1521
+Inhalt des Arrays an Position j: 7921
+Differenz: 6400
+Ausgabe:
+39^2 + 89^2 = 80^2
+Inhalt des Arrays an Position i: 1521
+Inhalt des Arrays an Position j: 65025
+Differenz: 63504
+Ausgabe:
+39^2 + 255^2 = 252^2
+Inhalt des Arrays an Position i: 1521
+Inhalt des Arrays an Position j: 579121
+Differenz: 577600
+Ausgabe:
+39^2 + 761^2 = 760^2
+Inhalt des Arrays an Position i: 1600
+Inhalt des Arrays an Position j: 3364
+Differenz: 1764
+Ausgabe:
+40^2 + 58^2 = 42^2
+Inhalt des Arrays an Position i: 1600
+Inhalt des Arrays an Position j: 7225
+Differenz: 5625
+Ausgabe:
+40^2 + 85^2 = 75^2
+Inhalt des Arrays an Position i: 1600
+Inhalt des Arrays an Position j: 10816
+Differenz: 9216
+Ausgabe:
+40^2 + 104^2 = 96^2
+Inhalt des Arrays an Position i: 1600
+Inhalt des Arrays an Position j: 40804
+Differenz: 39204
+Ausgabe:
+40^2 + 202^2 = 198^2
+Inhalt des Arrays an Position i: 1600
+Inhalt des Arrays an Position j: 160801
+Differenz: 159201
+Ausgabe:
+40^2 + 401^2 = 399^2
+Inhalt des Arrays an Position i: 1681
+Inhalt des Arrays an Position j: 707281
+Differenz: 705600
+Ausgabe:
+41^2 + 841^2 = 840^2
+Inhalt des Arrays an Position i: 1764
+Inhalt des Arrays an Position j: 4900
+Differenz: 3136
+Ausgabe:
+42^2 + 70^2 = 56^2
+Inhalt des Arrays an Position i: 1764
+Inhalt des Arrays an Position j: 22500
+Differenz: 20736
+Ausgabe:
+42^2 + 150^2 = 144^2
+Inhalt des Arrays an Position i: 1764
+Inhalt des Arrays an Position j: 195364
+Differenz: 193600
+Ausgabe:
+42^2 + 442^2 = 440^2
+Inhalt des Arrays an Position i: 1849
+Inhalt des Arrays an Position j: 855625
+Differenz: 853776
+Ausgabe:
+43^2 + 925^2 = 924^2
+Inhalt des Arrays an Position i: 1936
+Inhalt des Arrays an Position j: 15625
+Differenz: 13689
+Ausgabe:
+44^2 + 125^2 = 117^2
+Inhalt des Arrays an Position i: 1936
+Inhalt des Arrays an Position j: 59536
+Differenz: 57600
+Ausgabe:
+44^2 + 244^2 = 240^2
+Inhalt des Arrays an Position i: 1936
+Inhalt des Arrays an Position j: 235225
+Differenz: 233289
+Ausgabe:
+44^2 + 485^2 = 483^2
+Inhalt des Arrays an Position i: 2025
+Inhalt des Arrays an Position j: 5625
+Differenz: 3600
+Ausgabe:
+45^2 + 75^2 = 60^2
+Inhalt des Arrays an Position i: 2025
+Inhalt des Arrays an Position j: 13689
+Differenz: 11664
+Ausgabe:
+45^2 + 117^2 = 108^2
+Inhalt des Arrays an Position i: 2025
+Inhalt des Arrays an Position j: 42025
+Differenz: 40000
+Ausgabe:
+45^2 + 205^2 = 200^2
+Inhalt des Arrays an Position i: 2025
+Inhalt des Arrays an Position j: 114921
+Differenz: 112896
+Ausgabe:
+45^2 + 339^2 = 336^2
+Inhalt des Arrays an Position i: 2116
+Inhalt des Arrays an Position j: 280900
+Differenz: 278784
+Ausgabe:
+46^2 + 530^2 = 528^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 5329
+Differenz: 3025
+Ausgabe:
+48^2 + 73^2 = 55^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 6400
+Differenz: 4096
+Ausgabe:
+48^2 + 80^2 = 64^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 10404
+Differenz: 8100
+Ausgabe:
+48^2 + 102^2 = 90^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 21904
+Differenz: 19600
+Ausgabe:
+48^2 + 148^2 = 140^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 38025
+Differenz: 35721
+Ausgabe:
+48^2 + 195^2 = 189^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 84100
+Differenz: 81796
+Ausgabe:
+48^2 + 290^2 = 286^2
+Inhalt des Arrays an Position i: 2304
+Inhalt des Arrays an Position j: 332929
+Differenz: 330625
+Ausgabe:
+48^2 + 577^2 = 575^2
+Inhalt des Arrays an Position i: 2401
+Inhalt des Arrays an Position j: 30625
+Differenz: 28224
+Ausgabe:
+49^2 + 175^2 = 168^2
+Inhalt des Arrays an Position i: 2500
+Inhalt des Arrays an Position j: 16900
+Differenz: 14400
+Ausgabe:
+50^2 + 130^2 = 120^2
+Inhalt des Arrays an Position i: 2500
+Inhalt des Arrays an Position j: 391876
+Differenz: 389376
+Ausgabe:
+50^2 + 626^2 = 624^2
+Inhalt des Arrays an Position i: 2601
+Inhalt des Arrays an Position j: 7225
+Differenz: 4624
+Ausgabe:
+51^2 + 85^2 = 68^2
+Inhalt des Arrays an Position i: 2601
+Inhalt des Arrays an Position j: 22201
+Differenz: 19600
+Ausgabe:
+51^2 + 149^2 = 140^2
+Inhalt des Arrays an Position i: 2601
+Inhalt des Arrays an Position j: 189225
+Differenz: 186624
+Ausgabe:
+51^2 + 435^2 = 432^2
+Inhalt des Arrays an Position i: 2704
+Inhalt des Arrays an Position j: 29929
+Differenz: 27225
+Ausgabe:
+52^2 + 173^2 = 165^2
+Inhalt des Arrays an Position i: 2704
+Inhalt des Arrays an Position j: 115600
+Differenz: 112896
+Ausgabe:
+52^2 + 340^2 = 336^2
+Inhalt des Arrays an Position i: 2704
+Inhalt des Arrays an Position j: 458329
+Differenz: 455625
+Ausgabe:
+52^2 + 677^2 = 675^2
+Inhalt des Arrays an Position i: 2916
+Inhalt des Arrays an Position j: 8100
+Differenz: 5184
+Ausgabe:
+54^2 + 90^2 = 72^2
+Inhalt des Arrays an Position i: 2916
+Inhalt des Arrays an Position j: 60516
+Differenz: 57600
+Ausgabe:
+54^2 + 246^2 = 240^2
+Inhalt des Arrays an Position i: 2916
+Inhalt des Arrays an Position j: 532900
+Differenz: 529984
+Ausgabe:
+54^2 + 730^2 = 728^2
+Inhalt des Arrays an Position i: 3025
+Inhalt des Arrays an Position j: 20449
+Differenz: 17424
+Ausgabe:
+55^2 + 143^2 = 132^2
+Inhalt des Arrays an Position i: 3025
+Inhalt des Arrays an Position j: 93025
+Differenz: 90000
+Ausgabe:
+55^2 + 305^2 = 300^2
+Inhalt des Arrays an Position i: 3136
+Inhalt des Arrays an Position j: 11236
+Differenz: 8100
+Ausgabe:
+56^2 + 106^2 = 90^2
+Inhalt des Arrays an Position i: 3136
+Inhalt des Arrays an Position j: 14161
+Differenz: 11025
+Ausgabe:
+56^2 + 119^2 = 105^2
+Inhalt des Arrays an Position i: 3136
+Inhalt des Arrays an Position j: 40000
+Differenz: 36864
+Ausgabe:
+56^2 + 200^2 = 192^2
+Inhalt des Arrays an Position i: 3136
+Inhalt des Arrays an Position j: 155236
+Differenz: 152100
+Ausgabe:
+56^2 + 394^2 = 390^2
+Inhalt des Arrays an Position i: 3136
+Inhalt des Arrays an Position j: 616225
+Differenz: 613089
+Ausgabe:
+56^2 + 785^2 = 783^2
+Inhalt des Arrays an Position i: 3249
+Inhalt des Arrays an Position j: 9025
+Differenz: 5776
+Ausgabe:
+57^2 + 95^2 = 76^2
+Inhalt des Arrays an Position i: 3249
+Inhalt des Arrays an Position j: 34225
+Differenz: 30976
+Ausgabe:
+57^2 + 185^2 = 176^2
+Inhalt des Arrays an Position i: 3249
+Inhalt des Arrays an Position j: 294849
+Differenz: 291600
+Ausgabe:
+57^2 + 543^2 = 540^2
+Inhalt des Arrays an Position i: 3364
+Inhalt des Arrays an Position j: 708964
+Differenz: 705600
+Ausgabe:
+58^2 + 842^2 = 840^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 7569
+Differenz: 3969
+Ausgabe:
+60^2 + 87^2 = 63^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 10000
+Differenz: 6400
+Ausgabe:
+60^2 + 100^2 = 80^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 11881
+Differenz: 8281
+Ausgabe:
+60^2 + 109^2 = 91^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 24336
+Differenz: 20736
+Ausgabe:
+60^2 + 156^2 = 144^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 34225
+Differenz: 30625
+Ausgabe:
+60^2 + 185^2 = 175^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 52441
+Differenz: 48841
+Ausgabe:
+60^2 + 229^2 = 221^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 91809
+Differenz: 88209
+Ausgabe:
+60^2 + 303^2 = 297^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 204304
+Differenz: 200704
+Ausgabe:
+60^2 + 452^2 = 448^2
+Inhalt des Arrays an Position i: 3600
+Inhalt des Arrays an Position j: 811801
+Differenz: 808201
+Ausgabe:
+60^2 + 901^2 = 899^2
+Inhalt des Arrays an Position i: 3844
+Inhalt des Arrays an Position j: 925444
+Differenz: 921600
+Ausgabe:
+62^2 + 962^2 = 960^2
+Inhalt des Arrays an Position i: 3969
+Inhalt des Arrays an Position j: 11025
+Differenz: 7056
+Ausgabe:
+63^2 + 105^2 = 84^2
+Inhalt des Arrays an Position i: 3969
+Inhalt des Arrays an Position j: 50625
+Differenz: 46656
+Ausgabe:
+63^2 + 225^2 = 216^2
+Inhalt des Arrays an Position i: 3969
+Inhalt des Arrays an Position j: 82369
+Differenz: 78400
+Ausgabe:
+63^2 + 287^2 = 280^2
+Inhalt des Arrays an Position i: 3969
+Inhalt des Arrays an Position j: 439569
+Differenz: 435600
+Ausgabe:
+63^2 + 663^2 = 660^2
+Inhalt des Arrays an Position i: 4096
+Inhalt des Arrays an Position j: 18496
+Differenz: 14400
+Ausgabe:
+64^2 + 136^2 = 120^2
+Inhalt des Arrays an Position i: 4096
+Inhalt des Arrays an Position j: 67600
+Differenz: 63504
+Ausgabe:
+64^2 + 260^2 = 252^2
+Inhalt des Arrays an Position i: 4096
+Inhalt des Arrays an Position j: 264196
+Differenz: 260100
+Ausgabe:
+64^2 + 514^2 = 510^2
+Inhalt des Arrays an Position i: 4225
+Inhalt des Arrays an Position j: 9409
+Differenz: 5184
+Ausgabe:
+65^2 + 97^2 = 72^2
+Inhalt des Arrays an Position i: 4225
+Inhalt des Arrays an Position j: 28561
+Differenz: 24336
+Ausgabe:
+65^2 + 169^2 = 156^2
+Inhalt des Arrays an Position i: 4225
+Inhalt des Arrays an Position j: 180625
+Differenz: 176400
+Ausgabe:
+65^2 + 425^2 = 420^2
+Inhalt des Arrays an Position i: 4356
+Inhalt des Arrays an Position j: 12100
+Differenz: 7744
+Ausgabe:
+66^2 + 110^2 = 88^2
+Inhalt des Arrays an Position i: 4356
+Inhalt des Arrays an Position j: 16900
+Differenz: 12544
+Ausgabe:
+66^2 + 130^2 = 112^2
+Inhalt des Arrays an Position i: 4356
+Inhalt des Arrays an Position j: 133956
+Differenz: 129600
+Ausgabe:
+66^2 + 366^2 = 360^2
+Inhalt des Arrays an Position i: 4624
+Inhalt des Arrays an Position j: 85849
+Differenz: 81225
+Ausgabe:
+68^2 + 293^2 = 285^2
+Inhalt des Arrays an Position i: 4624
+Inhalt des Arrays an Position j: 336400
+Differenz: 331776
+Ausgabe:
+68^2 + 580^2 = 576^2
+Inhalt des Arrays an Position i: 4761
+Inhalt des Arrays an Position j: 13225
+Differenz: 8464
+Ausgabe:
+69^2 + 115^2 = 92^2
+Inhalt des Arrays an Position i: 4761
+Inhalt des Arrays an Position j: 72361
+Differenz: 67600
+Ausgabe:
+69^2 + 269^2 = 260^2
+Inhalt des Arrays an Position i: 4761
+Inhalt des Arrays an Position j: 632025
+Differenz: 627264
+Ausgabe:
+69^2 + 795^2 = 792^2
+Inhalt des Arrays an Position i: 4900
+Inhalt des Arrays an Position j: 33124
+Differenz: 28224
+Ausgabe:
+70^2 + 182^2 = 168^2
+Inhalt des Arrays an Position i: 4900
+Inhalt des Arrays an Position j: 62500
+Differenz: 57600
+Ausgabe:
+70^2 + 250^2 = 240^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 14400
+Differenz: 9216
+Ausgabe:
+72^2 + 120^2 = 96^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 23409
+Differenz: 18225
+Ausgabe:
+72^2 + 153^2 = 135^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 28900
+Differenz: 23716
+Ausgabe:
+72^2 + 170^2 = 154^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 49284
+Differenz: 44100
+Ausgabe:
+72^2 + 222^2 = 210^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 107584
+Differenz: 102400
+Ausgabe:
+72^2 + 328^2 = 320^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 189225
+Differenz: 184041
+Ausgabe:
+72^2 + 435^2 = 429^2
+Inhalt des Arrays an Position i: 5184
+Inhalt des Arrays an Position j: 422500
+Differenz: 417316
+Ausgabe:
+72^2 + 650^2 = 646^2
+Inhalt des Arrays an Position i: 5625
+Inhalt des Arrays an Position j: 15625
+Differenz: 10000
+Ausgabe:
+75^2 + 125^2 = 100^2
+Inhalt des Arrays an Position i: 5625
+Inhalt des Arrays an Position j: 38025
+Differenz: 32400
+Ausgabe:
+75^2 + 195^2 = 180^2
+Inhalt des Arrays an Position i: 5625
+Inhalt des Arrays an Position j: 100489
+Differenz: 94864
+Ausgabe:
+75^2 + 317^2 = 308^2
+Inhalt des Arrays an Position i: 5625
+Inhalt des Arrays an Position j: 319225
+Differenz: 313600
+Ausgabe:
+75^2 + 565^2 = 560^2
+Inhalt des Arrays an Position i: 5625
+Inhalt des Arrays an Position j: 881721
+Differenz: 876096
+Ausgabe:
+75^2 + 939^2 = 936^2
+Inhalt des Arrays an Position i: 5776
+Inhalt des Arrays an Position j: 133225
+Differenz: 127449
+Ausgabe:
+76^2 + 365^2 = 357^2
+Inhalt des Arrays an Position i: 5776
+Inhalt des Arrays an Position j: 524176
+Differenz: 518400
+Ausgabe:
+76^2 + 724^2 = 720^2
+Inhalt des Arrays an Position i: 5929
+Inhalt des Arrays an Position j: 75625
+Differenz: 69696
+Ausgabe:
+77^2 + 275^2 = 264^2
+Inhalt des Arrays an Position i: 5929
+Inhalt des Arrays an Position j: 182329
+Differenz: 176400
+Ausgabe:
+77^2 + 427^2 = 420^2
+Inhalt des Arrays an Position i: 6084
+Inhalt des Arrays an Position j: 16900
+Differenz: 10816
+Ausgabe:
+78^2 + 130^2 = 104^2
+Inhalt des Arrays an Position i: 6084
+Inhalt des Arrays an Position j: 31684
+Differenz: 25600
+Ausgabe:
+78^2 + 178^2 = 160^2
+Inhalt des Arrays an Position i: 6084
+Inhalt des Arrays an Position j: 260100
+Differenz: 254016
+Ausgabe:
+78^2 + 510^2 = 504^2
+Inhalt des Arrays an Position i: 6400
+Inhalt des Arrays an Position j: 13456
+Differenz: 7056
+Ausgabe:
+80^2 + 116^2 = 84^2
+Inhalt des Arrays an Position i: 6400
+Inhalt des Arrays an Position j: 28900
+Differenz: 22500
+Ausgabe:
+80^2 + 170^2 = 150^2
+Inhalt des Arrays an Position i: 6400
+Inhalt des Arrays an Position j: 43264
+Differenz: 36864
+Ausgabe:
+80^2 + 208^2 = 192^2
+Inhalt des Arrays an Position i: 6400
+Inhalt des Arrays an Position j: 105625
+Differenz: 99225
+Ausgabe:
+80^2 + 325^2 = 315^2
+Inhalt des Arrays an Position i: 6400
+Inhalt des Arrays an Position j: 163216
+Differenz: 156816
+Ausgabe:
+80^2 + 404^2 = 396^2
+Inhalt des Arrays an Position i: 6400
+Inhalt des Arrays an Position j: 643204
+Differenz: 636804
+Ausgabe:
+80^2 + 802^2 = 798^2
+Inhalt des Arrays an Position i: 6561
+Inhalt des Arrays an Position j: 18225
+Differenz: 11664
+Ausgabe:
+81^2 + 135^2 = 108^2
+Inhalt des Arrays an Position i: 6561
+Inhalt des Arrays an Position j: 136161
+Differenz: 129600
+Ausgabe:
+81^2 + 369^2 = 360^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 19600
+Differenz: 12544
+Ausgabe:
+84^2 + 140^2 = 112^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 25281
+Differenz: 18225
+Ausgabe:
+84^2 + 159^2 = 135^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 42025
+Differenz: 34969
+Ausgabe:
+84^2 + 205^2 = 187^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 67081
+Differenz: 60025
+Ausgabe:
+84^2 + 259^2 = 245^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 90000
+Differenz: 82944
+Ausgabe:
+84^2 + 300^2 = 288^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 198025
+Differenz: 190969
+Ausgabe:
+84^2 + 445^2 = 437^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 349281
+Differenz: 342225
+Ausgabe:
+84^2 + 591^2 = 585^2
+Inhalt des Arrays an Position i: 7056
+Inhalt des Arrays an Position j: 781456
+Differenz: 774400
+Ausgabe:
+84^2 + 884^2 = 880^2
+Inhalt des Arrays an Position i: 7225
+Inhalt des Arrays an Position j: 24649
+Differenz: 17424
+Ausgabe:
+85^2 + 157^2 = 132^2
+Inhalt des Arrays an Position i: 7225
+Inhalt des Arrays an Position j: 48841
+Differenz: 41616
+Ausgabe:
+85^2 + 221^2 = 204^2
+Inhalt des Arrays an Position i: 7225
+Inhalt des Arrays an Position j: 525625
+Differenz: 518400
+Ausgabe:
+85^2 + 725^2 = 720^2
+Inhalt des Arrays an Position i: 7569
+Inhalt des Arrays an Position j: 21025
+Differenz: 13456
+Ausgabe:
+87^2 + 145^2 = 116^2
+Inhalt des Arrays an Position i: 7569
+Inhalt des Arrays an Position j: 180625
+Differenz: 173056
+Ausgabe:
+87^2 + 425^2 = 416^2
+Inhalt des Arrays an Position i: 7744
+Inhalt des Arrays an Position j: 18769
+Differenz: 11025
+Ausgabe:
+88^2 + 137^2 = 105^2
+Inhalt des Arrays an Position i: 7744
+Inhalt des Arrays an Position j: 34969
+Differenz: 27225
+Ausgabe:
+88^2 + 187^2 = 165^2
+Inhalt des Arrays an Position i: 7744
+Inhalt des Arrays an Position j: 62500
+Differenz: 54756
+Ausgabe:
+88^2 + 250^2 = 234^2
+Inhalt des Arrays an Position i: 7744
+Inhalt des Arrays an Position j: 238144
+Differenz: 230400
+Ausgabe:
+88^2 + 488^2 = 480^2
+Inhalt des Arrays an Position i: 7744
+Inhalt des Arrays an Position j: 940900
+Differenz: 933156
+Ausgabe:
+88^2 + 970^2 = 966^2
+Inhalt des Arrays an Position i: 8100
+Inhalt des Arrays an Position j: 22500
+Differenz: 14400
+Ausgabe:
+90^2 + 150^2 = 120^2
+Inhalt des Arrays an Position i: 8100
+Inhalt des Arrays an Position j: 54756
+Differenz: 46656
+Ausgabe:
+90^2 + 234^2 = 216^2
+Inhalt des Arrays an Position i: 8100
+Inhalt des Arrays an Position j: 168100
+Differenz: 160000
+Ausgabe:
+90^2 + 410^2 = 400^2
+Inhalt des Arrays an Position i: 8100
+Inhalt des Arrays an Position j: 459684
+Differenz: 451584
+Ausgabe:
+90^2 + 678^2 = 672^2
+Inhalt des Arrays an Position i: 8281
+Inhalt des Arrays an Position j: 105625
+Differenz: 97344
+Ausgabe:
+91^2 + 325^2 = 312^2
+Inhalt des Arrays an Position i: 8281
+Inhalt des Arrays an Position j: 354025
+Differenz: 345744
+Ausgabe:
+91^2 + 595^2 = 588^2
+Inhalt des Arrays an Position i: 8464
+Inhalt des Arrays an Position j: 284089
+Differenz: 275625
+Ausgabe:
+92^2 + 533^2 = 525^2
+Inhalt des Arrays an Position i: 8649
+Inhalt des Arrays an Position j: 24025
+Differenz: 15376
+Ausgabe:
+93^2 + 155^2 = 124^2
+Inhalt des Arrays an Position i: 8649
+Inhalt des Arrays an Position j: 235225
+Differenz: 226576
+Ausgabe:
+93^2 + 485^2 = 476^2
+Inhalt des Arrays an Position i: 9025
+Inhalt des Arrays an Position j: 37249
+Differenz: 28224
+Ausgabe:
+95^2 + 193^2 = 168^2
+Inhalt des Arrays an Position i: 9025
+Inhalt des Arrays an Position j: 61009
+Differenz: 51984
+Ausgabe:
+95^2 + 247^2 = 228^2
+Inhalt des Arrays an Position i: 9025
+Inhalt des Arrays an Position j: 819025
+Differenz: 810000
+Ausgabe:
+95^2 + 905^2 = 900^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 21316
+Differenz: 12100
+Ausgabe:
+96^2 + 146^2 = 110^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 25600
+Differenz: 16384
+Ausgabe:
+96^2 + 160^2 = 128^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 41616
+Differenz: 32400
+Ausgabe:
+96^2 + 204^2 = 180^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 70225
+Differenz: 61009
+Ausgabe:
+96^2 + 265^2 = 247^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 87616
+Differenz: 78400
+Ausgabe:
+96^2 + 296^2 = 280^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 152100
+Differenz: 142884
+Ausgabe:
+96^2 + 390^2 = 378^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 336400
+Differenz: 327184
+Ausgabe:
+96^2 + 580^2 = 572^2
+Inhalt des Arrays an Position i: 9216
+Inhalt des Arrays an Position j: 594441
+Differenz: 585225
+Ausgabe:
+96^2 + 771^2 = 765^2
+Inhalt des Arrays an Position i: 9604
+Inhalt des Arrays an Position j: 122500
+Differenz: 112896
+Ausgabe:
+98^2 + 350^2 = 336^2
+Inhalt des Arrays an Position i: 9801
+Inhalt des Arrays an Position j: 27225
+Differenz: 17424
+Ausgabe:
+99^2 + 165^2 = 132^2
+Inhalt des Arrays an Position i: 9801
+Inhalt des Arrays an Position j: 38025
+Differenz: 28224
+Ausgabe:
+99^2 + 195^2 = 168^2
+Inhalt des Arrays an Position i: 9801
+Inhalt des Arrays an Position j: 203401
+Differenz: 193600
+Ausgabe:
+99^2 + 451^2 = 440^2
+Inhalt des Arrays an Position i: 9801
+Inhalt des Arrays an Position j: 301401
+Differenz: 291600
+Ausgabe:
+99^2 + 549^2 = 540^2
+Inhalt des Arrays an Position i: 10000
+Inhalt des Arrays an Position j: 21025
+Differenz: 11025
+Ausgabe:
+100^2 + 145^2 = 105^2
+Inhalt des Arrays an Position i: 10000
+Inhalt des Arrays an Position j: 67600
+Differenz: 57600
+Ausgabe:
+100^2 + 260^2 = 240^2
+Inhalt des Arrays an Position i: 10000
+Inhalt des Arrays an Position j: 255025
+Differenz: 245025
+Ausgabe:
+100^2 + 505^2 = 495^2
+Inhalt des Arrays an Position i: 10000
+Inhalt des Arrays an Position j: 395641
+Differenz: 385641
+Ausgabe:
+100^2 + 629^2 = 621^2
+Inhalt des Arrays an Position i: 10404
+Inhalt des Arrays an Position j: 28900
+Differenz: 18496
+Ausgabe:
+102^2 + 170^2 = 136^2
+Inhalt des Arrays an Position i: 10404
+Inhalt des Arrays an Position j: 88804
+Differenz: 78400
+Ausgabe:
+102^2 + 298^2 = 280^2
+Inhalt des Arrays an Position i: 10404
+Inhalt des Arrays an Position j: 756900
+Differenz: 746496
+Ausgabe:
+102^2 + 870^2 = 864^2
+Inhalt des Arrays an Position i: 10816
+Inhalt des Arrays an Position j: 34225
+Differenz: 23409
+Ausgabe:
+104^2 + 185^2 = 153^2
+Inhalt des Arrays an Position i: 10816
+Inhalt des Arrays an Position j: 48841
+Differenz: 38025
+Ausgabe:
+104^2 + 221^2 = 195^2
+Inhalt des Arrays an Position i: 10816
+Inhalt des Arrays an Position j: 119716
+Differenz: 108900
+Ausgabe:
+104^2 + 346^2 = 330^2
+Inhalt des Arrays an Position i: 10816
+Inhalt des Arrays an Position j: 462400
+Differenz: 451584
+Ausgabe:
+104^2 + 680^2 = 672^2
+Inhalt des Arrays an Position i: 11025
+Inhalt des Arrays an Position j: 30625
+Differenz: 19600
+Ausgabe:
+105^2 + 175^2 = 140^2
+Inhalt des Arrays an Position i: 11025
+Inhalt des Arrays an Position j: 54289
+Differenz: 43264
+Ausgabe:
+105^2 + 233^2 = 208^2
+Inhalt des Arrays an Position i: 11025
+Inhalt des Arrays an Position j: 74529
+Differenz: 63504
+Ausgabe:
+105^2 + 273^2 = 252^2
+Inhalt des Arrays an Position i: 11025
+Inhalt des Arrays an Position j: 140625
+Differenz: 129600
+Ausgabe:
+105^2 + 375^2 = 360^2
+Inhalt des Arrays an Position i: 11025
+Inhalt des Arrays an Position j: 380689
+Differenz: 369664
+Ausgabe:
+105^2 + 617^2 = 608^2
+Inhalt des Arrays an Position i: 11025
+Inhalt des Arrays an Position j: 625681
+Differenz: 614656
+Ausgabe:
+105^2 + 791^2 = 784^2
+Inhalt des Arrays an Position i: 11664
+Inhalt des Arrays an Position j: 32400
+Differenz: 20736
+Ausgabe:
+108^2 + 180^2 = 144^2
+Inhalt des Arrays an Position i: 11664
+Inhalt des Arrays an Position j: 65025
+Differenz: 53361
+Ausgabe:
+108^2 + 255^2 = 231^2
+Inhalt des Arrays an Position i: 11664
+Inhalt des Arrays an Position j: 110889
+Differenz: 99225
+Ausgabe:
+108^2 + 333^2 = 315^2
+Inhalt des Arrays an Position i: 11664
+Inhalt des Arrays an Position j: 242064
+Differenz: 230400
+Ausgabe:
+108^2 + 492^2 = 480^2
+Inhalt des Arrays an Position i: 11664
+Inhalt des Arrays an Position j: 537289
+Differenz: 525625
+Ausgabe:
+108^2 + 733^2 = 725^2
+Inhalt des Arrays an Position i: 11664
+Inhalt des Arrays an Position j: 950625
+Differenz: 938961
+Ausgabe:
+108^2 + 975^2 = 969^2
+Inhalt des Arrays an Position i: 12100
+Inhalt des Arrays an Position j: 81796
+Differenz: 69696
+Ausgabe:
+110^2 + 286^2 = 264^2
+Inhalt des Arrays an Position i: 12100
+Inhalt des Arrays an Position j: 372100
+Differenz: 360000
+Ausgabe:
+110^2 + 610^2 = 600^2
+Inhalt des Arrays an Position i: 12321
+Inhalt des Arrays an Position j: 34225
+Differenz: 21904
+Ausgabe:
+111^2 + 185^2 = 148^2
+Inhalt des Arrays an Position i: 12321
+Inhalt des Arrays an Position j: 474721
+Differenz: 462400
+Ausgabe:
+111^2 + 689^2 = 680^2
+Inhalt des Arrays an Position i: 12544
+Inhalt des Arrays an Position j: 44944
+Differenz: 32400
+Ausgabe:
+112^2 + 212^2 = 180^2
+Inhalt des Arrays an Position i: 12544
+Inhalt des Arrays an Position j: 56644
+Differenz: 44100
+Ausgabe:
+112^2 + 238^2 = 210^2
+Inhalt des Arrays an Position i: 12544
+Inhalt des Arrays an Position j: 160000
+Differenz: 147456
+Ausgabe:
+112^2 + 400^2 = 384^2
+Inhalt des Arrays an Position i: 12544
+Inhalt des Arrays an Position j: 207025
+Differenz: 194481
+Ausgabe:
+112^2 + 455^2 = 441^2
+Inhalt des Arrays an Position i: 12544
+Inhalt des Arrays an Position j: 620944
+Differenz: 608400
+Ausgabe:
+112^2 + 788^2 = 780^2
+Inhalt des Arrays an Position i: 12996
+Inhalt des Arrays an Position j: 36100
+Differenz: 23104
+Ausgabe:
+114^2 + 190^2 = 152^2
+Inhalt des Arrays an Position i: 12996
+Inhalt des Arrays an Position j: 136900
+Differenz: 123904
+Ausgabe:
+114^2 + 370^2 = 352^2
+Inhalt des Arrays an Position i: 13225
+Inhalt des Arrays an Position j: 76729
+Differenz: 63504
+Ausgabe:
+115^2 + 277^2 = 252^2
+Inhalt des Arrays an Position i: 13225
+Inhalt des Arrays an Position j: 89401
+Differenz: 76176
+Ausgabe:
+115^2 + 299^2 = 276^2
+Inhalt des Arrays an Position i: 13456
+Inhalt des Arrays an Position j: 714025
+Differenz: 700569
+Ausgabe:
+116^2 + 845^2 = 837^2
+Inhalt des Arrays an Position i: 13689
+Inhalt des Arrays an Position j: 38025
+Differenz: 24336
+Ausgabe:
+117^2 + 195^2 = 156^2
+Inhalt des Arrays an Position i: 13689
+Inhalt des Arrays an Position j: 71289
+Differenz: 57600
+Ausgabe:
+117^2 + 267^2 = 240^2
+Inhalt des Arrays an Position i: 13689
+Inhalt des Arrays an Position j: 284089
+Differenz: 270400
+Ausgabe:
+117^2 + 533^2 = 520^2
+Inhalt des Arrays an Position i: 13689
+Inhalt des Arrays an Position j: 585225
+Differenz: 571536
+Ausgabe:
+117^2 + 765^2 = 756^2
+Inhalt des Arrays an Position i: 14161
+Inhalt des Arrays an Position j: 28561
+Differenz: 14400
+Ausgabe:
+119^2 + 169^2 = 120^2
+Inhalt des Arrays an Position i: 14161
+Inhalt des Arrays an Position j: 180625
+Differenz: 166464
+Ausgabe:
+119^2 + 425^2 = 408^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 30276
+Differenz: 15876
+Ausgabe:
+120^2 + 174^2 = 126^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 40000
+Differenz: 25600
+Ausgabe:
+120^2 + 200^2 = 160^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 47524
+Differenz: 33124
+Ausgabe:
+120^2 + 218^2 = 182^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 58081
+Differenz: 43681
+Ausgabe:
+120^2 + 241^2 = 209^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 65025
+Differenz: 50625
+Ausgabe:
+120^2 + 255^2 = 225^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 97344
+Differenz: 82944
+Ausgabe:
+120^2 + 312^2 = 288^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 136900
+Differenz: 122500
+Ausgabe:
+120^2 + 370^2 = 350^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 167281
+Differenz: 152881
+Ausgabe:
+120^2 + 409^2 = 391^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 209764
+Differenz: 195364
+Ausgabe:
+120^2 + 458^2 = 442^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 367236
+Differenz: 352836
+Ausgabe:
+120^2 + 606^2 = 594^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 525625
+Differenz: 511225
+Ausgabe:
+120^2 + 725^2 = 715^2
+Inhalt des Arrays an Position i: 14400
+Inhalt des Arrays an Position j: 817216
+Differenz: 802816
+Ausgabe:
+120^2 + 904^2 = 896^2
+Inhalt des Arrays an Position i: 14641
+Inhalt des Arrays an Position j: 450241
+Differenz: 435600
+Ausgabe:
+121^2 + 671^2 = 660^2
+Inhalt des Arrays an Position i: 15129
+Inhalt des Arrays an Position j: 42025
+Differenz: 26896
+Ausgabe:
+123^2 + 205^2 = 164^2
+Inhalt des Arrays an Position i: 15129
+Inhalt des Arrays an Position j: 714025
+Differenz: 698896
+Ausgabe:
+123^2 + 845^2 = 836^2
+Inhalt des Arrays an Position i: 15376
+Inhalt des Arrays an Position j: 931225
+Differenz: 915849
+Ausgabe:
+124^2 + 965^2 = 957^2
+Inhalt des Arrays an Position i: 15625
+Inhalt des Arrays an Position j: 105625
+Differenz: 90000
+Ausgabe:
+125^2 + 325^2 = 300^2
+Inhalt des Arrays an Position i: 15876
+Inhalt des Arrays an Position j: 44100
+Differenz: 28224
+Ausgabe:
+126^2 + 210^2 = 168^2
+Inhalt des Arrays an Position i: 15876
+Inhalt des Arrays an Position j: 202500
+Differenz: 186624
+Ausgabe:
+126^2 + 450^2 = 432^2
+Inhalt des Arrays an Position i: 15876
+Inhalt des Arrays an Position j: 329476
+Differenz: 313600
+Ausgabe:
+126^2 + 574^2 = 560^2
+Inhalt des Arrays an Position i: 16384
+Inhalt des Arrays an Position j: 73984
+Differenz: 57600
+Ausgabe:
+128^2 + 272^2 = 240^2
+Inhalt des Arrays an Position i: 16384
+Inhalt des Arrays an Position j: 270400
+Differenz: 254016
+Ausgabe:
+128^2 + 520^2 = 504^2
+Inhalt des Arrays an Position i: 16641
+Inhalt des Arrays an Position j: 46225
+Differenz: 29584
+Ausgabe:
+129^2 + 215^2 = 172^2
+Inhalt des Arrays an Position i: 16641
+Inhalt des Arrays an Position j: 863041
+Differenz: 846400
+Ausgabe:
+129^2 + 929^2 = 920^2
+Inhalt des Arrays an Position i: 16900
+Inhalt des Arrays an Position j: 37636
+Differenz: 20736
+Ausgabe:
+130^2 + 194^2 = 144^2
+Inhalt des Arrays an Position i: 16900
+Inhalt des Arrays an Position j: 114244
+Differenz: 97344
+Ausgabe:
+130^2 + 338^2 = 312^2
+Inhalt des Arrays an Position i: 16900
+Inhalt des Arrays an Position j: 722500
+Differenz: 705600
+Ausgabe:
+130^2 + 850^2 = 840^2
+Inhalt des Arrays an Position i: 17424
+Inhalt des Arrays an Position j: 48400
+Differenz: 30976
+Ausgabe:
+132^2 + 220^2 = 176^2
+Inhalt des Arrays an Position i: 17424
+Inhalt des Arrays an Position j: 67600
+Differenz: 50176
+Ausgabe:
+132^2 + 260^2 = 224^2
+Inhalt des Arrays an Position i: 17424
+Inhalt des Arrays an Position j: 140625
+Differenz: 123201
+Ausgabe:
+132^2 + 375^2 = 351^2
+Inhalt des Arrays an Position i: 17424
+Inhalt des Arrays an Position j: 165649
+Differenz: 148225
+Ausgabe:
+132^2 + 407^2 = 385^2
+Inhalt des Arrays an Position i: 17424
+Inhalt des Arrays an Position j: 243049
+Differenz: 225625
+Ausgabe:
+132^2 + 493^2 = 475^2
+Inhalt des Arrays an Position i: 17424
+Inhalt des Arrays an Position j: 535824
+Differenz: 518400
+Ausgabe:
+132^2 + 732^2 = 720^2
+Inhalt des Arrays an Position i: 17689
+Inhalt des Arrays an Position j: 42025
+Differenz: 24336
+Ausgabe:
+133^2 + 205^2 = 156^2
+Inhalt des Arrays an Position i: 17689
+Inhalt des Arrays an Position j: 225625
+Differenz: 207936
+Ausgabe:
+133^2 + 475^2 = 456^2
+Inhalt des Arrays an Position i: 18225
+Inhalt des Arrays an Position j: 50625
+Differenz: 32400
+Ausgabe:
+135^2 + 225^2 = 180^2
+Inhalt des Arrays an Position i: 18225
+Inhalt des Arrays an Position j: 123201
+Differenz: 104976
+Ausgabe:
+135^2 + 351^2 = 324^2
+Inhalt des Arrays an Position i: 18225
+Inhalt des Arrays an Position j: 142129
+Differenz: 123904
+Ausgabe:
+135^2 + 377^2 = 352^2
+Inhalt des Arrays an Position i: 18225
+Inhalt des Arrays an Position j: 378225
+Differenz: 360000
+Ausgabe:
+135^2 + 615^2 = 600^2
+Inhalt des Arrays an Position i: 18496
+Inhalt des Arrays an Position j: 83521
+Differenz: 65025
+Ausgabe:
+136^2 + 289^2 = 255^2
+Inhalt des Arrays an Position i: 18496
+Inhalt des Arrays an Position j: 93025
+Differenz: 74529
+Ausgabe:
+136^2 + 305^2 = 273^2
+Inhalt des Arrays an Position i: 18496
+Inhalt des Arrays an Position j: 343396
+Differenz: 324900
+Ausgabe:
+136^2 + 586^2 = 570^2
+Inhalt des Arrays an Position i: 19044
+Inhalt des Arrays an Position j: 52900
+Differenz: 33856
+Ausgabe:
+138^2 + 230^2 = 184^2
+Inhalt des Arrays an Position i: 19044
+Inhalt des Arrays an Position j: 289444
+Differenz: 270400
+Ausgabe:
+138^2 + 538^2 = 520^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 41209
+Differenz: 21609
+Ausgabe:
+140^2 + 203^2 = 147^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 48841
+Differenz: 29241
+Ausgabe:
+140^2 + 221^2 = 171^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 70225
+Differenz: 50625
+Ausgabe:
+140^2 + 265^2 = 225^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 132496
+Differenz: 112896
+Ausgabe:
+140^2 + 364^2 = 336^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 250000
+Differenz: 230400
+Ausgabe:
+140^2 + 500^2 = 480^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 499849
+Differenz: 480249
+Ausgabe:
+140^2 + 707^2 = 693^2
+Inhalt des Arrays an Position i: 19600
+Inhalt des Arrays an Position j: 970225
+Differenz: 950625
+Ausgabe:
+140^2 + 985^2 = 975^2
+Inhalt des Arrays an Position i: 19881
+Inhalt des Arrays an Position j: 55225
+Differenz: 35344
+Ausgabe:
+141^2 + 235^2 = 188^2
+Inhalt des Arrays an Position i: 20449
+Inhalt des Arrays an Position j: 628849
+Differenz: 608400
+Ausgabe:
+143^2 + 793^2 = 780^2
+Inhalt des Arrays an Position i: 20449
+Inhalt des Arrays an Position j: 874225
+Differenz: 853776
+Ausgabe:
+143^2 + 935^2 = 924^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 47961
+Differenz: 27225
+Ausgabe:
+144^2 + 219^2 = 165^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 57600
+Differenz: 36864
+Ausgabe:
+144^2 + 240^2 = 192^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 93636
+Differenz: 72900
+Ausgabe:
+144^2 + 306^2 = 270^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 115600
+Differenz: 94864
+Ausgabe:
+144^2 + 340^2 = 308^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 197136
+Differenz: 176400
+Ausgabe:
+144^2 + 444^2 = 420^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 342225
+Differenz: 321489
+Ausgabe:
+144^2 + 585^2 = 567^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 430336
+Differenz: 409600
+Ausgabe:
+144^2 + 656^2 = 640^2
+Inhalt des Arrays an Position i: 20736
+Inhalt des Arrays an Position j: 756900
+Differenz: 736164
+Ausgabe:
+144^2 + 870^2 = 858^2
+Inhalt des Arrays an Position i: 21025
+Inhalt des Arrays an Position j: 142129
+Differenz: 121104
+Ausgabe:
+145^2 + 377^2 = 348^2
+Inhalt des Arrays an Position i: 21025
+Inhalt des Arrays an Position j: 187489
+Differenz: 166464
+Ausgabe:
+145^2 + 433^2 = 408^2
+Inhalt des Arrays an Position i: 21609
+Inhalt des Arrays an Position j: 60025
+Differenz: 38416
+Ausgabe:
+147^2 + 245^2 = 196^2
+Inhalt des Arrays an Position i: 21609
+Inhalt des Arrays an Position j: 275625
+Differenz: 254016
+Ausgabe:
+147^2 + 525^2 = 504^2
+Inhalt des Arrays an Position i: 22500
+Inhalt des Arrays an Position j: 62500
+Differenz: 40000
+Ausgabe:
+150^2 + 250^2 = 200^2
+Inhalt des Arrays an Position i: 22500
+Inhalt des Arrays an Position j: 152100
+Differenz: 129600
+Ausgabe:
+150^2 + 390^2 = 360^2
+Inhalt des Arrays an Position i: 22500
+Inhalt des Arrays an Position j: 401956
+Differenz: 379456
+Ausgabe:
+150^2 + 634^2 = 616^2
+Inhalt des Arrays an Position i: 23104
+Inhalt des Arrays an Position j: 104329
+Differenz: 81225
+Ausgabe:
+152^2 + 323^2 = 285^2
+Inhalt des Arrays an Position i: 23104
+Inhalt des Arrays an Position j: 142129
+Differenz: 119025
+Ausgabe:
+152^2 + 377^2 = 345^2
+Inhalt des Arrays an Position i: 23104
+Inhalt des Arrays an Position j: 532900
+Differenz: 509796
+Ausgabe:
+152^2 + 730^2 = 714^2
+Inhalt des Arrays an Position i: 23409
+Inhalt des Arrays an Position j: 65025
+Differenz: 41616
+Ausgabe:
+153^2 + 255^2 = 204^2
+Inhalt des Arrays an Position i: 23409
+Inhalt des Arrays an Position j: 199809
+Differenz: 176400
+Ausgabe:
+153^2 + 447^2 = 420^2
+Inhalt des Arrays an Position i: 23409
+Inhalt des Arrays an Position j: 485809
+Differenz: 462400
+Ausgabe:
+153^2 + 697^2 = 680^2
+Inhalt des Arrays an Position i: 23716
+Inhalt des Arrays an Position j: 302500
+Differenz: 278784
+Ausgabe:
+154^2 + 550^2 = 528^2
+Inhalt des Arrays an Position i: 23716
+Inhalt des Arrays an Position j: 729316
+Differenz: 705600
+Ausgabe:
+154^2 + 854^2 = 840^2
+Inhalt des Arrays an Position i: 24025
+Inhalt des Arrays an Position j: 162409
+Differenz: 138384
+Ausgabe:
+155^2 + 403^2 = 372^2
+Inhalt des Arrays an Position i: 24025
+Inhalt des Arrays an Position j: 243049
+Differenz: 219024
+Ausgabe:
+155^2 + 493^2 = 468^2
+Inhalt des Arrays an Position i: 24336
+Inhalt des Arrays an Position j: 67600
+Differenz: 43264
+Ausgabe:
+156^2 + 260^2 = 208^2
+Inhalt des Arrays an Position i: 24336
+Inhalt des Arrays an Position j: 126736
+Differenz: 102400
+Ausgabe:
+156^2 + 356^2 = 320^2
+Inhalt des Arrays an Position i: 24336
+Inhalt des Arrays an Position j: 231361
+Differenz: 207025
+Ausgabe:
+156^2 + 481^2 = 455^2
+Inhalt des Arrays an Position i: 24336
+Inhalt des Arrays an Position j: 269361
+Differenz: 245025
+Ausgabe:
+156^2 + 519^2 = 495^2
+Inhalt des Arrays an Position i: 24336
+Inhalt des Arrays an Position j: 469225
+Differenz: 444889
+Ausgabe:
+156^2 + 685^2 = 667^2
+Inhalt des Arrays an Position i: 25281
+Inhalt des Arrays an Position j: 70225
+Differenz: 44944
+Ausgabe:
+159^2 + 265^2 = 212^2
+Inhalt des Arrays an Position i: 25600
+Inhalt des Arrays an Position j: 53824
+Differenz: 28224
+Ausgabe:
+160^2 + 232^2 = 168^2
+Inhalt des Arrays an Position i: 25600
+Inhalt des Arrays an Position j: 78961
+Differenz: 53361
+Ausgabe:
+160^2 + 281^2 = 231^2
+Inhalt des Arrays an Position i: 25600
+Inhalt des Arrays an Position j: 115600
+Differenz: 90000
+Ausgabe:
+160^2 + 340^2 = 300^2
+Inhalt des Arrays an Position i: 25600
+Inhalt des Arrays an Position j: 173056
+Differenz: 147456
+Ausgabe:
+160^2 + 416^2 = 384^2
+Inhalt des Arrays an Position i: 25600
+Inhalt des Arrays an Position j: 422500
+Differenz: 396900
+Ausgabe:
+160^2 + 650^2 = 630^2
+Inhalt des Arrays an Position i: 25600
+Inhalt des Arrays an Position j: 652864
+Differenz: 627264
+Ausgabe:
+160^2 + 808^2 = 792^2
+Inhalt des Arrays an Position i: 25921
+Inhalt des Arrays an Position j: 83521
+Differenz: 57600
+Ausgabe:
+161^2 + 289^2 = 240^2
+Inhalt des Arrays an Position i: 25921
+Inhalt des Arrays an Position j: 330625
+Differenz: 304704
+Ausgabe:
+161^2 + 575^2 = 552^2
+Inhalt des Arrays an Position i: 26244
+Inhalt des Arrays an Position j: 72900
+Differenz: 46656
+Ausgabe:
+162^2 + 270^2 = 216^2
+Inhalt des Arrays an Position i: 26244
+Inhalt des Arrays an Position j: 544644
+Differenz: 518400
+Ausgabe:
+162^2 + 738^2 = 720^2
+Inhalt des Arrays an Position i: 27225
+Inhalt des Arrays an Position j: 75625
+Differenz: 48400
+Ausgabe:
+165^2 + 275^2 = 220^2
+Inhalt des Arrays an Position i: 27225
+Inhalt des Arrays an Position j: 105625
+Differenz: 78400
+Ausgabe:
+165^2 + 325^2 = 280^2
+Inhalt des Arrays an Position i: 27225
+Inhalt des Arrays an Position j: 184041
+Differenz: 156816
+Ausgabe:
+165^2 + 429^2 = 396^2
+Inhalt des Arrays an Position i: 27225
+Inhalt des Arrays an Position j: 310249
+Differenz: 283024
+Ausgabe:
+165^2 + 557^2 = 532^2
+Inhalt des Arrays an Position i: 27225
+Inhalt des Arrays an Position j: 837225
+Differenz: 810000
+Ausgabe:
+165^2 + 915^2 = 900^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 78400
+Differenz: 50176
+Ausgabe:
+168^2 + 280^2 = 224^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 101124
+Differenz: 72900
+Ausgabe:
+168^2 + 318^2 = 270^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 127449
+Differenz: 99225
+Ausgabe:
+168^2 + 357^2 = 315^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 168100
+Differenz: 139876
+Ausgabe:
+168^2 + 410^2 = 374^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 208849
+Differenz: 180625
+Ausgabe:
+168^2 + 457^2 = 425^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 268324
+Differenz: 240100
+Ausgabe:
+168^2 + 518^2 = 490^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 360000
+Differenz: 331776
+Ausgabe:
+168^2 + 600^2 = 576^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 628849
+Differenz: 600625
+Ausgabe:
+168^2 + 793^2 = 775^2
+Inhalt des Arrays an Position i: 28224
+Inhalt des Arrays an Position j: 792100
+Differenz: 763876
+Ausgabe:
+168^2 + 890^2 = 874^2
+Inhalt des Arrays an Position i: 28900
+Inhalt des Arrays an Position j: 98596
+Differenz: 69696
+Ausgabe:
+170^2 + 314^2 = 264^2
+Inhalt des Arrays an Position i: 28900
+Inhalt des Arrays an Position j: 195364
+Differenz: 166464
+Ausgabe:
+170^2 + 442^2 = 408^2
+Inhalt des Arrays an Position i: 29241
+Inhalt des Arrays an Position j: 81225
+Differenz: 51984
+Ausgabe:
+171^2 + 285^2 = 228^2
+Inhalt des Arrays an Position i: 29241
+Inhalt des Arrays an Position j: 308025
+Differenz: 278784
+Ausgabe:
+171^2 + 555^2 = 528^2
+Inhalt des Arrays an Position i: 29241
+Inhalt des Arrays an Position j: 606841
+Differenz: 577600
+Ausgabe:
+171^2 + 779^2 = 760^2
+Inhalt des Arrays an Position i: 30276
+Inhalt des Arrays an Position j: 84100
+Differenz: 53824
+Ausgabe:
+174^2 + 290^2 = 232^2
+Inhalt des Arrays an Position i: 30276
+Inhalt des Arrays an Position j: 722500
+Differenz: 692224
+Ausgabe:
+174^2 + 850^2 = 832^2
+Inhalt des Arrays an Position i: 30625
+Inhalt des Arrays an Position j: 113569
+Differenz: 82944
+Ausgabe:
+175^2 + 337^2 = 288^2
+Inhalt des Arrays an Position i: 30625
+Inhalt des Arrays an Position j: 207025
+Differenz: 176400
+Ausgabe:
+175^2 + 455^2 = 420^2
+Inhalt des Arrays an Position i: 30625
+Inhalt des Arrays an Position j: 390625
+Differenz: 360000
+Ausgabe:
+175^2 + 625^2 = 600^2
+Inhalt des Arrays an Position i: 30976
+Inhalt des Arrays an Position j: 75076
+Differenz: 44100
+Ausgabe:
+176^2 + 274^2 = 210^2
+Inhalt des Arrays an Position i: 30976
+Inhalt des Arrays an Position j: 139876
+Differenz: 108900
+Ausgabe:
+176^2 + 374^2 = 330^2
+Inhalt des Arrays an Position i: 30976
+Inhalt des Arrays an Position j: 250000
+Differenz: 219024
+Ausgabe:
+176^2 + 500^2 = 468^2
+Inhalt des Arrays an Position i: 30976
+Inhalt des Arrays an Position j: 511225
+Differenz: 480249
+Ausgabe:
+176^2 + 715^2 = 693^2
+Inhalt des Arrays an Position i: 30976
+Inhalt des Arrays an Position j: 952576
+Differenz: 921600
+Ausgabe:
+176^2 + 976^2 = 960^2
+Inhalt des Arrays an Position i: 31329
+Inhalt des Arrays an Position j: 87025
+Differenz: 55696
+Ausgabe:
+177^2 + 295^2 = 236^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 68121
+Differenz: 35721
+Ausgabe:
+180^2 + 261^2 = 189^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 90000
+Differenz: 57600
+Ausgabe:
+180^2 + 300^2 = 240^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 106929
+Differenz: 74529
+Ausgabe:
+180^2 + 327^2 = 273^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 121801
+Differenz: 89401
+Ausgabe:
+180^2 + 349^2 = 299^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 180625
+Differenz: 148225
+Ausgabe:
+180^2 + 425^2 = 385^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 219024
+Differenz: 186624
+Ausgabe:
+180^2 + 468^2 = 432^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 308025
+Differenz: 275625
+Ausgabe:
+180^2 + 555^2 = 525^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 471969
+Differenz: 439569
+Ausgabe:
+180^2 + 687^2 = 663^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 672400
+Differenz: 640000
+Ausgabe:
+180^2 + 820^2 = 800^2
+Inhalt des Arrays an Position i: 32400
+Inhalt des Arrays an Position j: 826281
+Differenz: 793881
+Ausgabe:
+180^2 + 909^2 = 891^2
+Inhalt des Arrays an Position i: 33124
+Inhalt des Arrays an Position j: 422500
+Differenz: 389376
+Ausgabe:
+182^2 + 650^2 = 624^2
+Inhalt des Arrays an Position i: 33489
+Inhalt des Arrays an Position j: 93025
+Differenz: 59536
+Ausgabe:
+183^2 + 305^2 = 244^2
+Inhalt des Arrays an Position i: 33856
+Inhalt des Arrays an Position j: 152881
+Differenz: 119025
+Ausgabe:
+184^2 + 391^2 = 345^2
+Inhalt des Arrays an Position i: 33856
+Inhalt des Arrays an Position j: 297025
+Differenz: 263169
+Ausgabe:
+184^2 + 545^2 = 513^2
+Inhalt des Arrays an Position i: 34225
+Inhalt des Arrays an Position j: 231361
+Differenz: 197136
+Ausgabe:
+185^2 + 481^2 = 444^2
+Inhalt des Arrays an Position i: 34225
+Inhalt des Arrays an Position j: 485809
+Differenz: 451584
+Ausgabe:
+185^2 + 697^2 = 672^2
+Inhalt des Arrays an Position i: 34596
+Inhalt des Arrays an Position j: 96100
+Differenz: 61504
+Ausgabe:
+186^2 + 310^2 = 248^2
+Inhalt des Arrays an Position i: 34596
+Inhalt des Arrays an Position j: 940900
+Differenz: 906304
+Ausgabe:
+186^2 + 970^2 = 952^2
+Inhalt des Arrays an Position i: 35721
+Inhalt des Arrays an Position j: 99225
+Differenz: 63504
+Ausgabe:
+189^2 + 315^2 = 252^2
+Inhalt des Arrays an Position i: 35721
+Inhalt des Arrays an Position j: 151321
+Differenz: 115600
+Ausgabe:
+189^2 + 389^2 = 340^2
+Inhalt des Arrays an Position i: 35721
+Inhalt des Arrays an Position j: 455625
+Differenz: 419904
+Ausgabe:
+189^2 + 675^2 = 648^2
+Inhalt des Arrays an Position i: 35721
+Inhalt des Arrays an Position j: 741321
+Differenz: 705600
+Ausgabe:
+189^2 + 861^2 = 840^2
+Inhalt des Arrays an Position i: 36100
+Inhalt des Arrays an Position j: 148996
+Differenz: 112896
+Ausgabe:
+190^2 + 386^2 = 336^2
+Inhalt des Arrays an Position i: 36100
+Inhalt des Arrays an Position j: 244036
+Differenz: 207936
+Ausgabe:
+190^2 + 494^2 = 456^2
+Inhalt des Arrays an Position i: 36864
+Inhalt des Arrays an Position j: 85264
+Differenz: 48400
+Ausgabe:
+192^2 + 292^2 = 220^2
+Inhalt des Arrays an Position i: 36864
+Inhalt des Arrays an Position j: 102400
+Differenz: 65536
+Ausgabe:
+192^2 + 320^2 = 256^2
+Inhalt des Arrays an Position i: 36864
+Inhalt des Arrays an Position j: 166464
+Differenz: 129600
+Ausgabe:
+192^2 + 408^2 = 360^2
+Inhalt des Arrays an Position i: 36864
+Inhalt des Arrays an Position j: 280900
+Differenz: 244036
+Ausgabe:
+192^2 + 530^2 = 494^2
+Inhalt des Arrays an Position i: 36864
+Inhalt des Arrays an Position j: 350464
+Differenz: 313600
+Ausgabe:
+192^2 + 592^2 = 560^2
+Inhalt des Arrays an Position i: 36864
+Inhalt des Arrays an Position j: 608400
+Differenz: 571536
+Ausgabe:
+192^2 + 780^2 = 756^2
+Inhalt des Arrays an Position i: 38025
+Inhalt des Arrays an Position j: 84681
+Differenz: 46656
+Ausgabe:
+195^2 + 291^2 = 216^2
+Inhalt des Arrays an Position i: 38025
+Inhalt des Arrays an Position j: 105625
+Differenz: 67600
+Ausgabe:
+195^2 + 325^2 = 260^2
+Inhalt des Arrays an Position i: 38025
+Inhalt des Arrays an Position j: 198025
+Differenz: 160000
+Ausgabe:
+195^2 + 445^2 = 400^2
+Inhalt des Arrays an Position i: 38025
+Inhalt des Arrays an Position j: 257049
+Differenz: 219024
+Ausgabe:
+195^2 + 507^2 = 468^2
+Inhalt des Arrays an Position i: 38025
+Inhalt des Arrays an Position j: 597529
+Differenz: 559504
+Ausgabe:
+195^2 + 773^2 = 748^2
+Inhalt des Arrays an Position i: 38416
+Inhalt des Arrays an Position j: 137641
+Differenz: 99225
+Ausgabe:
+196^2 + 371^2 = 315^2
+Inhalt des Arrays an Position i: 38416
+Inhalt des Arrays an Position j: 490000
+Differenz: 451584
+Ausgabe:
+196^2 + 700^2 = 672^2
+Inhalt des Arrays an Position i: 39204
+Inhalt des Arrays an Position j: 108900
+Differenz: 69696
+Ausgabe:
+198^2 + 330^2 = 264^2
+Inhalt des Arrays an Position i: 39204
+Inhalt des Arrays an Position j: 152100
+Differenz: 112896
+Ausgabe:
+198^2 + 390^2 = 336^2
+Inhalt des Arrays an Position i: 39204
+Inhalt des Arrays an Position j: 813604
+Differenz: 774400
+Ausgabe:
+198^2 + 902^2 = 880^2
+Inhalt des Arrays an Position i: 40000
+Inhalt des Arrays an Position j: 84100
+Differenz: 44100
+Ausgabe:
+200^2 + 290^2 = 210^2
+Inhalt des Arrays an Position i: 40000
+Inhalt des Arrays an Position j: 180625
+Differenz: 140625
+Ausgabe:
+200^2 + 425^2 = 375^2
+Inhalt des Arrays an Position i: 40000
+Inhalt des Arrays an Position j: 270400
+Differenz: 230400
+Ausgabe:
+200^2 + 520^2 = 480^2
+Inhalt des Arrays an Position i: 40000
+Inhalt des Arrays an Position j: 410881
+Differenz: 370881
+Ausgabe:
+200^2 + 641^2 = 609^2
+Inhalt des Arrays an Position i: 40401
+Inhalt des Arrays an Position j: 112225
+Differenz: 71824
+Ausgabe:
+201^2 + 335^2 = 268^2
+Inhalt des Arrays an Position i: 41209
+Inhalt des Arrays an Position j: 198025
+Differenz: 156816
+Ausgabe:
+203^2 + 445^2 = 396^2
+Inhalt des Arrays an Position i: 41209
+Inhalt des Arrays an Position j: 525625
+Differenz: 484416
+Ausgabe:
+203^2 + 725^2 = 696^2
+Inhalt des Arrays an Position i: 41616
+Inhalt des Arrays an Position j: 105625
+Differenz: 64009
+Ausgabe:
+204^2 + 325^2 = 253^2
+Inhalt des Arrays an Position i: 41616
+Inhalt des Arrays an Position j: 115600
+Differenz: 73984
+Ausgabe:
+204^2 + 340^2 = 272^2
+Inhalt des Arrays an Position i: 41616
+Inhalt des Arrays an Position j: 355216
+Differenz: 313600
+Ausgabe:
+204^2 + 596^2 = 560^2
+Inhalt des Arrays an Position i: 41616
+Inhalt des Arrays an Position j: 395641
+Differenz: 354025
+Ausgabe:
+204^2 + 629^2 = 595^2
+Inhalt des Arrays an Position i: 41616
+Inhalt des Arrays an Position j: 772641
+Differenz: 731025
+Ausgabe:
+204^2 + 879^2 = 855^2
+Inhalt des Arrays an Position i: 42025
+Inhalt des Arrays an Position j: 284089
+Differenz: 242064
+Ausgabe:
+205^2 + 533^2 = 492^2
+Inhalt des Arrays an Position i: 42025
+Inhalt des Arrays an Position j: 727609
+Differenz: 685584
+Ausgabe:
+205^2 + 853^2 = 828^2
+Inhalt des Arrays an Position i: 42849
+Inhalt des Arrays an Position j: 93025
+Differenz: 50176
+Ausgabe:
+207^2 + 305^2 = 224^2
+Inhalt des Arrays an Position i: 42849
+Inhalt des Arrays an Position j: 119025
+Differenz: 76176
+Ausgabe:
+207^2 + 345^2 = 276^2
+Inhalt des Arrays an Position i: 42849
+Inhalt des Arrays an Position j: 651249
+Differenz: 608400
+Ausgabe:
+207^2 + 807^2 = 780^2
+Inhalt des Arrays an Position i: 42849
+Inhalt des Arrays an Position j: 889249
+Differenz: 846400
+Ausgabe:
+207^2 + 943^2 = 920^2
+Inhalt des Arrays an Position i: 43264
+Inhalt des Arrays an Position j: 136900
+Differenz: 93636
+Ausgabe:
+208^2 + 370^2 = 306^2
+Inhalt des Arrays an Position i: 43264
+Inhalt des Arrays an Position j: 195364
+Differenz: 152100
+Ausgabe:
+208^2 + 442^2 = 390^2
+Inhalt des Arrays an Position i: 43264
+Inhalt des Arrays an Position j: 478864
+Differenz: 435600
+Ausgabe:
+208^2 + 692^2 = 660^2
+Inhalt des Arrays an Position i: 43264
+Inhalt des Arrays an Position j: 714025
+Differenz: 670761
+Ausgabe:
+208^2 + 845^2 = 819^2
+Inhalt des Arrays an Position i: 44100
+Inhalt des Arrays an Position j: 122500
+Differenz: 78400
+Ausgabe:
+210^2 + 350^2 = 280^2
+Inhalt des Arrays an Position i: 44100
+Inhalt des Arrays an Position j: 217156
+Differenz: 173056
+Ausgabe:
+210^2 + 466^2 = 416^2
+Inhalt des Arrays an Position i: 44100
+Inhalt des Arrays an Position j: 298116
+Differenz: 254016
+Ausgabe:
+210^2 + 546^2 = 504^2
+Inhalt des Arrays an Position i: 44100
+Inhalt des Arrays an Position j: 562500
+Differenz: 518400
+Ausgabe:
+210^2 + 750^2 = 720^2
+Inhalt des Arrays an Position i: 45369
+Inhalt des Arrays an Position j: 126025
+Differenz: 80656
+Ausgabe:
+213^2 + 355^2 = 284^2
+Inhalt des Arrays an Position i: 46225
+Inhalt des Arrays an Position j: 312481
+Differenz: 266256
+Ausgabe:
+215^2 + 559^2 = 516^2
+Inhalt des Arrays an Position i: 46225
+Inhalt des Arrays an Position j: 877969
+Differenz: 831744
+Ausgabe:
+215^2 + 937^2 = 912^2
+Inhalt des Arrays an Position i: 46656
+Inhalt des Arrays an Position j: 129600
+Differenz: 82944
+Ausgabe:
+216^2 + 360^2 = 288^2
+Inhalt des Arrays an Position i: 46656
+Inhalt des Arrays an Position j: 210681
+Differenz: 164025
+Ausgabe:
+216^2 + 459^2 = 405^2
+Inhalt des Arrays an Position i: 46656
+Inhalt des Arrays an Position j: 260100
+Differenz: 213444
+Ausgabe:
+216^2 + 510^2 = 462^2
+Inhalt des Arrays an Position i: 46656
+Inhalt des Arrays an Position j: 443556
+Differenz: 396900
+Ausgabe:
+216^2 + 666^2 = 630^2
+Inhalt des Arrays an Position i: 46656
+Inhalt des Arrays an Position j: 555025
+Differenz: 508369
+Ausgabe:
+216^2 + 745^2 = 713^2
+Inhalt des Arrays an Position i: 46656
+Inhalt des Arrays an Position j: 968256
+Differenz: 921600
+Ausgabe:
+216^2 + 984^2 = 960^2
+Inhalt des Arrays an Position i: 47089
+Inhalt des Arrays an Position j: 255025
+Differenz: 207936
+Ausgabe:
+217^2 + 505^2 = 456^2
+Inhalt des Arrays an Position i: 47089
+Inhalt des Arrays an Position j: 600625
+Differenz: 553536
+Ausgabe:
+217^2 + 775^2 = 744^2
+Inhalt des Arrays an Position i: 47961
+Inhalt des Arrays an Position j: 133225
+Differenz: 85264
+Ausgabe:
+219^2 + 365^2 = 292^2
+Inhalt des Arrays an Position i: 48400
+Inhalt des Arrays an Position j: 101761
+Differenz: 53361
+Ausgabe:
+220^2 + 319^2 = 231^2
+Inhalt des Arrays an Position i: 48400
+Inhalt des Arrays an Position j: 259081
+Differenz: 210681
+Ausgabe:
+220^2 + 509^2 = 459^2
+Inhalt des Arrays an Position i: 48400
+Inhalt des Arrays an Position j: 327184
+Differenz: 278784
+Ausgabe:
+220^2 + 572^2 = 528^2
+Inhalt des Arrays an Position i: 48400
+Inhalt des Arrays an Position j: 390625
+Differenz: 342225
+Ausgabe:
+220^2 + 625^2 = 585^2
+Inhalt des Arrays an Position i: 49284
+Inhalt des Arrays an Position j: 136900
+Differenz: 87616
+Ausgabe:
+222^2 + 370^2 = 296^2
+Inhalt des Arrays an Position i: 50176
+Inhalt des Arrays an Position j: 179776
+Differenz: 129600
+Ausgabe:
+224^2 + 424^2 = 360^2
+Inhalt des Arrays an Position i: 50176
+Inhalt des Arrays an Position j: 226576
+Differenz: 176400
+Ausgabe:
+224^2 + 476^2 = 420^2
+Inhalt des Arrays an Position i: 50176
+Inhalt des Arrays an Position j: 640000
+Differenz: 589824
+Ausgabe:
+224^2 + 800^2 = 768^2
+Inhalt des Arrays an Position i: 50176
+Inhalt des Arrays an Position j: 828100
+Differenz: 777924
+Ausgabe:
+224^2 + 910^2 = 882^2
+Inhalt des Arrays an Position i: 50625
+Inhalt des Arrays an Position j: 124609
+Differenz: 73984
+Ausgabe:
+225^2 + 353^2 = 272^2
+Inhalt des Arrays an Position i: 50625
+Inhalt des Arrays an Position j: 140625
+Differenz: 90000
+Ausgabe:
+225^2 + 375^2 = 300^2
+Inhalt des Arrays an Position i: 50625
+Inhalt des Arrays an Position j: 342225
+Differenz: 291600
+Ausgabe:
+225^2 + 585^2 = 540^2
+Inhalt des Arrays an Position i: 50625
+Inhalt des Arrays an Position j: 904401
+Differenz: 853776
+Ausgabe:
+225^2 + 951^2 = 924^2
+Inhalt des Arrays an Position i: 51984
+Inhalt des Arrays an Position j: 144400
+Differenz: 92416
+Ausgabe:
+228^2 + 380^2 = 304^2
+Inhalt des Arrays an Position i: 51984
+Inhalt des Arrays an Position j: 157609
+Differenz: 105625
+Ausgabe:
+228^2 + 397^2 = 325^2
+Inhalt des Arrays an Position i: 51984
+Inhalt des Arrays an Position j: 494209
+Differenz: 442225
+Ausgabe:
+228^2 + 703^2 = 665^2
+Inhalt des Arrays an Position i: 51984
+Inhalt des Arrays an Position j: 547600
+Differenz: 495616
+Ausgabe:
+228^2 + 740^2 = 704^2
+Inhalt des Arrays an Position i: 52900
+Inhalt des Arrays an Position j: 306916
+Differenz: 254016
+Ausgabe:
+230^2 + 554^2 = 504^2
+Inhalt des Arrays an Position i: 52900
+Inhalt des Arrays an Position j: 357604
+Differenz: 304704
+Ausgabe:
+230^2 + 598^2 = 552^2
+Inhalt des Arrays an Position i: 53361
+Inhalt des Arrays an Position j: 148225
+Differenz: 94864
+Ausgabe:
+231^2 + 385^2 = 308^2
+Inhalt des Arrays an Position i: 53361
+Inhalt des Arrays an Position j: 207025
+Differenz: 153664
+Ausgabe:
+231^2 + 455^2 = 392^2
+Inhalt des Arrays an Position i: 53361
+Inhalt des Arrays an Position j: 323761
+Differenz: 270400
+Ausgabe:
+231^2 + 569^2 = 520^2
+Inhalt des Arrays an Position i: 53361
+Inhalt des Arrays an Position j: 680625
+Differenz: 627264
+Ausgabe:
+231^2 + 825^2 = 792^2
+Inhalt des Arrays an Position i: 53824
+Inhalt des Arrays an Position j: 243049
+Differenz: 189225
+Ausgabe:
+232^2 + 493^2 = 435^2
+Inhalt des Arrays an Position i: 53824
+Inhalt des Arrays an Position j: 734449
+Differenz: 680625
+Ausgabe:
+232^2 + 857^2 = 825^2
+Inhalt des Arrays an Position i: 54756
+Inhalt des Arrays an Position j: 152100
+Differenz: 97344
+Ausgabe:
+234^2 + 390^2 = 312^2
+Inhalt des Arrays an Position i: 54756
+Inhalt des Arrays an Position j: 285156
+Differenz: 230400
+Ausgabe:
+234^2 + 534^2 = 480^2
+Inhalt des Arrays an Position i: 55225
+Inhalt des Arrays an Position j: 373321
+Differenz: 318096
+Ausgabe:
+235^2 + 611^2 = 564^2
+Inhalt des Arrays an Position i: 56169
+Inhalt des Arrays an Position j: 156025
+Differenz: 99856
+Ausgabe:
+237^2 + 395^2 = 316^2
+Inhalt des Arrays an Position i: 56644
+Inhalt des Arrays an Position j: 114244
+Differenz: 57600
+Ausgabe:
+238^2 + 338^2 = 240^2
+Inhalt des Arrays an Position i: 56644
+Inhalt des Arrays an Position j: 722500
+Differenz: 665856
+Ausgabe:
+238^2 + 850^2 = 816^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 121104
+Differenz: 63504
+Ausgabe:
+240^2 + 348^2 = 252^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 133225
+Differenz: 75625
+Ausgabe:
+240^2 + 365^2 = 275^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 160000
+Differenz: 102400
+Ausgabe:
+240^2 + 400^2 = 320^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 190096
+Differenz: 132496
+Ausgabe:
+240^2 + 436^2 = 364^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 232324
+Differenz: 174724
+Ausgabe:
+240^2 + 482^2 = 418^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 260100
+Differenz: 202500
+Ausgabe:
+240^2 + 510^2 = 450^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 361201
+Differenz: 303601
+Ausgabe:
+240^2 + 601^2 = 551^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 389376
+Differenz: 331776
+Ausgabe:
+240^2 + 624^2 = 576^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 547600
+Differenz: 490000
+Ausgabe:
+240^2 + 740^2 = 700^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 669124
+Differenz: 611524
+Ausgabe:
+240^2 + 818^2 = 782^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 839056
+Differenz: 781456
+Ausgabe:
+240^2 + 916^2 = 884^2
+Inhalt des Arrays an Position i: 57600
+Inhalt des Arrays an Position j: 950625
+Differenz: 893025
+Ausgabe:
+240^2 + 975^2 = 945^2
+Inhalt des Arrays an Position i: 59049
+Inhalt des Arrays an Position j: 164025
+Differenz: 104976
+Ausgabe:
+243^2 + 405^2 = 324^2
+Inhalt des Arrays an Position i: 60025
+Inhalt des Arrays an Position j: 405769
+Differenz: 345744
+Ausgabe:
+245^2 + 637^2 = 588^2
+Inhalt des Arrays an Position i: 60025
+Inhalt des Arrays an Position j: 765625
+Differenz: 705600
+Ausgabe:
+245^2 + 875^2 = 840^2
+Inhalt des Arrays an Position i: 60516
+Inhalt des Arrays an Position j: 168100
+Differenz: 107584
+Ausgabe:
+246^2 + 410^2 = 328^2
+Inhalt des Arrays an Position i: 61504
+Inhalt des Arrays an Position j: 277729
+Differenz: 216225
+Ausgabe:
+248^2 + 527^2 = 465^2
+Inhalt des Arrays an Position i: 61504
+Inhalt des Arrays an Position j: 954529
+Differenz: 893025
+Ausgabe:
+248^2 + 977^2 = 945^2
+Inhalt des Arrays an Position i: 62001
+Inhalt des Arrays an Position j: 172225
+Differenz: 110224
+Ausgabe:
+249^2 + 415^2 = 332^2
+Inhalt des Arrays an Position i: 62500
+Inhalt des Arrays an Position j: 422500
+Differenz: 360000
+Ausgabe:
+250^2 + 650^2 = 600^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 139129
+Differenz: 75625
+Ausgabe:
+252^2 + 373^2 = 275^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 176400
+Differenz: 112896
+Ausgabe:
+252^2 + 420^2 = 336^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 227529
+Differenz: 164025
+Ausgabe:
+252^2 + 477^2 = 405^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 354025
+Differenz: 290521
+Ausgabe:
+252^2 + 595^2 = 539^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 378225
+Differenz: 314721
+Ausgabe:
+252^2 + 615^2 = 561^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 603729
+Differenz: 540225
+Ausgabe:
+252^2 + 777^2 = 735^2
+Inhalt des Arrays an Position i: 63504
+Inhalt des Arrays an Position j: 810000
+Differenz: 746496
+Ausgabe:
+252^2 + 900^2 = 864^2
+Inhalt des Arrays an Position i: 65025
+Inhalt des Arrays an Position j: 180625
+Differenz: 115600
+Ausgabe:
+255^2 + 425^2 = 340^2
+Inhalt des Arrays an Position i: 65025
+Inhalt des Arrays an Position j: 221841
+Differenz: 156816
+Ausgabe:
+255^2 + 471^2 = 396^2
+Inhalt des Arrays an Position i: 65025
+Inhalt des Arrays an Position j: 439569
+Differenz: 374544
+Ausgabe:
+255^2 + 663^2 = 612^2
+Inhalt des Arrays an Position i: 65025
+Inhalt des Arrays an Position j: 555025
+Differenz: 490000
+Ausgabe:
+255^2 + 745^2 = 700^2
+Inhalt des Arrays an Position i: 65536
+Inhalt des Arrays an Position j: 295936
+Differenz: 230400
+Ausgabe:
+256^2 + 544^2 = 480^2
+Inhalt des Arrays an Position i: 66564
+Inhalt des Arrays an Position j: 184900
+Differenz: 118336
+Ausgabe:
+258^2 + 430^2 = 344^2
+Inhalt des Arrays an Position i: 67081
+Inhalt des Arrays an Position j: 502681
+Differenz: 435600
+Ausgabe:
+259^2 + 709^2 = 660^2
+Inhalt des Arrays an Position i: 67081
+Inhalt des Arrays an Position j: 855625
+Differenz: 788544
+Ausgabe:
+259^2 + 925^2 = 888^2
+Inhalt des Arrays an Position i: 67600
+Inhalt des Arrays an Position j: 142129
+Differenz: 74529
+Ausgabe:
+260^2 + 377^2 = 273^2
+Inhalt des Arrays an Position i: 67600
+Inhalt des Arrays an Position j: 150544
+Differenz: 82944
+Ausgabe:
+260^2 + 388^2 = 288^2
+Inhalt des Arrays an Position i: 67600
+Inhalt des Arrays an Position j: 456976
+Differenz: 389376
+Ausgabe:
+260^2 + 676^2 = 624^2
+Inhalt des Arrays an Position i: 67600
+Inhalt des Arrays an Position j: 491401
+Differenz: 423801
+Ausgabe:
+260^2 + 701^2 = 651^2
+Inhalt des Arrays an Position i: 67600
+Inhalt des Arrays an Position j: 748225
+Differenz: 680625
+Ausgabe:
+260^2 + 865^2 = 825^2
+Inhalt des Arrays an Position i: 68121
+Inhalt des Arrays an Position j: 189225
+Differenz: 121104
+Ausgabe:
+261^2 + 435^2 = 348^2
+Inhalt des Arrays an Position i: 68121
+Inhalt des Arrays an Position j: 212521
+Differenz: 144400
+Ausgabe:
+261^2 + 461^2 = 380^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 168921
+Differenz: 99225
+Ausgabe:
+264^2 + 411^2 = 315^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 193600
+Differenz: 123904
+Ausgabe:
+264^2 + 440^2 = 352^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 270400
+Differenz: 200704
+Ausgabe:
+264^2 + 520^2 = 448^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 314721
+Differenz: 245025
+Ausgabe:
+264^2 + 561^2 = 495^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 562500
+Differenz: 492804
+Ausgabe:
+264^2 + 750^2 = 702^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 662596
+Differenz: 592900
+Ausgabe:
+264^2 + 814^2 = 770^2
+Inhalt des Arrays an Position i: 69696
+Inhalt des Arrays an Position j: 972196
+Differenz: 902500
+Ausgabe:
+264^2 + 986^2 = 950^2
+Inhalt des Arrays an Position i: 70225
+Inhalt des Arrays an Position j: 474721
+Differenz: 404496
+Ausgabe:
+265^2 + 689^2 = 636^2
+Inhalt des Arrays an Position i: 70756
+Inhalt des Arrays an Position j: 168100
+Differenz: 97344
+Ausgabe:
+266^2 + 410^2 = 312^2
+Inhalt des Arrays an Position i: 70756
+Inhalt des Arrays an Position j: 902500
+Differenz: 831744
+Ausgabe:
+266^2 + 950^2 = 912^2
+Inhalt des Arrays an Position i: 71289
+Inhalt des Arrays an Position j: 198025
+Differenz: 126736
+Ausgabe:
+267^2 + 445^2 = 356^2
+Inhalt des Arrays an Position i: 72900
+Inhalt des Arrays an Position j: 202500
+Differenz: 129600
+Ausgabe:
+270^2 + 450^2 = 360^2
+Inhalt des Arrays an Position i: 72900
+Inhalt des Arrays an Position j: 492804
+Differenz: 419904
+Ausgabe:
+270^2 + 702^2 = 648^2
+Inhalt des Arrays an Position i: 72900
+Inhalt des Arrays an Position j: 568516
+Differenz: 495616
+Ausgabe:
+270^2 + 754^2 = 704^2
+Inhalt des Arrays an Position i: 73984
+Inhalt des Arrays an Position j: 334084
+Differenz: 260100
+Ausgabe:
+272^2 + 578^2 = 510^2
+Inhalt des Arrays an Position i: 73984
+Inhalt des Arrays an Position j: 372100
+Differenz: 298116
+Ausgabe:
+272^2 + 610^2 = 546^2
+Inhalt des Arrays an Position i: 74529
+Inhalt des Arrays an Position j: 207025
+Differenz: 132496
+Ausgabe:
+273^2 + 455^2 = 364^2
+Inhalt des Arrays an Position i: 74529
+Inhalt des Arrays an Position j: 388129
+Differenz: 313600
+Ausgabe:
+273^2 + 623^2 = 560^2
+Inhalt des Arrays an Position i: 74529
+Inhalt des Arrays an Position j: 616225
+Differenz: 541696
+Ausgabe:
+273^2 + 785^2 = 736^2
+Inhalt des Arrays an Position i: 74529
+Inhalt des Arrays an Position j: 950625
+Differenz: 876096
+Ausgabe:
+273^2 + 975^2 = 936^2
+Inhalt des Arrays an Position i: 75625
+Inhalt des Arrays an Position j: 511225
+Differenz: 435600
+Ausgabe:
+275^2 + 715^2 = 660^2
+Inhalt des Arrays an Position i: 76176
+Inhalt des Arrays an Position j: 211600
+Differenz: 135424
+Ausgabe:
+276^2 + 460^2 = 368^2
+Inhalt des Arrays an Position i: 76176
+Inhalt des Arrays an Position j: 319225
+Differenz: 243049
+Ausgabe:
+276^2 + 565^2 = 493^2
+Inhalt des Arrays an Position i: 76176
+Inhalt des Arrays an Position j: 724201
+Differenz: 648025
+Ausgabe:
+276^2 + 851^2 = 805^2
+Inhalt des Arrays an Position i: 77841
+Inhalt des Arrays an Position j: 216225
+Differenz: 138384
+Ausgabe:
+279^2 + 465^2 = 372^2
+Inhalt des Arrays an Position i: 77841
+Inhalt des Arrays an Position j: 271441
+Differenz: 193600
+Ausgabe:
+279^2 + 521^2 = 440^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 164836
+Differenz: 86436
+Ausgabe:
+280^2 + 406^2 = 294^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 195364
+Differenz: 116964
+Ausgabe:
+280^2 + 442^2 = 342^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 201601
+Differenz: 123201
+Ausgabe:
+280^2 + 449^2 = 351^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 280900
+Differenz: 202500
+Ausgabe:
+280^2 + 530^2 = 450^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 354025
+Differenz: 275625
+Ausgabe:
+280^2 + 595^2 = 525^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 529984
+Differenz: 451584
+Ausgabe:
+280^2 + 728^2 = 672^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 654481
+Differenz: 576081
+Ausgabe:
+280^2 + 809^2 = 759^2
+Inhalt des Arrays an Position i: 78400
+Inhalt des Arrays an Position j: 1000000
+Differenz: 921600
+Ausgabe:
+280^2 + 1000^2 = 960^2
+Inhalt des Arrays an Position i: 79524
+Inhalt des Arrays an Position j: 220900
+Differenz: 141376
+Ausgabe:
+282^2 + 470^2 = 376^2
+Inhalt des Arrays an Position i: 81225
+Inhalt des Arrays an Position j: 225625
+Differenz: 144400
+Ausgabe:
+285^2 + 475^2 = 380^2
+Inhalt des Arrays an Position i: 81225
+Inhalt des Arrays an Position j: 335241
+Differenz: 254016
+Ausgabe:
+285^2 + 579^2 = 504^2
+Inhalt des Arrays an Position i: 81225
+Inhalt des Arrays an Position j: 549081
+Differenz: 467856
+Ausgabe:
+285^2 + 741^2 = 684^2
+Inhalt des Arrays an Position i: 81225
+Inhalt des Arrays an Position j: 855625
+Differenz: 774400
+Ausgabe:
+285^2 + 925^2 = 880^2
+Inhalt des Arrays an Position i: 82369
+Inhalt des Arrays an Position j: 748225
+Differenz: 665856
+Ausgabe:
+287^2 + 865^2 = 816^2
+Inhalt des Arrays an Position i: 82944
+Inhalt des Arrays an Position j: 191844
+Differenz: 108900
+Ausgabe:
+288^2 + 438^2 = 330^2
+Inhalt des Arrays an Position i: 82944
+Inhalt des Arrays an Position j: 230400
+Differenz: 147456
+Ausgabe:
+288^2 + 480^2 = 384^2
+Inhalt des Arrays an Position i: 82944
+Inhalt des Arrays an Position j: 374544
+Differenz: 291600
+Ausgabe:
+288^2 + 612^2 = 540^2
+Inhalt des Arrays an Position i: 82944
+Inhalt des Arrays an Position j: 462400
+Differenz: 379456
+Ausgabe:
+288^2 + 680^2 = 616^2
+Inhalt des Arrays an Position i: 82944
+Inhalt des Arrays an Position j: 632025
+Differenz: 549081
+Ausgabe:
+288^2 + 795^2 = 741^2
+Inhalt des Arrays an Position i: 82944
+Inhalt des Arrays an Position j: 788544
+Differenz: 705600
+Ausgabe:
+288^2 + 888^2 = 840^2
+Inhalt des Arrays an Position i: 84100
+Inhalt des Arrays an Position j: 568516
+Differenz: 484416
+Ausgabe:
+290^2 + 754^2 = 696^2
+Inhalt des Arrays an Position i: 84100
+Inhalt des Arrays an Position j: 749956
+Differenz: 665856
+Ausgabe:
+290^2 + 866^2 = 816^2
+Inhalt des Arrays an Position i: 84681
+Inhalt des Arrays an Position j: 235225
+Differenz: 150544
+Ausgabe:
+291^2 + 485^2 = 388^2
+Inhalt des Arrays an Position i: 86436
+Inhalt des Arrays an Position j: 240100
+Differenz: 153664
+Ausgabe:
+294^2 + 490^2 = 392^2
+Inhalt des Arrays an Position i: 87025
+Inhalt des Arrays an Position j: 588289
+Differenz: 501264
+Ausgabe:
+295^2 + 767^2 = 708^2
+Inhalt des Arrays an Position i: 87616
+Inhalt des Arrays an Position j: 395641
+Differenz: 308025
+Ausgabe:
+296^2 + 629^2 = 555^2
+Inhalt des Arrays an Position i: 88209
+Inhalt des Arrays an Position j: 180625
+Differenz: 92416
+Ausgabe:
+297^2 + 425^2 = 304^2
+Inhalt des Arrays an Position i: 88209
+Inhalt des Arrays an Position j: 245025
+Differenz: 156816
+Ausgabe:
+297^2 + 495^2 = 396^2
+Inhalt des Arrays an Position i: 88209
+Inhalt des Arrays an Position j: 342225
+Differenz: 254016
+Ausgabe:
+297^2 + 585^2 = 504^2
+Inhalt des Arrays an Position i: 90000
+Inhalt des Arrays an Position j: 189225
+Differenz: 99225
+Ausgabe:
+300^2 + 435^2 = 315^2
+Inhalt des Arrays an Position i: 90000
+Inhalt des Arrays an Position j: 250000
+Differenz: 160000
+Ausgabe:
+300^2 + 500^2 = 400^2
+Inhalt des Arrays an Position i: 90000
+Inhalt des Arrays an Position j: 297025
+Differenz: 207025
+Ausgabe:
+300^2 + 545^2 = 455^2
+Inhalt des Arrays an Position i: 90000
+Inhalt des Arrays an Position j: 436921
+Differenz: 346921
+Ausgabe:
+300^2 + 661^2 = 589^2
+Inhalt des Arrays an Position i: 90000
+Inhalt des Arrays an Position j: 608400
+Differenz: 518400
+Ausgabe:
+300^2 + 780^2 = 720^2
+Inhalt des Arrays an Position i: 90000
+Inhalt des Arrays an Position j: 855625
+Differenz: 765625
+Ausgabe:
+300^2 + 925^2 = 875^2
+Inhalt des Arrays an Position i: 90601
+Inhalt des Arrays an Position j: 900601
+Differenz: 810000
+Ausgabe:
+301^2 + 949^2 = 900^2
+Inhalt des Arrays an Position i: 91809
+Inhalt des Arrays an Position j: 255025
+Differenz: 163216
+Ausgabe:
+303^2 + 505^2 = 404^2
+Inhalt des Arrays an Position i: 92416
+Inhalt des Arrays an Position j: 417316
+Differenz: 324900
+Ausgabe:
+304^2 + 646^2 = 570^2
+Inhalt des Arrays an Position i: 92416
+Inhalt des Arrays an Position j: 568516
+Differenz: 476100
+Ausgabe:
+304^2 + 754^2 = 690^2
+Inhalt des Arrays an Position i: 93025
+Inhalt des Arrays an Position j: 628849
+Differenz: 535824
+Ausgabe:
+305^2 + 793^2 = 732^2
+Inhalt des Arrays an Position i: 93636
+Inhalt des Arrays an Position j: 260100
+Differenz: 166464
+Ausgabe:
+306^2 + 510^2 = 408^2
+Inhalt des Arrays an Position i: 93636
+Inhalt des Arrays an Position j: 799236
+Differenz: 705600
+Ausgabe:
+306^2 + 894^2 = 840^2
+Inhalt des Arrays an Position i: 94864
+Inhalt des Arrays an Position j: 284089
+Differenz: 189225
+Ausgabe:
+308^2 + 533^2 = 435^2
+Inhalt des Arrays an Position i: 94864
+Inhalt des Arrays an Position j: 339889
+Differenz: 245025
+Ausgabe:
+308^2 + 583^2 = 495^2
+Inhalt des Arrays an Position i: 94864
+Inhalt des Arrays an Position j: 765625
+Differenz: 670761
+Ausgabe:
+308^2 + 875^2 = 819^2
+Inhalt des Arrays an Position i: 95481
+Inhalt des Arrays an Position j: 265225
+Differenz: 169744
+Ausgabe:
+309^2 + 515^2 = 412^2
+Inhalt des Arrays an Position i: 96100
+Inhalt des Arrays an Position j: 649636
+Differenz: 553536
+Ausgabe:
+310^2 + 806^2 = 744^2
+Inhalt des Arrays an Position i: 96100
+Inhalt des Arrays an Position j: 972196
+Differenz: 876096
+Ausgabe:
+310^2 + 986^2 = 936^2
+Inhalt des Arrays an Position i: 97344
+Inhalt des Arrays an Position j: 270400
+Differenz: 173056
+Ausgabe:
+312^2 + 520^2 = 416^2
+Inhalt des Arrays an Position i: 97344
+Inhalt des Arrays an Position j: 308025
+Differenz: 210681
+Ausgabe:
+312^2 + 555^2 = 459^2
+Inhalt des Arrays an Position i: 97344
+Inhalt des Arrays an Position j: 439569
+Differenz: 342225
+Ausgabe:
+312^2 + 663^2 = 585^2
+Inhalt des Arrays an Position i: 97344
+Inhalt des Arrays an Position j: 506944
+Differenz: 409600
+Ausgabe:
+312^2 + 712^2 = 640^2
+Inhalt des Arrays an Position i: 97344
+Inhalt des Arrays an Position j: 925444
+Differenz: 828100
+Ausgabe:
+312^2 + 962^2 = 910^2
+Inhalt des Arrays an Position i: 99225
+Inhalt des Arrays an Position j: 275625
+Differenz: 176400
+Ausgabe:
+315^2 + 525^2 = 420^2
+Inhalt des Arrays an Position i: 99225
+Inhalt des Arrays an Position j: 426409
+Differenz: 327184
+Ausgabe:
+315^2 + 653^2 = 572^2
+Inhalt des Arrays an Position i: 99225
+Inhalt des Arrays an Position j: 488601
+Differenz: 389376
+Ausgabe:
+315^2 + 699^2 = 624^2
+Inhalt des Arrays an Position i: 99225
+Inhalt des Arrays an Position j: 670761
+Differenz: 571536
+Ausgabe:
+315^2 + 819^2 = 756^2
+Inhalt des Arrays an Position i: 101124
+Inhalt des Arrays an Position j: 280900
+Differenz: 179776
+Ausgabe:
+318^2 + 530^2 = 424^2
+Inhalt des Arrays an Position i: 101761
+Inhalt des Arrays an Position j: 231361
+Differenz: 129600
+Ausgabe:
+319^2 + 481^2 = 360^2
+Inhalt des Arrays an Position i: 102400
+Inhalt des Arrays an Position j: 215296
+Differenz: 112896
+Ausgabe:
+320^2 + 464^2 = 336^2
+Inhalt des Arrays an Position i: 102400
+Inhalt des Arrays an Position j: 315844
+Differenz: 213444
+Ausgabe:
+320^2 + 562^2 = 462^2
+Inhalt des Arrays an Position i: 102400
+Inhalt des Arrays an Position j: 462400
+Differenz: 360000
+Ausgabe:
+320^2 + 680^2 = 600^2
+Inhalt des Arrays an Position i: 102400
+Inhalt des Arrays an Position j: 692224
+Differenz: 589824
+Ausgabe:
+320^2 + 832^2 = 768^2
+Inhalt des Arrays an Position i: 103041
+Inhalt des Arrays an Position j: 286225
+Differenz: 183184
+Ausgabe:
+321^2 + 535^2 = 428^2
+Inhalt des Arrays an Position i: 103684
+Inhalt des Arrays an Position j: 334084
+Differenz: 230400
+Ausgabe:
+322^2 + 578^2 = 480^2
+Inhalt des Arrays an Position i: 104976
+Inhalt des Arrays an Position j: 291600
+Differenz: 186624
+Ausgabe:
+324^2 + 540^2 = 432^2
+Inhalt des Arrays an Position i: 104976
+Inhalt des Arrays an Position j: 585225
+Differenz: 480249
+Ausgabe:
+324^2 + 765^2 = 693^2
+Inhalt des Arrays an Position i: 104976
+Inhalt des Arrays an Position j: 998001
+Differenz: 893025
+Ausgabe:
+324^2 + 999^2 = 945^2
+Inhalt des Arrays an Position i: 105625
+Inhalt des Arrays an Position j: 235225
+Differenz: 129600
+Ausgabe:
+325^2 + 485^2 = 360^2
+Inhalt des Arrays an Position i: 105625
+Inhalt des Arrays an Position j: 714025
+Differenz: 608400
+Ausgabe:
+325^2 + 845^2 = 780^2
+Inhalt des Arrays an Position i: 106929
+Inhalt des Arrays an Position j: 297025
+Differenz: 190096
+Ausgabe:
+327^2 + 545^2 = 436^2
+Inhalt des Arrays an Position i: 107584
+Inhalt des Arrays an Position j: 485809
+Differenz: 378225
+Ausgabe:
+328^2 + 697^2 = 615^2
+Inhalt des Arrays an Position i: 108900
+Inhalt des Arrays an Position j: 302500
+Differenz: 193600
+Ausgabe:
+330^2 + 550^2 = 440^2
+Inhalt des Arrays an Position i: 108900
+Inhalt des Arrays an Position j: 422500
+Differenz: 313600
+Ausgabe:
+330^2 + 650^2 = 560^2
+Inhalt des Arrays an Position i: 108900
+Inhalt des Arrays an Position j: 736164
+Differenz: 627264
+Ausgabe:
+330^2 + 858^2 = 792^2
+Inhalt des Arrays an Position i: 110889
+Inhalt des Arrays an Position j: 308025
+Differenz: 197136
+Ausgabe:
+333^2 + 555^2 = 444^2
+Inhalt des Arrays an Position i: 110889
+Inhalt des Arrays an Position j: 525625
+Differenz: 414736
+Ausgabe:
+333^2 + 725^2 = 644^2
+Inhalt des Arrays an Position i: 112225
+Inhalt des Arrays an Position j: 758641
+Differenz: 646416
+Ausgabe:
+335^2 + 871^2 = 804^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 255025
+Differenz: 142129
+Ausgabe:
+336^2 + 505^2 = 377^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 261121
+Differenz: 148225
+Ausgabe:
+336^2 + 511^2 = 385^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 313600
+Differenz: 200704
+Ausgabe:
+336^2 + 560^2 = 448^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 390625
+Differenz: 277729
+Ausgabe:
+336^2 + 625^2 = 527^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 404496
+Differenz: 291600
+Ausgabe:
+336^2 + 636^2 = 540^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 509796
+Differenz: 396900
+Ausgabe:
+336^2 + 714^2 = 630^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 672400
+Differenz: 559504
+Ausgabe:
+336^2 + 820^2 = 748^2
+Inhalt des Arrays an Position i: 112896
+Inhalt des Arrays an Position j: 835396
+Differenz: 722500
+Ausgabe:
+336^2 + 914^2 = 850^2
+Inhalt des Arrays an Position i: 114921
+Inhalt des Arrays an Position j: 319225
+Differenz: 204304
+Ausgabe:
+339^2 + 565^2 = 452^2
+Inhalt des Arrays an Position i: 115600
+Inhalt des Arrays an Position j: 243049
+Differenz: 127449
+Ausgabe:
+340^2 + 493^2 = 357^2
+Inhalt des Arrays an Position i: 115600
+Inhalt des Arrays an Position j: 394384
+Differenz: 278784
+Ausgabe:
+340^2 + 628^2 = 528^2
+Inhalt des Arrays an Position i: 115600
+Inhalt des Arrays an Position j: 781456
+Differenz: 665856
+Ausgabe:
+340^2 + 884^2 = 816^2
+Inhalt des Arrays an Position i: 116281
+Inhalt des Arrays an Position j: 292681
+Differenz: 176400
+Ausgabe:
+341^2 + 541^2 = 420^2
+Inhalt des Arrays an Position i: 116964
+Inhalt des Arrays an Position j: 324900
+Differenz: 207936
+Ausgabe:
+342^2 + 570^2 = 456^2
+Inhalt des Arrays an Position i: 118336
+Inhalt des Arrays an Position j: 534361
+Differenz: 416025
+Ausgabe:
+344^2 + 731^2 = 645^2
+Inhalt des Arrays an Position i: 119025
+Inhalt des Arrays an Position j: 330625
+Differenz: 211600
+Ausgabe:
+345^2 + 575^2 = 460^2
+Inhalt des Arrays an Position i: 119025
+Inhalt des Arrays an Position j: 690561
+Differenz: 571536
+Ausgabe:
+345^2 + 831^2 = 756^2
+Inhalt des Arrays an Position i: 119025
+Inhalt des Arrays an Position j: 804609
+Differenz: 685584
+Ausgabe:
+345^2 + 897^2 = 828^2
+Inhalt des Arrays an Position i: 121104
+Inhalt des Arrays an Position j: 336400
+Differenz: 215296
+Ausgabe:
+348^2 + 580^2 = 464^2
+Inhalt des Arrays an Position i: 121104
+Inhalt des Arrays an Position j: 769129
+Differenz: 648025
+Ausgabe:
+348^2 + 877^2 = 805^2
+Inhalt des Arrays an Position i: 122500
+Inhalt des Arrays an Position j: 454276
+Differenz: 331776
+Ausgabe:
+350^2 + 674^2 = 576^2
+Inhalt des Arrays an Position i: 122500
+Inhalt des Arrays an Position j: 828100
+Differenz: 705600
+Ausgabe:
+350^2 + 910^2 = 840^2
+Inhalt des Arrays an Position i: 123201
+Inhalt des Arrays an Position j: 342225
+Differenz: 219024
+Ausgabe:
+351^2 + 585^2 = 468^2
+Inhalt des Arrays an Position i: 123201
+Inhalt des Arrays an Position j: 641601
+Differenz: 518400
+Ausgabe:
+351^2 + 801^2 = 720^2
+Inhalt des Arrays an Position i: 123904
+Inhalt des Arrays an Position j: 300304
+Differenz: 176400
+Ausgabe:
+352^2 + 548^2 = 420^2
+Inhalt des Arrays an Position i: 123904
+Inhalt des Arrays an Position j: 559504
+Differenz: 435600
+Ausgabe:
+352^2 + 748^2 = 660^2
+Inhalt des Arrays an Position i: 123904
+Inhalt des Arrays an Position j: 1000000
+Differenz: 876096
+Ausgabe:
+352^2 + 1000^2 = 936^2
+Inhalt des Arrays an Position i: 125316
+Inhalt des Arrays an Position j: 348100
+Differenz: 222784
+Ausgabe:
+354^2 + 590^2 = 472^2
+Inhalt des Arrays an Position i: 126025
+Inhalt des Arrays an Position j: 851929
+Differenz: 725904
+Ausgabe:
+355^2 + 923^2 = 852^2
+Inhalt des Arrays an Position i: 127449
+Inhalt des Arrays an Position j: 257049
+Differenz: 129600
+Ausgabe:
+357^2 + 507^2 = 360^2
+Inhalt des Arrays an Position i: 127449
+Inhalt des Arrays an Position j: 354025
+Differenz: 226576
+Ausgabe:
+357^2 + 595^2 = 476^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 272484
+Differenz: 142884
+Ausgabe:
+360^2 + 522^2 = 378^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 360000
+Differenz: 230400
+Ausgabe:
+360^2 + 600^2 = 480^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 427716
+Differenz: 298116
+Ausgabe:
+360^2 + 654^2 = 546^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 487204
+Differenz: 357604
+Ausgabe:
+360^2 + 698^2 = 598^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 522729
+Differenz: 393129
+Ausgabe:
+360^2 + 723^2 = 627^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 585225
+Differenz: 455625
+Ausgabe:
+360^2 + 765^2 = 675^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 722500
+Differenz: 592900
+Ausgabe:
+360^2 + 850^2 = 770^2
+Inhalt des Arrays an Position i: 129600
+Inhalt des Arrays an Position j: 876096
+Differenz: 746496
+Ausgabe:
+360^2 + 936^2 = 864^2
+Inhalt des Arrays an Position i: 131769
+Inhalt des Arrays an Position j: 366025
+Differenz: 234256
+Ausgabe:
+363^2 + 605^2 = 484^2
+Inhalt des Arrays an Position i: 131769
+Inhalt des Arrays an Position j: 511225
+Differenz: 379456
+Ausgabe:
+363^2 + 715^2 = 616^2
+Inhalt des Arrays an Position i: 132496
+Inhalt des Arrays an Position j: 474721
+Differenz: 342225
+Ausgabe:
+364^2 + 689^2 = 585^2
+Inhalt des Arrays an Position i: 132496
+Inhalt des Arrays an Position j: 525625
+Differenz: 393129
+Ausgabe:
+364^2 + 725^2 = 627^2
+Inhalt des Arrays an Position i: 133225
+Inhalt des Arrays an Position j: 900601
+Differenz: 767376
+Ausgabe:
+365^2 + 949^2 = 876^2
+Inhalt des Arrays an Position i: 133956
+Inhalt des Arrays an Position j: 372100
+Differenz: 238144
+Ausgabe:
+366^2 + 610^2 = 488^2
+Inhalt des Arrays an Position i: 135424
+Inhalt des Arrays an Position j: 351649
+Differenz: 216225
+Ausgabe:
+368^2 + 593^2 = 465^2
+Inhalt des Arrays an Position i: 135424
+Inhalt des Arrays an Position j: 611524
+Differenz: 476100
+Ausgabe:
+368^2 + 782^2 = 690^2
+Inhalt des Arrays an Position i: 136161
+Inhalt des Arrays an Position j: 378225
+Differenz: 242064
+Ausgabe:
+369^2 + 615^2 = 492^2
+Inhalt des Arrays an Position i: 136161
+Inhalt des Arrays an Position j: 776161
+Differenz: 640000
+Ausgabe:
+369^2 + 881^2 = 800^2
+Inhalt des Arrays an Position i: 136900
+Inhalt des Arrays an Position j: 925444
+Differenz: 788544
+Ausgabe:
+370^2 + 962^2 = 888^2
+Inhalt des Arrays an Position i: 138384
+Inhalt des Arrays an Position j: 384400
+Differenz: 246016
+Ausgabe:
+372^2 + 620^2 = 496^2
+Inhalt des Arrays an Position i: 138384
+Inhalt des Arrays an Position j: 994009
+Differenz: 855625
+Ausgabe:
+372^2 + 997^2 = 925^2
+Inhalt des Arrays an Position i: 140625
+Inhalt des Arrays an Position j: 390625
+Differenz: 250000
+Ausgabe:
+375^2 + 625^2 = 500^2
+Inhalt des Arrays an Position i: 140625
+Inhalt des Arrays an Position j: 950625
+Differenz: 810000
+Ausgabe:
+375^2 + 975^2 = 900^2
+Inhalt des Arrays an Position i: 141376
+Inhalt des Arrays an Position j: 638401
+Differenz: 497025
+Ausgabe:
+376^2 + 799^2 = 705^2
+Inhalt des Arrays an Position i: 142884
+Inhalt des Arrays an Position j: 396900
+Differenz: 254016
+Ausgabe:
+378^2 + 630^2 = 504^2
+Inhalt des Arrays an Position i: 142884
+Inhalt des Arrays an Position j: 605284
+Differenz: 462400
+Ausgabe:
+378^2 + 778^2 = 680^2
+Inhalt des Arrays an Position i: 144400
+Inhalt des Arrays an Position j: 303601
+Differenz: 159201
+Ausgabe:
+380^2 + 551^2 = 399^2
+Inhalt des Arrays an Position i: 144400
+Inhalt des Arrays an Position j: 595984
+Differenz: 451584
+Ausgabe:
+380^2 + 772^2 = 672^2
+Inhalt des Arrays an Position i: 144400
+Inhalt des Arrays an Position j: 976144
+Differenz: 831744
+Ausgabe:
+380^2 + 988^2 = 912^2
+Inhalt des Arrays an Position i: 145161
+Inhalt des Arrays an Position j: 403225
+Differenz: 258064
+Ausgabe:
+381^2 + 635^2 = 508^2
+Inhalt des Arrays an Position i: 147456
+Inhalt des Arrays an Position j: 341056
+Differenz: 193600
+Ausgabe:
+384^2 + 584^2 = 440^2
+Inhalt des Arrays an Position i: 147456
+Inhalt des Arrays an Position j: 409600
+Differenz: 262144
+Ausgabe:
+384^2 + 640^2 = 512^2
+Inhalt des Arrays an Position i: 147456
+Inhalt des Arrays an Position j: 665856
+Differenz: 518400
+Ausgabe:
+384^2 + 816^2 = 720^2
+Inhalt des Arrays an Position i: 148225
+Inhalt des Arrays an Position j: 452929
+Differenz: 304704
+Ausgabe:
+385^2 + 673^2 = 552^2
+Inhalt des Arrays an Position i: 149769
+Inhalt des Arrays an Position j: 416025
+Differenz: 266256
+Ausgabe:
+387^2 + 645^2 = 516^2
+Inhalt des Arrays an Position i: 149769
+Inhalt des Arrays an Position j: 931225
+Differenz: 781456
+Ausgabe:
+387^2 + 965^2 = 884^2
+Inhalt des Arrays an Position i: 152100
+Inhalt des Arrays an Position j: 338724
+Differenz: 186624
+Ausgabe:
+390^2 + 582^2 = 432^2
+Inhalt des Arrays an Position i: 152100
+Inhalt des Arrays an Position j: 422500
+Differenz: 270400
+Ausgabe:
+390^2 + 650^2 = 520^2
+Inhalt des Arrays an Position i: 152100
+Inhalt des Arrays an Position j: 792100
+Differenz: 640000
+Ausgabe:
+390^2 + 890^2 = 800^2
+Inhalt des Arrays an Position i: 153664
+Inhalt des Arrays an Position j: 550564
+Differenz: 396900
+Ausgabe:
+392^2 + 742^2 = 630^2
+Inhalt des Arrays an Position i: 153664
+Inhalt des Arrays an Position j: 693889
+Differenz: 540225
+Ausgabe:
+392^2 + 833^2 = 735^2
+Inhalt des Arrays an Position i: 154449
+Inhalt des Arrays an Position j: 429025
+Differenz: 274576
+Ausgabe:
+393^2 + 655^2 = 524^2
+Inhalt des Arrays an Position i: 156816
+Inhalt des Arrays an Position j: 319225
+Differenz: 162409
+Ausgabe:
+396^2 + 565^2 = 403^2
+Inhalt des Arrays an Position i: 156816
+Inhalt des Arrays an Position j: 435600
+Differenz: 278784
+Ausgabe:
+396^2 + 660^2 = 528^2
+Inhalt des Arrays an Position i: 156816
+Inhalt des Arrays an Position j: 608400
+Differenz: 451584
+Ausgabe:
+396^2 + 780^2 = 672^2
+Inhalt des Arrays an Position i: 156816
+Inhalt des Arrays an Position j: 874225
+Differenz: 717409
+Ausgabe:
+396^2 + 935^2 = 847^2
+Inhalt des Arrays an Position i: 159201
+Inhalt des Arrays an Position j: 378225
+Differenz: 219024
+Ausgabe:
+399^2 + 615^2 = 468^2
+Inhalt des Arrays an Position i: 159201
+Inhalt des Arrays an Position j: 442225
+Differenz: 283024
+Ausgabe:
+399^2 + 665^2 = 532^2
+Inhalt des Arrays an Position i: 160000
+Inhalt des Arrays an Position j: 336400
+Differenz: 176400
+Ausgabe:
+400^2 + 580^2 = 420^2
+Inhalt des Arrays an Position i: 160000
+Inhalt des Arrays an Position j: 474721
+Differenz: 314721
+Ausgabe:
+400^2 + 689^2 = 561^2
+Inhalt des Arrays an Position i: 160000
+Inhalt des Arrays an Position j: 722500
+Differenz: 562500
+Ausgabe:
+400^2 + 850^2 = 750^2
+Inhalt des Arrays an Position i: 161604
+Inhalt des Arrays an Position j: 448900
+Differenz: 287296
+Ausgabe:
+402^2 + 670^2 = 536^2
+Inhalt des Arrays an Position i: 164025
+Inhalt des Arrays an Position j: 455625
+Differenz: 291600
+Ausgabe:
+405^2 + 675^2 = 540^2
+Inhalt des Arrays an Position i: 164836
+Inhalt des Arrays an Position j: 792100
+Differenz: 627264
+Ausgabe:
+406^2 + 890^2 = 792^2
+Inhalt des Arrays an Position i: 165649
+Inhalt des Arrays an Position j: 555025
+Differenz: 389376
+Ausgabe:
+407^2 + 745^2 = 624^2
+Inhalt des Arrays an Position i: 166464
+Inhalt des Arrays an Position j: 422500
+Differenz: 256036
+Ausgabe:
+408^2 + 650^2 = 506^2
+Inhalt des Arrays an Position i: 166464
+Inhalt des Arrays an Position j: 462400
+Differenz: 295936
+Ausgabe:
+408^2 + 680^2 = 544^2
+Inhalt des Arrays an Position i: 166464
+Inhalt des Arrays an Position j: 751689
+Differenz: 585225
+Ausgabe:
+408^2 + 867^2 = 765^2
+Inhalt des Arrays an Position i: 166464
+Inhalt des Arrays an Position j: 837225
+Differenz: 670761
+Ausgabe:
+408^2 + 915^2 = 819^2
+Inhalt des Arrays an Position i: 168921
+Inhalt des Arrays an Position j: 469225
+Differenz: 300304
+Ausgabe:
+411^2 + 685^2 = 548^2
+Inhalt des Arrays an Position i: 171396
+Inhalt des Arrays an Position j: 372100
+Differenz: 200704
+Ausgabe:
+414^2 + 610^2 = 448^2
+Inhalt des Arrays an Position i: 171396
+Inhalt des Arrays an Position j: 476100
+Differenz: 304704
+Ausgabe:
+414^2 + 690^2 = 552^2
+Inhalt des Arrays an Position i: 173056
+Inhalt des Arrays an Position j: 547600
+Differenz: 374544
+Ausgabe:
+416^2 + 740^2 = 612^2
+Inhalt des Arrays an Position i: 173056
+Inhalt des Arrays an Position j: 781456
+Differenz: 608400
+Ausgabe:
+416^2 + 884^2 = 780^2
+Inhalt des Arrays an Position i: 173889
+Inhalt des Arrays an Position j: 483025
+Differenz: 309136
+Ausgabe:
+417^2 + 695^2 = 556^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 370881
+Differenz: 194481
+Ausgabe:
+420^2 + 609^2 = 441^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 439569
+Differenz: 263169
+Ausgabe:
+420^2 + 663^2 = 513^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 490000
+Differenz: 313600
+Ausgabe:
+420^2 + 700^2 = 560^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 582169
+Differenz: 405769
+Ausgabe:
+420^2 + 763^2 = 637^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 632025
+Differenz: 455625
+Ausgabe:
+420^2 + 795^2 = 675^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 868624
+Differenz: 692224
+Ausgabe:
+420^2 + 932^2 = 832^2
+Inhalt des Arrays an Position i: 176400
+Inhalt des Arrays an Position j: 900601
+Differenz: 724201
+Ausgabe:
+420^2 + 949^2 = 851^2
+Inhalt des Arrays an Position i: 178929
+Inhalt des Arrays an Position j: 497025
+Differenz: 318096
+Ausgabe:
+423^2 + 705^2 = 564^2
+Inhalt des Arrays an Position i: 179776
+Inhalt des Arrays an Position j: 811801
+Differenz: 632025
+Ausgabe:
+424^2 + 901^2 = 795^2
+Inhalt des Arrays an Position i: 180625
+Inhalt des Arrays an Position j: 616225
+Differenz: 435600
+Ausgabe:
+425^2 + 785^2 = 660^2
+Inhalt des Arrays an Position i: 181476
+Inhalt des Arrays an Position j: 504100
+Differenz: 322624
+Ausgabe:
+426^2 + 710^2 = 568^2
+Inhalt des Arrays an Position i: 184041
+Inhalt des Arrays an Position j: 395641
+Differenz: 211600
+Ausgabe:
+429^2 + 629^2 = 460^2
+Inhalt des Arrays an Position i: 184041
+Inhalt des Arrays an Position j: 511225
+Differenz: 327184
+Ausgabe:
+429^2 + 715^2 = 572^2
+Inhalt des Arrays an Position i: 184041
+Inhalt des Arrays an Position j: 674041
+Differenz: 490000
+Ausgabe:
+429^2 + 821^2 = 700^2
+Inhalt des Arrays an Position i: 184041
+Inhalt des Arrays an Position j: 714025
+Differenz: 529984
+Ausgabe:
+429^2 + 845^2 = 728^2
+Inhalt des Arrays an Position i: 184041
+Inhalt des Arrays an Position j: 958441
+Differenz: 774400
+Ausgabe:
+429^2 + 979^2 = 880^2
+Inhalt des Arrays an Position i: 186624
+Inhalt des Arrays an Position j: 431649
+Differenz: 245025
+Ausgabe:
+432^2 + 657^2 = 495^2
+Inhalt des Arrays an Position i: 186624
+Inhalt des Arrays an Position j: 518400
+Differenz: 331776
+Ausgabe:
+432^2 + 720^2 = 576^2
+Inhalt des Arrays an Position i: 186624
+Inhalt des Arrays an Position j: 628849
+Differenz: 442225
+Ausgabe:
+432^2 + 793^2 = 665^2
+Inhalt des Arrays an Position i: 186624
+Inhalt des Arrays an Position j: 842724
+Differenz: 656100
+Ausgabe:
+432^2 + 918^2 = 810^2
+Inhalt des Arrays an Position i: 189225
+Inhalt des Arrays an Position j: 525625
+Differenz: 336400
+Ausgabe:
+435^2 + 725^2 = 580^2
+Inhalt des Arrays an Position i: 191844
+Inhalt des Arrays an Position j: 532900
+Differenz: 341056
+Ausgabe:
+438^2 + 730^2 = 584^2
+Inhalt des Arrays an Position i: 193600
+Inhalt des Arrays an Position j: 407044
+Differenz: 213444
+Ausgabe:
+440^2 + 638^2 = 462^2
+Inhalt des Arrays an Position i: 193600
+Inhalt des Arrays an Position j: 469225
+Differenz: 275625
+Ausgabe:
+440^2 + 685^2 = 525^2
+Inhalt des Arrays an Position i: 193600
+Inhalt des Arrays an Position j: 874225
+Differenz: 680625
+Ausgabe:
+440^2 + 935^2 = 825^2
+Inhalt des Arrays an Position i: 194481
+Inhalt des Arrays an Position j: 540225
+Differenz: 345744
+Ausgabe:
+441^2 + 735^2 = 588^2
+Inhalt des Arrays an Position i: 197136
+Inhalt des Arrays an Position j: 547600
+Differenz: 350464
+Ausgabe:
+444^2 + 740^2 = 592^2
+Inhalt des Arrays an Position i: 199809
+Inhalt des Arrays an Position j: 555025
+Differenz: 355216
+Ausgabe:
+447^2 + 745^2 = 596^2
+Inhalt des Arrays an Position i: 200704
+Inhalt des Arrays an Position j: 719104
+Differenz: 518400
+Ausgabe:
+448^2 + 848^2 = 720^2
+Inhalt des Arrays an Position i: 200704
+Inhalt des Arrays an Position j: 906304
+Differenz: 705600
+Ausgabe:
+448^2 + 952^2 = 840^2
+Inhalt des Arrays an Position i: 202500
+Inhalt des Arrays an Position j: 498436
+Differenz: 295936
+Ausgabe:
+450^2 + 706^2 = 544^2
+Inhalt des Arrays an Position i: 202500
+Inhalt des Arrays an Position j: 562500
+Differenz: 360000
+Ausgabe:
+450^2 + 750^2 = 600^2
+Inhalt des Arrays an Position i: 203401
+Inhalt des Arrays an Position j: 811801
+Differenz: 608400
+Ausgabe:
+451^2 + 901^2 = 780^2
+Inhalt des Arrays an Position i: 205209
+Inhalt des Arrays an Position j: 570025
+Differenz: 364816
+Ausgabe:
+453^2 + 755^2 = 604^2
+Inhalt des Arrays an Position i: 207025
+Inhalt des Arrays an Position j: 461041
+Differenz: 254016
+Ausgabe:
+455^2 + 679^2 = 504^2
+Inhalt des Arrays an Position i: 207025
+Inhalt des Arrays an Position j: 485809
+Differenz: 278784
+Ausgabe:
+455^2 + 697^2 = 528^2
+Inhalt des Arrays an Position i: 207936
+Inhalt des Arrays an Position j: 577600
+Differenz: 369664
+Ausgabe:
+456^2 + 760^2 = 608^2
+Inhalt des Arrays an Position i: 207936
+Inhalt des Arrays an Position j: 630436
+Differenz: 422500
+Ausgabe:
+456^2 + 794^2 = 650^2
+Inhalt des Arrays an Position i: 207936
+Inhalt des Arrays an Position j: 938961
+Differenz: 731025
+Ausgabe:
+456^2 + 969^2 = 855^2
+Inhalt des Arrays an Position i: 210681
+Inhalt des Arrays an Position j: 585225
+Differenz: 374544
+Ausgabe:
+459^2 + 765^2 = 612^2
+Inhalt des Arrays an Position i: 211600
+Inhalt des Arrays an Position j: 444889
+Differenz: 233289
+Ausgabe:
+460^2 + 667^2 = 483^2
+Inhalt des Arrays an Position i: 213444
+Inhalt des Arrays an Position j: 592900
+Differenz: 379456
+Ausgabe:
+462^2 + 770^2 = 616^2
+Inhalt des Arrays an Position i: 213444
+Inhalt des Arrays an Position j: 828100
+Differenz: 614656
+Ausgabe:
+462^2 + 910^2 = 784^2
+Inhalt des Arrays an Position i: 215296
+Inhalt des Arrays an Position j: 819025
+Differenz: 603729
+Ausgabe:
+464^2 + 905^2 = 777^2
+Inhalt des Arrays an Position i: 215296
+Inhalt des Arrays an Position j: 972196
+Differenz: 756900
+Ausgabe:
+464^2 + 986^2 = 870^2
+Inhalt des Arrays an Position i: 216225
+Inhalt des Arrays an Position j: 600625
+Differenz: 384400
+Ausgabe:
+465^2 + 775^2 = 620^2
+Inhalt des Arrays an Position i: 219024
+Inhalt des Arrays an Position j: 573049
+Differenz: 354025
+Ausgabe:
+468^2 + 757^2 = 595^2
+Inhalt des Arrays an Position i: 219024
+Inhalt des Arrays an Position j: 608400
+Differenz: 389376
+Ausgabe:
+468^2 + 780^2 = 624^2
+Inhalt des Arrays an Position i: 221841
+Inhalt des Arrays an Position j: 616225
+Differenz: 394384
+Ausgabe:
+471^2 + 785^2 = 628^2
+Inhalt des Arrays an Position i: 223729
+Inhalt des Arrays an Position j: 970225
+Differenz: 746496
+Ausgabe:
+473^2 + 985^2 = 864^2
+Inhalt des Arrays an Position i: 224676
+Inhalt des Arrays an Position j: 624100
+Differenz: 399424
+Ausgabe:
+474^2 + 790^2 = 632^2
+Inhalt des Arrays an Position i: 225625
+Inhalt des Arrays an Position j: 931225
+Differenz: 705600
+Ausgabe:
+475^2 + 965^2 = 840^2
+Inhalt des Arrays an Position i: 226576
+Inhalt des Arrays an Position j: 456976
+Differenz: 230400
+Ausgabe:
+476^2 + 676^2 = 480^2
+Inhalt des Arrays an Position i: 226576
+Inhalt des Arrays an Position j: 811801
+Differenz: 585225
+Ausgabe:
+476^2 + 901^2 = 765^2
+Inhalt des Arrays an Position i: 227529
+Inhalt des Arrays an Position j: 632025
+Differenz: 404496
+Ausgabe:
+477^2 + 795^2 = 636^2
+Inhalt des Arrays an Position i: 230400
+Inhalt des Arrays an Position j: 484416
+Differenz: 254016
+Ausgabe:
+480^2 + 696^2 = 504^2
+Inhalt des Arrays an Position i: 230400
+Inhalt des Arrays an Position j: 532900
+Differenz: 302500
+Ausgabe:
+480^2 + 730^2 = 550^2
+Inhalt des Arrays an Position i: 230400
+Inhalt des Arrays an Position j: 640000
+Differenz: 409600
+Ausgabe:
+480^2 + 800^2 = 640^2
+Inhalt des Arrays an Position i: 230400
+Inhalt des Arrays an Position j: 710649
+Differenz: 480249
+Ausgabe:
+480^2 + 843^2 = 693^2
+Inhalt des Arrays an Position i: 230400
+Inhalt des Arrays an Position j: 760384
+Differenz: 529984
+Ausgabe:
+480^2 + 872^2 = 728^2
+Inhalt des Arrays an Position i: 230400
+Inhalt des Arrays an Position j: 929296
+Differenz: 698896
+Ausgabe:
+480^2 + 964^2 = 836^2
+Inhalt des Arrays an Position i: 231361
+Inhalt des Arrays an Position j: 591361
+Differenz: 360000
+Ausgabe:
+481^2 + 769^2 = 600^2
+Inhalt des Arrays an Position i: 233289
+Inhalt des Arrays an Position j: 648025
+Differenz: 414736
+Ausgabe:
+483^2 + 805^2 = 644^2
+Inhalt des Arrays an Position i: 233289
+Inhalt des Arrays an Position j: 751689
+Differenz: 518400
+Ausgabe:
+483^2 + 867^2 = 720^2
+Inhalt des Arrays an Position i: 236196
+Inhalt des Arrays an Position j: 656100
+Differenz: 419904
+Ausgabe:
+486^2 + 810^2 = 648^2
+Inhalt des Arrays an Position i: 239121
+Inhalt des Arrays an Position j: 664225
+Differenz: 425104
+Ausgabe:
+489^2 + 815^2 = 652^2
+Inhalt des Arrays an Position i: 242064
+Inhalt des Arrays an Position j: 672400
+Differenz: 430336
+Ausgabe:
+492^2 + 820^2 = 656^2
+Inhalt des Arrays an Position i: 245025
+Inhalt des Arrays an Position j: 680625
+Differenz: 435600
+Ausgabe:
+495^2 + 825^2 = 660^2
+Inhalt des Arrays an Position i: 245025
+Inhalt des Arrays an Position j: 950625
+Differenz: 705600
+Ausgabe:
+495^2 + 975^2 = 840^2
+Inhalt des Arrays an Position i: 248004
+Inhalt des Arrays an Position j: 688900
+Differenz: 440896
+Ausgabe:
+498^2 + 830^2 = 664^2
+Inhalt des Arrays an Position i: 250000
+Inhalt des Arrays an Position j: 525625
+Differenz: 275625
+Ausgabe:
+500^2 + 725^2 = 525^2
+Inhalt des Arrays an Position i: 251001
+Inhalt des Arrays an Position j: 697225
+Differenz: 446224
+Ausgabe:
+501^2 + 835^2 = 668^2
+Inhalt des Arrays an Position i: 254016
+Inhalt des Arrays an Position j: 556516
+Differenz: 302500
+Ausgabe:
+504^2 + 746^2 = 550^2
+Inhalt des Arrays an Position i: 254016
+Inhalt des Arrays an Position j: 705600
+Differenz: 451584
+Ausgabe:
+504^2 + 840^2 = 672^2
+Inhalt des Arrays an Position i: 254016
+Inhalt des Arrays an Position j: 748225
+Differenz: 494209
+Ausgabe:
+504^2 + 865^2 = 703^2
+Inhalt des Arrays an Position i: 254016
+Inhalt des Arrays an Position j: 910116
+Differenz: 656100
+Ausgabe:
+504^2 + 954^2 = 810^2
+Inhalt des Arrays an Position i: 257049
+Inhalt des Arrays an Position j: 714025
+Differenz: 456976
+Ausgabe:
+507^2 + 845^2 = 676^2
+Inhalt des Arrays an Position i: 260100
+Inhalt des Arrays an Position j: 722500
+Differenz: 462400
+Ausgabe:
+510^2 + 850^2 = 680^2
+Inhalt des Arrays an Position i: 260100
+Inhalt des Arrays an Position j: 887364
+Differenz: 627264
+Ausgabe:
+510^2 + 942^2 = 792^2
+Inhalt des Arrays an Position i: 263169
+Inhalt des Arrays an Position j: 731025
+Differenz: 467856
+Ausgabe:
+513^2 + 855^2 = 684^2
+Inhalt des Arrays an Position i: 266256
+Inhalt des Arrays an Position j: 739600
+Differenz: 473344
+Ausgabe:
+516^2 + 860^2 = 688^2
+Inhalt des Arrays an Position i: 269361
+Inhalt des Arrays an Position j: 748225
+Differenz: 478864
+Ausgabe:
+519^2 + 865^2 = 692^2
+Inhalt des Arrays an Position i: 270400
+Inhalt des Arrays an Position j: 568516
+Differenz: 298116
+Ausgabe:
+520^2 + 754^2 = 546^2
+Inhalt des Arrays an Position i: 270400
+Inhalt des Arrays an Position j: 602176
+Differenz: 331776
+Ausgabe:
+520^2 + 776^2 = 576^2
+Inhalt des Arrays an Position i: 270400
+Inhalt des Arrays an Position j: 855625
+Differenz: 585225
+Ausgabe:
+520^2 + 925^2 = 765^2
+Inhalt des Arrays an Position i: 272484
+Inhalt des Arrays an Position j: 756900
+Differenz: 484416
+Ausgabe:
+522^2 + 870^2 = 696^2
+Inhalt des Arrays an Position i: 272484
+Inhalt des Arrays an Position j: 850084
+Differenz: 577600
+Ausgabe:
+522^2 + 922^2 = 760^2
+Inhalt des Arrays an Position i: 275625
+Inhalt des Arrays an Position j: 765625
+Differenz: 490000
+Ausgabe:
+525^2 + 875^2 = 700^2
+Inhalt des Arrays an Position i: 278784
+Inhalt des Arrays an Position j: 644809
+Differenz: 366025
+Ausgabe:
+528^2 + 803^2 = 605^2
+Inhalt des Arrays an Position i: 278784
+Inhalt des Arrays an Position j: 675684
+Differenz: 396900
+Ausgabe:
+528^2 + 822^2 = 630^2
+Inhalt des Arrays an Position i: 278784
+Inhalt des Arrays an Position j: 774400
+Differenz: 495616
+Ausgabe:
+528^2 + 880^2 = 704^2
+Inhalt des Arrays an Position i: 281961
+Inhalt des Arrays an Position j: 783225
+Differenz: 501264
+Ausgabe:
+531^2 + 885^2 = 708^2
+Inhalt des Arrays an Position i: 283024
+Inhalt des Arrays an Position j: 672400
+Differenz: 389376
+Ausgabe:
+532^2 + 820^2 = 624^2
+Inhalt des Arrays an Position i: 284089
+Inhalt des Arrays an Position j: 855625
+Differenz: 571536
+Ausgabe:
+533^2 + 925^2 = 756^2
+Inhalt des Arrays an Position i: 285156
+Inhalt des Arrays an Position j: 792100
+Differenz: 506944
+Ausgabe:
+534^2 + 890^2 = 712^2
+Inhalt des Arrays an Position i: 288369
+Inhalt des Arrays an Position j: 801025
+Differenz: 512656
+Ausgabe:
+537^2 + 895^2 = 716^2
+Inhalt des Arrays an Position i: 291600
+Inhalt des Arrays an Position j: 613089
+Differenz: 321489
+Ausgabe:
+540^2 + 783^2 = 567^2
+Inhalt des Arrays an Position i: 291600
+Inhalt des Arrays an Position j: 687241
+Differenz: 395641
+Ausgabe:
+540^2 + 829^2 = 629^2
+Inhalt des Arrays an Position i: 291600
+Inhalt des Arrays an Position j: 810000
+Differenz: 518400
+Ausgabe:
+540^2 + 900^2 = 720^2
+Inhalt des Arrays an Position i: 291600
+Inhalt des Arrays an Position j: 962361
+Differenz: 670761
+Ausgabe:
+540^2 + 981^2 = 819^2
+Inhalt des Arrays an Position i: 294849
+Inhalt des Arrays an Position j: 819025
+Differenz: 524176
+Ausgabe:
+543^2 + 905^2 = 724^2
+Inhalt des Arrays an Position i: 298116
+Inhalt des Arrays an Position j: 828100
+Differenz: 529984
+Ausgabe:
+546^2 + 910^2 = 728^2
+Inhalt des Arrays an Position i: 301401
+Inhalt des Arrays an Position j: 837225
+Differenz: 535824
+Ausgabe:
+549^2 + 915^2 = 732^2
+Inhalt des Arrays an Position i: 304704
+Inhalt des Arrays an Position j: 846400
+Differenz: 541696
+Ausgabe:
+552^2 + 920^2 = 736^2
+Inhalt des Arrays an Position i: 308025
+Inhalt des Arrays an Position j: 635209
+Differenz: 327184
+Ausgabe:
+555^2 + 797^2 = 572^2
+Inhalt des Arrays an Position i: 308025
+Inhalt des Arrays an Position j: 855625
+Differenz: 547600
+Ausgabe:
+555^2 + 925^2 = 740^2
+Inhalt des Arrays an Position i: 311364
+Inhalt des Arrays an Position j: 864900
+Differenz: 553536
+Ausgabe:
+558^2 + 930^2 = 744^2
+Inhalt des Arrays an Position i: 313600
+Inhalt des Arrays an Position j: 659344
+Differenz: 345744
+Ausgabe:
+560^2 + 812^2 = 588^2
+Inhalt des Arrays an Position i: 313600
+Inhalt des Arrays an Position j: 781456
+Differenz: 467856
+Ausgabe:
+560^2 + 884^2 = 684^2
+Inhalt des Arrays an Position i: 313600
+Inhalt des Arrays an Position j: 806404
+Differenz: 492804
+Ausgabe:
+560^2 + 898^2 = 702^2
+Inhalt des Arrays an Position i: 314721
+Inhalt des Arrays an Position j: 874225
+Differenz: 559504
+Ausgabe:
+561^2 + 935^2 = 748^2
+Inhalt des Arrays an Position i: 318096
+Inhalt des Arrays an Position j: 883600
+Differenz: 565504
+Ausgabe:
+564^2 + 940^2 = 752^2
+Inhalt des Arrays an Position i: 321489
+Inhalt des Arrays an Position j: 893025
+Differenz: 571536
+Ausgabe:
+567^2 + 945^2 = 756^2
+Inhalt des Arrays an Position i: 324900
+Inhalt des Arrays an Position j: 902500
+Differenz: 577600
+Ausgabe:
+570^2 + 950^2 = 760^2
+Inhalt des Arrays an Position i: 328329
+Inhalt des Arrays an Position j: 912025
+Differenz: 583696
+Ausgabe:
+573^2 + 955^2 = 764^2
+Inhalt des Arrays an Position i: 331776
+Inhalt des Arrays an Position j: 767376
+Differenz: 435600
+Ausgabe:
+576^2 + 876^2 = 660^2
+Inhalt des Arrays an Position i: 331776
+Inhalt des Arrays an Position j: 921600
+Differenz: 589824
+Ausgabe:
+576^2 + 960^2 = 768^2
+Inhalt des Arrays an Position i: 335241
+Inhalt des Arrays an Position j: 931225
+Differenz: 595984
+Ausgabe:
+579^2 + 965^2 = 772^2
+Inhalt des Arrays an Position i: 336400
+Inhalt des Arrays an Position j: 707281
+Differenz: 370881
+Ausgabe:
+580^2 + 841^2 = 609^2
+Inhalt des Arrays an Position i: 336400
+Inhalt des Arrays an Position j: 885481
+Differenz: 549081
+Ausgabe:
+580^2 + 941^2 = 741^2
+Inhalt des Arrays an Position i: 338724
+Inhalt des Arrays an Position j: 940900
+Differenz: 602176
+Ausgabe:
+582^2 + 970^2 = 776^2
+Inhalt des Arrays an Position i: 342225
+Inhalt des Arrays an Position j: 762129
+Differenz: 419904
+Ausgabe:
+585^2 + 873^2 = 648^2
+Inhalt des Arrays an Position i: 342225
+Inhalt des Arrays an Position j: 950625
+Differenz: 608400
+Ausgabe:
+585^2 + 975^2 = 780^2
+Inhalt des Arrays an Position i: 345744
+Inhalt des Arrays an Position j: 960400
+Differenz: 614656
+Ausgabe:
+588^2 + 980^2 = 784^2
+Inhalt des Arrays an Position i: 349281
+Inhalt des Arrays an Position j: 970225
+Differenz: 620944
+Ausgabe:
+591^2 + 985^2 = 788^2
+Inhalt des Arrays an Position i: 352836
+Inhalt des Arrays an Position j: 722500
+Differenz: 369664
+Ausgabe:
+594^2 + 850^2 = 608^2
+Inhalt des Arrays an Position i: 352836
+Inhalt des Arrays an Position j: 980100
+Differenz: 627264
+Ausgabe:
+594^2 + 990^2 = 792^2
+Inhalt des Arrays an Position i: 354025
+Inhalt des Arrays an Position j: 714025
+Differenz: 360000
+Ausgabe:
+595^2 + 845^2 = 600^2
+Inhalt des Arrays an Position i: 356409
+Inhalt des Arrays an Position j: 990025
+Differenz: 633616
+Ausgabe:
+597^2 + 995^2 = 796^2
+Inhalt des Arrays an Position i: 360000
+Inhalt des Arrays an Position j: 756900
+Differenz: 396900
+Ausgabe:
+600^2 + 870^2 = 630^2
+Inhalt des Arrays an Position i: 360000
+Inhalt des Arrays an Position j: 1000000
+Differenz: 640000
+Ausgabe:
+600^2 + 1000^2 = 800^2
+Inhalt des Arrays an Position i: 374544
+Inhalt des Arrays an Position j: 950625
+Differenz: 576081
+Ausgabe:
+612^2 + 975^2 = 759^2
+Inhalt des Arrays an Position i: 378225
+Inhalt des Arrays an Position j: 908209
+Differenz: 529984
+Ausgabe:
+615^2 + 953^2 = 728^2
+Inhalt des Arrays an Position i: 379456
+Inhalt des Arrays an Position j: 819025
+Differenz: 439569
+Ausgabe:
+616^2 + 905^2 = 663^2
+Inhalt des Arrays an Position i: 379456
+Inhalt des Arrays an Position j: 919681
+Differenz: 540225
+Ausgabe:
+616^2 + 959^2 = 735^2
+Inhalt des Arrays an Position i: 384400
+Inhalt des Arrays an Position j: 808201
+Differenz: 423801
+Ausgabe:
+620^2 + 899^2 = 651^2
+Inhalt des Arrays an Position i: 385641
+Inhalt des Arrays an Position j: 837225
+Differenz: 451584
+Ausgabe:
+621^2 + 915^2 = 672^2
+Inhalt des Arrays an Position i: 389376
+Inhalt des Arrays an Position j: 900601
+Differenz: 511225
+Ausgabe:
+624^2 + 949^2 = 715^2
+Inhalt des Arrays an Position i: 407044
+Inhalt des Arrays an Position j: 925444
+Differenz: 518400
+Ausgabe:
+638^2 + 962^2 = 720^2
+Inhalt des Arrays an Position i: 409600
+Inhalt des Arrays an Position j: 861184
+Differenz: 451584
+Ausgabe:
+640^2 + 928^2 = 672^2
+Inhalt des Arrays an Position i: 422500
+Inhalt des Arrays an Position j: 940900
+Differenz: 518400
+Ausgabe:
+650^2 + 970^2 = 720^2
+Inhalt des Arrays an Position i: 435600
+Inhalt des Arrays an Position j: 915849
+Differenz: 480249
+Ausgabe:
+660^2 + 957^2 = 693^2
+Inhalt des Arrays an Position i: 462400
+Inhalt des Arrays an Position j: 972196
+Differenz: 509796
+Ausgabe:
+680^2 + 986^2 = 714^2
+Inhalt des Arrays an Position i: 484416
+Inhalt des Arrays an Position j: 970225
+Differenz: 485809
+Ausgabe:
+696^2 + 985^2 = 697^2
+881
+
+Process finished with exit code 0
