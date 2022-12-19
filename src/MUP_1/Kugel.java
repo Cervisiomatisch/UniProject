@@ -11,6 +11,9 @@ package MUP_1;
  * dadurch würde z.b. der record alleine reichen
  * danach wird noch eine KugelService.class erstellt oder ähnlicher name. die den Logikpart übernimmt (also die berechnungen)
  * die getter und setter sind aber weiterhin teil des Kugelmodels
+ *
+ * Um Projekte schnell zu initialisieren und zu bauen und testen ,..... gibt es project management tools, wie z.b. gralde und maven
+ * Dadurch muss man die ganze struktur nicht selber aufbauen, sondern wird für die generiert. Maven ist hierbei ein wenig einsteigerfreundlicher
  */
 public class Kugel {
     private double radius;
