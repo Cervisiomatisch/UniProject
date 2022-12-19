@@ -2,6 +2,7 @@ package MUP_2;
 
 public class PythagoraeischeZahlentripel {
 
+    //einArray unbennen in nur array, oder z.b. fillArray, oder toFillArray; also einfach das was damit passieren soll
     public static int[] createIntArray(int minimum, int maximum) {
         int[] einArray = new int[maximum-minimum+1];
         for (int i = minimum; i<= maximum; i++){
@@ -10,6 +11,9 @@ public class PythagoraeischeZahlentripel {
         return einArray;
     }
 
+    //man kann auch einen StringBuilder verwenden, um die einzelnen Elemente zu kontagnieren, diesen könnte man am ende der methode per println ausgeben
+    // dadurch würde diese if anweisung wegfallen. Man könnte auch einfach am ende der Methode println() ausgeben, um eine leerzeile zu erhalten.
+    // Also durch alle elemente iterieren und am Ende der Methode einfach noch auf leeres println()
     public static void arrayInhaltAusgeben(int[] einArray){
         for (int pos = 0; pos < einArray.length; pos++){
             if (pos+1 == einArray.length) {
@@ -26,10 +30,17 @@ public class PythagoraeischeZahlentripel {
         }
         return quadriertesArray;
     }
+
+    //erst parameter dann logik angeben -> testzahl == .....
+    //statt math.floor kannst du auch einfach den double zu integer umwandeln
+    // oder noch einfach mit typecasting (int)
     public static boolean testAufQuadrat(int testzahl){
         return (Math.floor(Math.sqrt(testzahl)))*(Math.floor(Math.sqrt(testzahl))) == testzahl;
     }
 
+    //WICHTIG!!!! das system.out der quadratzahlen muss anders sein:
+    // zahlensatz[i] + math.squt(diff) = zahlensatz[j], anders wird es falsch ausgegeben -> alle Outputs.txt sind falsch
+    // naming der Methode ist flasch (fehlt ein n)
     public static int pythagoraeischeZahlentripe(int minimum, int maximum) {
         int differenz,anzahl = 0;
         int[] zahlensatz = quadriere(createIntArray(minimum, maximum));
