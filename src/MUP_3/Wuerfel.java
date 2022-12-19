@@ -2,6 +2,8 @@ package MUP_3;
 
 //TODO muss die Klasse abstract sein? Wenn ja, wie soll ich dann Objekte davon in GeometricObjectMain erstellen?
 public class Wuerfel implements GeometricObjectI{
+
+    //a ist nicht so guter parameter name, sehe aber den getter der nur getA heißt.... Aufgabenstellen etwas mau
     private double a;
 
     public Wuerfel(double kantenlaenge)throws GeometricObjectException {
